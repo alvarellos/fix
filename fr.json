@@ -1,0 +1,1099 @@
+{
+  "i18n": {
+    "application": {
+      "code": "Replace me [App code]",
+      "description": "Replace me [App description]",
+      "shortName": "Replace me [App shortname]",
+      "title": "Décompter la TVA"
+    },
+    "ax": {
+      "downloadPDF": "PDF téléchargé",
+      "helpFor": "Aide pour le chiffre",
+      "helpForNetGross": "Aide pour les chiffres d'affaires",
+      "showAdditionalInfo": "Afficher/masquer les informations supplémentaires",
+      "showOldTaxRates": "Afficher/masquer les anciens taux d'imposition"
+    },
+    "common": {
+      "aria": {
+        "closeDialog": "Fermer la fenêtre de dialogue",
+        "error": "Erreur:",
+        "info": "Remarque:",
+        "infoCloseDescriptor": "Cliquez pour fermer la notification",
+        "infoDescriptor": "Notification générale",
+        "newWindow": "Ouvre le lien dans une nouvelle fenêtre ou un nouvel onglet",
+        "opensDialog": "Ouvrir la fenêtre de dialogue",
+        "success": "Succès:",
+        "warning": "Avertissement:"
+      },
+      "buttonActions": {
+        "adjustDeclaration": "Corriger le décompte",
+        "back": "Retour",
+        "backStartPage": "Retour à la page d'accueil",
+        "backToBusinessCaseOverview": "Retour  à 'Mes décomptes TVA'",
+        "back_code": "Retour à 'Entrez le code de décompte'",
+        "backtoOverview": "Retour à la vue d'ensemble",
+        "buffer": "Enregistrer temporairement",
+        "cancel": "Annuler",
+        "changeReminder": "Personaliser les rappels",
+        "confirm": "Confirmer",
+        "continue": "Continuer",
+        "correction": "Corriger le décompte",
+        "emptyForm": "Vider le formulaire",
+        "extend": "Prolonger les délais",
+        "furtherDeclaration": "Envoyer un autre décompte",
+        "guest": "Fermer la session",
+        "logout": "Déconnexion",
+        "logoutGuest": "Fermer la session",
+        "ok": "Ok",
+        "provideDeclaration": "Fournir",
+        "refreshData": "Actualisation des données",
+        "rejectDeclaration": "Rejeter",
+        "reset": "Réinitialiser",
+        "save": "Enregistrer temporairement",
+        "saveAndPreview": "Aperçu",
+        "submitDeclaration": "Remettre",
+        "uploadXML": "Télécharger XML"
+      },
+      "errors": {
+        "errorCode": "Error (Code: {{ value }})",
+        "general": "An error has occurred. Please try again later. (Error code: {{ value }})",
+        "http": {
+          "101": "Vat token deleted",
+          "102": "vat token sumbitted externally",
+          "103": "invalid token",
+          "104": "Invalid applicant information",
+          "105": "vat token sumbitted over deadline",
+          "106": "invalid contact information",
+          "201": "",
+          "300": "No such declaration request exists",
+          "301": "Update of declaration request failed",
+          "302": "Storing the PDF form failed",
+          "303": "Retrieval of the declaration request form (PDF) failed",
+          "304": "Le n° de TVA n'est pas valable. Veuillez vérifier la saisie et entrer à nouveau le n° de TVA.",
+          "305": "",
+          "400": "Bad request",
+          "401": "Not authorized",
+          "404": "La page demandée n'est pas disponible.",
+          "500": "Erreur du serveur",
+          "501": "Not implemented",
+          "502": "Bad gateway",
+          "503": "Service unavailable",
+          "600": "not a suisse phone number",
+          "700": "The declaration cannot be currently rectified",
+          "701": "The declaration rectification cannot be currently deleted",
+          "800": "Declaration semaphore lock. Cannot be acquired",
+          "801": "Declaration semaphore lock. Cannot be released",
+          "803": "Declaration semaphore lock. Cannot be touched",
+          "900": "Failed to import XML VAT declaration due to unmarshal error",
+          "901": "Failed to import XML VAT declaration due to incomplete (either irregular or undefined) general information",
+          "902": "Failed to import XML VAT declaration. No such declaration request exists for MWST-Nr",
+          "903": "Failed to import XML VAT declaration due to conversation error"
+        }
+      },
+      "help": {
+        "address": "Administration fédérale des contributions AFC<br>Servicedesk E-Government<br>3003 Berne<br>Telefon: +41 58 464 54 01",
+        "contactForm": "Formulaire de contact",
+        "contactFormInkasso": "https://www.estv.admin.ch/estv/fr/home/die-estv/kontaktformulare/kontakt-mehrwertsteuer1.html",
+        "contactFormMwst": "https://www.estv.admin.ch/estv/fr/home/die-estv/kontaktformulare/kontakt-inkasso1.html",
+        "email": "e-mail",
+        "help": "Aide",
+        "phone": "Téléphone",
+        "sub": "Pour toute question concernant le Décompte TVA notre Servicedesk est à votre disposition:",
+        "sub2": "A votre disposition pour toutes questions en rapport avec la taxe sur la valeur ajoutée:",
+        "sub3": "A votre disposition pour toutes questions en rapport avec le recouvrement:",
+        "title": "Contact pour le Décompte TVA easy",
+        "title2": "Contact pour les questions taxe sur la valeur ajoutée",
+        "title3": "Contact pour le recouvrement",
+        "zone": "Zone"
+      },
+      "labels": {
+        "action": "Action",
+        "actions": "Actions",
+        "cancel": "Cancel",
+        "delete": "Delete",
+        "edit": "Edit",
+        "no": "No",
+        "optional": "(facultatif)",
+        "required": "* required field",
+        "save": "Save",
+        "saveChanges": "Save changes",
+        "select": "Please select",
+        "yes": "Yes"
+      },
+      "locales": {
+        "de": "Deutsch",
+        "en": "English",
+        "fr": "Français",
+        "it": "Italiano"
+      },
+      "misc": {
+        "none": "Aucun"
+      },
+      "validation": {
+        "error": {
+          "commentLength": "Le commentaire ne peut pas contenir plus de 50 caractères.",
+          "email": "Le format utilisé est faux",
+          "emailFormat": "Le format de l'e-mail est incorrect. ",
+          "emailMandatory": "Le champ e-mail est obligatoire",
+          "invalidMwstFormat": "La saisie du n° de TVA ne correspond pas au format 'xxx.xxx.xxx'",
+          "invalideDateFormat": "Format de date non valable",
+          "marginMissing": "La marge manque",
+          "max": "Le nombre saisi est supérieur au maximum autorisé (999'999'999'999.99).",
+          "maxEmail": "Veuillez saisir une adresse e-mail comportant moins de 241 caractères.",
+          "missing": "Certains champs du formulaire n'ont pas été remplis correctement. Veuillez svp vérifier les champs marqués en rouge.",
+          "name": "Le format saisi est faux",
+          "noValue": "La saisie n'est pas un nombre.",
+          "overMaxLength": "Pas plus de {{overMaxLength}} caractères autorisés",
+          "phone": "Seuls les nombres sont autorisés",
+          "phoneFormat": "Le format du numéro de téléphone portable CH est incorrect.",
+          "phoneFormatAlphanCharOrSpaces": "Veuillez utiliser uniquement des chiffres sans espace",
+          "phoneFormatMissingPlus": "Veuillez entrer l'indicatif du pays",
+          "phoneFormatTooLong": "Le numéro de téléphone est trop long",
+          "phoneFormatTooShort": "Le numéro de téléphone est trop court",
+          "phoneFormatWithZeros": "Veuillez saisir le numéro de téléphone au format +41XXXXXXXXX",
+          "phoneMandatory": "Le champ numéro de téléphone est obligatoire",
+          "required": "Champ obligatoire",
+          "salesMissing": "Chiffre d'affaires manque",
+          "taxRate": "Taux d'impostion manque",
+          "taxRateMissing": "Veuillez sélectionner un taux d'imposition",
+          "z200_205": "Le chiffre 200 ne doit ni être inférieur au chiffre 205 ni vide.",
+          "z280_noComment": "Commentaire absolument nécessaire",
+          "z280_noValue": "Déduction du chiffre d'affaires manque",
+          "z299": "Les sommes des chiffres 299 et 379 ne sont pas identiques. Veuillez, s'il vous plaît, vérifier vos données sous Calcul de l'impôt.",
+          "z381_382_high": "Le montant de l'impôt est trop élevé.",
+          "z381_382_null": "Le montant de l'impôt ne doit pas être nul."
+        },
+        "formErrors": "Erreur",
+        "hint": {
+          "phone": "Exemple: +41XXXXXXXXX"
+        }
+      }
+    },
+    "footer": {
+      "ci": "Département fédéral des finances",
+      "legalBasis": "Conditions d'utilisation",
+      "legalLink": "https://www.admin.ch/gov/fr/accueil/conditions-utilisation.html"
+    },
+    "notification": {
+      "allFieldsRequired": "Tous les champs doivent être remplis !",
+      "error": "Une erreur s'est produite. Veuillez réessayer plus tard.",
+      "saved": "Mémorisé"
+    },
+    "oblique": {
+      "footer": {
+        "info": {
+          "title": "Département fédéral des finances"
+        },
+        "links": {
+          "title": "Département fédéral des finances"
+        },
+        "title": "Département fédéral des finances"
+      },
+      "header": {
+        "controls": {
+          "title": "Controls"
+        },
+        "languages": {
+          "title": "Français"
+        },
+        "logo": "Confédération suisse",
+        "navigation": {
+          "title": "Navigation"
+        },
+        "title": "Décompte TVA easy"
+      },
+      "master-layout": {
+        "accesskey": {
+          "homepage": "Page d'accueil",
+          "mainContent": "Contenu",
+          "navigation": "Navigation"
+        }
+      },
+      "notification": {
+        "type": {
+          "error": "Erreur",
+          "info": "Info",
+          "success": "Succès",
+          "warn": "Avertissement"
+        }
+      }
+    },
+    "routes": {
+      "Copy/Replace me [routeName]": {
+        "metaTitle": "",
+        "title": ""
+      },
+      "Replace me [routeName]": {
+        "metaTitle": "",
+        "title": ""
+      },
+      "bank": {
+        "account": {
+          "favours": "Bénéficiaire",
+          "financialInstitution": "Etablissement financier",
+          "iban": "IBAN"
+        },
+        "bankAccountNumber": {
+          "accountNumber": "Numéro de compte",
+          "accountType": "Type de compte",
+          "bankClearingNr": "Numéro de clearing bancaire / IID",
+          "checkNumber": "Vérifier IBAN/numéro de compte",
+          "country": "Pays du compte bancaire",
+          "differentAccountNumber": "Autre numéro de compte",
+          "error": {
+            "invalid": "L'IBAN n'est pas valable",
+            "invalidBankAccount": "Le numéro de compte est erroné - veuillez respecter le format.",
+            "invalidBankclearing": "Le numéro de clearing bancaire / IID est erroné ou n'existe pas dans le pays sélectionné.",
+            "missingBankAccountSelection": "Veuillez, s'il vous plaît, sélectionner une adresse bancaire avant de continuer.",
+            "missingInformation": "Veuillez saisir et confirmer les coordonnées bancaires avant de poursuivre.",
+            "qrIban": "Veuillez observer qu’actuellement, l’AFC ne traite pas de paiements au moyen du QR-IBAN. De ce fait, nous vous remercions de nous transmettre vos coordonnées bancaires en mentionnant le numéro IBAN ordinaire."
+          },
+          "iban": "IBAN",
+          "internationalTransfer": "Tous les frais liés aux paiements internationaux sont entièrement à la charge du bénéficiaire.",
+          "title": "Détail de compte"
+        },
+        "description": {
+          "addNewBankAccount": "Veuillez entrer un compte bancaire pour le paiement du crédit",
+          "availableBankAccounts": "Les coordonnées bancaires suivantes sont actuellement enregistrées auprès de l'AFC"
+        },
+        "header": {
+          "change": "Modifier les coordonnées bancaires",
+          "check": "Vérifier les coordonnées bancaires",
+          "new": "Saisir de nouvelles coordonnées bancaires"
+        },
+        "payment": {
+          "beneficiaryPerson": "Personne bénéficiaire",
+          "differentPayee": "Bénéficiaire divergent",
+          "differentPayeeInfo": "Les bénéficiaires qui ne correspondent pas à la société imposable ne peuvent pas être changés en ligne pour des raisons de sécurité. Lorsque cette option est sélectionnée, l'AFC enverra donc automatiquement un formulaire de déclaration des bénéficiaires divergents à l'adresse de la société imposable.",
+          "hint": "Note: Le paiement du crédit ne sera effectué qu'une fois que le formulaire soumis aura été traité.",
+          "taxableCompany": "Société assujettie",
+          "title": "Paiement en faveur de"
+        },
+        "verifyBankAccount": {
+          "bankAccountSelection": "Veuillez, s'il vous plaît, sélectionner une adresse bancaire déjà remise ou en saisir une nouvelle :",
+          "changeBankAccount": "Je souhaite modifier une adresse bancaire",
+          "no": "Non, je veux changer les coordonnées bancaires",
+          "question": "Ces informations sont-elle correctes?",
+          "yes": "Oui, ces informations sont correctes"
+        }
+      },
+      "business": {
+        "audit": "Pour vérification",
+        "date": "Aujourd'hui, le ",
+        "declare": "Décompter",
+        "dialog": {
+          "address": "Adresse du siège",
+          "endDatumMWSTPflicht": "Fin de l'assujettissement obligatoire",
+          "estvid": "Identifiant AFC"
+        },
+        "errorTitle": "Message d'erreur",
+        "errorTxt": "Malheureusement une erreur est survenue, veuillez, svp, réessayer plus tard. ",
+        "infoCreateAnnualMultiplePartners": "Avez-vous constaté des erreurs dans une période fiscale? Soumettez simplement une <b>concordance annuelle</b> via le bouton d'action <i class='info-icon fa fa-ellipsis-h icon-plus' aria-hidden='true'></i>  sur le dernier décompte soumis pour la période fiscale concernée.",
+        "infoCreateAnnualSinglePartnerPart1": "Avez-vous constaté des erreurs dans la période fiscale {{ year }} ? Soumettez une ",
+        "infoCreateAnnualSinglePartnerPart2": " rapidement et aisément.",
+        "infoCreateRectification": "Vous pouvez soumettre des <b>décomptes rectificatifs</b> via le bouton d'action  <i class='info-icon fa fa-ellipsis-h icon-plus' aria-hidden='true'></i> pour un décompte déjà soumis.",
+        "isFinal": "Décompte final",
+        "labelAnnual": "Concordance annuelle",
+        "metaTitle": "Décompte TVA pro",
+        "noOpenDeclaration": "Vous n'avez pas de décompte TVA ouvert.",
+        "noOpenDeclarationInfo": "Vous serez informé dès qu'un décompte sera disponible.",
+        "noSubmittedDeclaration": "Vous n'avez pas encore soumis de décompte TVA.",
+        "pageTitle": "Décompte TVA pro",
+        "popup": "<ul><li>Le délai de remise du décompte et le délai de paiement ont été prolongés,</li><li>Selon art. 87 al. 1 LTVA <b> un intérêt moratoire</b> est dû à partir de la date d'échéance.</li><li>Le délai est considéré comme approuvé lors de l'envoi de ce formulaire. Vous ne recevrez pas de confirmation.</li></ul>",
+        "popupTitle": "Prolonger les délais",
+        "table": {
+          "MONAT": "Mois",
+          "QUARTAL": "Trimestre",
+          "SEMESTER": "Semestre",
+          "company": "Entreprise / N° TVA",
+          "correctedDate": "Corrigé",
+          "estimateDate": "Soumis après évaluation",
+          "estimateDateWarning": "TVA estimée",
+          "outdated": "Délai expiré",
+          "periodName": "Décompte",
+          "status": "Statut",
+          "submissionDate": "Date de remise",
+          "submittedDate": "Soumis",
+          "submittedOnPaper": "Soumis sur papier",
+          "valuta": "Date de valeur (intérêts moratoires à partir du)",
+          "year": "Concordance annuelle"
+        },
+        "widget": {
+          "declarations": "Décomptes",
+          "open": "Ouvert",
+          "selected": "Afficher",
+          "submitted": "Soumis"
+        },
+        "xmlUpload": {
+          "dialogIntro": "Si votre programme de comptabilité prend en charge l'exportation de données dans le format <a href='https://www.ech.ch/index.php/fr/dokument/ab348252-c2d6-477c-ab51-7a7d7248912d' target='_blank' title='Ouvre le lien dans une nouvelle fenêtre ou un nouvel onglet'><i class='fas fa-external-link-alt'></i> eCH-0217-Standard (eTVA)</a>, vous pouvez transférer les données de la comptabilité TVA directement depuis votre comptabilité financière.",
+          "dialogIntroMore": "Pour ce faire, exportez la période comptable souhaitée sous forme de document XML eCH-2017 dans votre programme de comptabilité. Sélectionnez ensuite le document XML eCH-0217 exporté pour l'importation de données dans le décompte TVA pro. Après l'importation, les données doivent être vérifiées et complétées si nécessaire. Le décompte peut alors être soumis normalement.",
+          "dialogMore": "Plus",
+          "dialogTitle": "Importer des données de décompte",
+          "dialogXmlInfo": "L'entreprise qui déclare ainsi que la période fiscale concernée sont automatiquement reconnues lors de l'importation.",
+          "error": {
+            "declarationMethodEffective": "Effectif",
+            "declarationMethodLabel": "Méthode de décompte",
+            "declarationMethodPauschal": "Taux forfaitaire",
+            "declarationMethodSaldo": "Taux de la dette fiscale nette",
+            "importFailedContent": "Le fichier n'a pas pu être lu. Veuillez vérifier s'il s'agit d'un document XML valide selon la norme eCH-0217.",
+            "messageAnnualRectification": "Une concordance annuelle n'a pas pu être trouvée pour le contribuable avec le {{ numéro de TVA }} avec les indications suivantes",
+            "messageOriginalDecl": "Un décompte déjà soumis n'a pas pu être trouvé pour le contribuable avec le {{ numéro de TVA }} avec les indications suivantes",
+            "messageRectification": "Un décompte rectificatif n'a pu être trouvé pour l'assujetti portant le numéro de TVA {{ numéro de TVA}} avec les indications suivantes",
+            "periodFromToString": "{{periodFrom}} jusqu'à {{periodTo}}",
+            "periodLabel": "Période",
+            "title": "Erreur lors de l'importation des données"
+          },
+          "fileCancelLabel": "Supprimer le fichier sélectionné",
+          "fileFormatHint": "Format: XML (eTVA)",
+          "fileSelectButtonHint": "Format: XML (eTVA)",
+          "fileSelectButtonLabel": "Ajouter un fichier",
+          "fileSelectTitle": "Sélectionner le fichier XML pour l'importation de données",
+          "importSuccessContent": "Les données du fichier XML ont été transférées dans le formulaire",
+          "importSuccessTitle": "Données importées",
+          "noFileSelectedText": "Aucun fichier n'a encore été sélectionné"
+        }
+      },
+      "confirmation": {
+        "addressESTV": "Administration fédérale des contributions<br>Division principale de la TVA<br>Schwarztorstrasse 50<br>3024 Berne",
+        "adjustDeclarationViaCode": "Désirez-vous corriger le décompte à remettre ? Avec le code de décompte vous avez la possibilité de saisir des corrections au décompte et établir une nouvelle version du décompte.",
+        "copyDeclaration": "Copie de votre décompte {{period}}",
+        "copyDeclarationAnnualRectification": "Copie de votre concordance annuelle",
+        "copyDeclarationRectification": "Copie de votre décompte rectificatif {{period}}",
+        "copyFinalDeclaration": "Copie de votre décompte final",
+        "corrections": "Avez-vous des corrections ? Veuillez utiliser le décompte rectificatif sur notre",
+        "deadlineExtension": "Prolongation de délai TVA",
+        "deadlineExtensionInfo": "Avez-vous besoin d'un délai pour la remise du décompte ou du paiement? Demandez-le aisément en ligne:",
+        "declarationApproval": "Approbation de déclaration {{period}}",
+        "draftDeclaration": "Aperçu de votre décompte {{period}}",
+        "infoProvisionForAudit": "Les utilisateurs autorisés pour la soumission du décompte ont été automatiquement informés de la mise à disposition du décompte.",
+        "infoRejection": "L'utilisateur qui a mis à disposition le décompte à examiner a été automatiquement informé du refus du décompte.",
+        "information": "Vous trouvez les informations relatives au paiement, le code de décompte pour la prochaine période et d'autres informations dans le résumé PDF de votre décompte.",
+        "infosInPDF": "Vous trouvez les informations relatives au paiement, le code de décompte pour la prochaine période et d'autres informations dans le résumé PDF de votre décompte.",
+        "mwstProDescription": "Vous pouvez télécharger, ci-dessous, une copie de votre décompte pour vos dossiers. Vous pouvez également consulter et télécharger votre décompte à tout moment sous vos décomptes TVA soumis.",
+        "mwstProDescriptionRectification": "Vous pouvez télécharger, ci-dessous, une copie PDF de votre décompte rectificatif. Vous pouvez également consulter et télécharger votre décompte rectificatif à tout moment dans la rubrique vos décomptes TVA.",
+        "payment": "Avez-vous besoin d'un délai de paiement ou de paiements échelonnés ? Demandez-le aisément en ligne:",
+        "paymentDeadline": "Délai de paiement",
+        "paymentDeadlineDescription": "Avez-vous besoin d'un délai de paiement ? Demandez-le aisément en ligne:",
+        "paymentInstallment": "Paiements échelonnés",
+        "paymentInstallmentDescription": "Avez-vous besoin de paiements échelonnés? Soumettez-nous une proposition de plan de paiement :",
+        "providedForAudit": "Merci beaucoup. Le décompte a été mis à disposition pour vérification.",
+        "rejected": "Le décompte a été refusé",
+        "sendDeclarationApproval": "Veuillez transmettre l'approbation de déclaration à la personne responsable de l'approbation et la renvoyer par courrier à l'adresse suivante:",
+        "submitted": "Merci, votre décompte a été remis.",
+        "submittedForDeclarationApproval": "Merci, votre décompte a été préparé pour l'approbation de déclaration",
+        "submittedRectification": "Merci beaucoup. Vous avez soumis votre décompte rectificatif.",
+        "submittingViaPostHint": "<b>Important: votre décompte n'est considéré comme remis que lorsque l'approbation de déclaration est parvenue par poste à l'AFC.</b>",
+        "summary": "Résumé de votre décompte {{period}}",
+        "summaryPDF": "Résumés PDF",
+        "summaryPDFFinalDeclaration": "Résumé du décompte final au {{ finalDate }}",
+        "title": "Confirmation",
+        "waitForPDF": "Veuillez svp patienter un instant, le PDF est créé.",
+        "website": "Site internet"
+      },
+      "declaration": {
+        "correction": {
+          "confirmAbortionContent": "Veuillez confirmer que vous voulez abandonner la correction. Toutes les modifications seront définitivement supprimées.",
+          "continueCurrentCorrection": "Poursuivre la correction en cours",
+          "continueInYearlyCorrection": "Poursuivez la concordance annuelle en cours",
+          "correctDeclaration": "Corriger le décompte",
+          "correction": "Correction",
+          "correctionConfirmationInfo": "Ce décompte a été remis le {{ submissionDate }} par {{ submittingUserName }}. Que voulez-vous faire?",
+          "discardCorrection": "Rejeter les corrections",
+          "displayPdfCopy": "Afficher copie du décompte",
+          "errorOnCreate": "Erreur lors de la création de la version corrigée. Veuillez réessayer plus tard.",
+          "errorOnDelete": "Erreur lors de la suppression de la version corrigée. Veuillez réessayer plus tard.",
+          "fillInCorrectionInfo": "Ce décompte rectificatif remplace le décompte initialement remis. Le décompte rectificatif contient les derniers montants saisis. Sur la page suivante vous pouvez envoyer le décompte directement à l'Administration fédérale des contributions ou le renvoyer à la personne qui l'a rempli pour correction.",
+          "fillInCorrectionInfoLink": "Vous trouverez des informations sur la manière de remplir le formulaire dans l'<a href='https://www.gate.estv.admin.ch/mwst-webpublikationen/public/pages/taxInfos/tableOfContent.xhtml?publicationId=1013189' target='_blank' title='Ouvre le lien dans une nouvelle fenêtre ou un nouvel onglet'>Info TVA 15</a>",
+          "fillInCorrectionInfoUserDate": "Un décompte rectificatif a été créé pour ce décompte le {{ correctionCreationDate }} par {{ correctionCreateUserName }} mais n'a pas encore été remis.",
+          "fillInCorrectionTitle": "Remplir le décompte rectificatif",
+          "handInCorrection": "Soumettre le décompte rectificatif",
+          "handInYearlyCorrection": "Soumettre la concordance annuelle",
+          "submittedByExternalSystem": "Soumis par un autre système"
+        },
+        "dialog": {
+          "description": "Voulez-vous supprimer toutes les entrées?",
+          "title": "Vider le formulaire"
+        },
+        "error": {
+          "api": {
+            "400": "L'approbation de déclaration n'est pas encore prête. Veuillez svp réessayer de la télécharger ultérieurement.",
+            "401": "L'approbation de déclaration n'a pas été trouvée."
+          }
+        },
+        "form": {
+          "z200": "Chiffre 200",
+          "z205": "Chiffre 205",
+          "z220": "Chiffre 220",
+          "z221": "Chiffre 221",
+          "z225": "Chiffre 225",
+          "z230": "Chiffre 230",
+          "z235": "Chiffre 235",
+          "z280": "Chiffre 280",
+          "z289": "Chiffre 289",
+          "z299": "Chiffre 299",
+          "z301": "Chiffre 301",
+          "z302": "Chiffre 302",
+          "z311": "Chiffre 311",
+          "z312": "Chiffre 312",
+          "z321": "Chiffre 321",
+          "z322": "Chiffre 322",
+          "z331": "Chiffre 331",
+          "z332": "Chiffre 332",
+          "z341": "Chiffre 341",
+          "z342": "Chiffre 342",
+          "z381": "Chiffre 381",
+          "z382": "Chiffre 382",
+          "z399": "Chiffre 399",
+          "z400": "Chiffre 400",
+          "z405": "Chiffre 405",
+          "z410": "Chiffre 410",
+          "z415": "Chiffre 415",
+          "z420": "Chiffre 420",
+          "z470": "Chiffre 470",
+          "z471": "Chiffre 471",
+          "z479": "Chiffre 479",
+          "z500": "Chiffre 500",
+          "z510": "Chiffre 510",
+          "z900": "Chiffre 900",
+          "z910": "Chiffre 910"
+        },
+        "form1050": {
+          "ExpandLink": "Afficher davantage d'informations",
+          "ExpandList1": {
+            "line1": {
+              "pauschal": "avoir déclaré au taux forfaitaire accordé dans le décompte TVA correspondant, sous chiffres 321/322 et 331/332, les chiffres d’affaires indiqués ci-dessous,",
+              "prior2018": {
+                "pauschal": "avoir déclaré au taux forfaitaire accordé dans le décompte TVA correspondant, sous chiffres 320/321 et 330/331, les chiffres d’affaires indiqués ci-dessous,",
+                "saldo": "avoir déclaré au taux de dette fiscale nette accordé dans le décompte TVA correspondant, sous chiffres 320/330 et 321/331, les chiffres d’affaires indiqués ci-dessous,"
+              },
+              "saldo": "avoir déclaré au taux de dette fiscale nette accordé dans le décompte TVA correspondant, sous chiffres 321/322 et 331/332, les chiffres d’affaires indiqués ci-dessous,"
+            },
+            "line2": {
+              "pauschal": "pouvoir présenter en tout temps, sur demande, l’ensemble des documents et justificatifs,",
+              "saldo": "pouvoir présenter en tout temps, sur demande, l’ensemble des documents et justificatifs,"
+            },
+            "line3": {
+              "pauschal": "avoir procédé, pour les factures libellées en monnaie étrangère, selon <a href='http://www.admin.ch/opc/fr/classified-compilation/20091866/index.html#a45' target='_blank' title='Ouvre le lien dans une nouvelle fenêtre ou un nouvel onglet'>l’art. 45 OTVA</a>.",
+              "saldo": "avoir procédé, pour les factures libellées en monnaie étrangère, selon <a href='http://www.admin.ch/opc/fr/classified-compilation/20091866/index.html#a45' target='_blank' title='Ouvre le lien dans une nouvelle fenêtre ou un nouvel onglet'>l’art. 45 OTVA</a>."
+            }
+          },
+          "ExpandList2": {
+            "line1": {
+              "pauschal": "Les livraisons effectuées à l’étranger (p. ex. Paris-Berlin), les prestations de services considérées comme effectuées à l’étranger (le lieu de la prestation de services se situe à l’étranger), de même que les prestations de transport transfrontalier sont à déclarer sous chiffre 200 et à déduire sous chiffre 221 du décompte TVA. Par conséquent, de telles opérations <b>ne doivent pas</b> figurer sur ce formulaire.",
+              "saldo": "Les livraisons effectuées à l’étranger (p. ex. Paris-Berlin), les prestations de services considérées comme effectuées à l’étranger (le lieu de la prestation de services se situe à l’étranger), de même que les prestations de transport transfrontalier sont à déclarer sous chiffre 200 et à déduire sous chiffre 221 du décompte TVA. Par conséquent, de telles opérations <b>ne doivent pas</b> figurer sur ce formulaire."
+            },
+            "line2": {
+              "pauschal": "Les diminutions de TVA résultant de réductions du montant facturé (p. ex. rabais, escomptes et ristournes ultérieures) sont à traiter comme suit:<br>a) si la facture en question figure dans la liste ci-dessus, il faut indiquer les montants diminués du rabais ou de l’escompte;<br>b) si la facture en question figurait dans une précédente demande de mise en compte, la déduction correspondante doit être effectuée en fin de liste en indiquant la facture concernée.",
+              "saldo": "Les diminutions de TVA résultant de réductions du montant facturé (p. ex. rabais, escomptes et ristournes ultérieures) sont à traiter comme suit:<br>a) si la facture en question figure dans la liste ci-dessus, il faut indiquer les montants diminués du rabais ou de l’escompte;<br>b) si la facture en question figurait dans une précédente demande de mise en compte, la déduction correspondante doit être effectuée en fin de liste en indiquant la facture concernée."
+            },
+            "line3": {
+              "pauschal": "Pour les prestations d’hébergement (taux valable jusqu'au 31.12.2017: 3.8%; à partir du 1.1.2018: 3.7%) une mise en compte de la TVA n’est possible que si les prestations d’hébergement ont été fournies à des bénéficiaires institutionnels et personnes bénéficiaires définis <a href='https://www.admin.ch/opc/fr/classified-compilation/20091866/index.html#a143' target=_'blank'>à l’art. 143 OTVA</a>",
+              "prior2018": {
+                "pauschal": "Pour les prestations d’hébergement (taux valable jusqu'au 31.12.2010: 3.6%; à partir du 1.1.2011: 3.8%) une mise en compte de la TVA n’est possible que si les prestations d’hébergement ont été fournies à des bénéficiaires institutionnels et personnes bénéficiaires définis à <a href='https://www.admin.ch/opc/fr/classified-compilation/20091866/index.html#a143' target=_'blank'>l'article 143 OTVA</a>",
+                "saldo": "Pour les prestations d’hébergement (taux valable jusqu'au 31.12.2010: 3.6%; à partir du 1.1.2011: 3.8%) une mise en compte de la TVA n’est possible que si les prestations d’hébergement ont été fournies à des bénéficiaires institutionnels et personnes bénéficiaires définis à <a href='https://www.admin.ch/opc/fr/classified-compilation/20091866/index.html#a143' target=_'blank'>l'article 143 OTVA</a>"
+              },
+              "saldo": "Pour les prestations d’hébergement (taux valable jusqu'au 31.12.2017: 3.8%; à partir du 1.1.2018: 3.7%) une mise en compte de la TVA n’est possible que si les prestations d’hébergement ont été fournies à des bénéficiaires institutionnels et personnes bénéficiaires définis <a href='https://www.admin.ch/opc/fr/classified-compilation/20091866/index.html#a143' target=_'blank'>à l’art. 143 OTVA</a>"
+            }
+          },
+          "ExpandTitle1": "Avec l'envoi électronique de l'annexe nous attestons:",
+          "ExpandTitle2": "Veuillez observer :",
+          "content": {
+            "pauschal": "La TVA déclarée grevant les exportations de biens (cf. ch. 10 de l'<a href='https://www.gate.estv.admin.ch/mwst-webpublikationen/public/MI/12' target='_blank' title='Ouvre le lien dans une nouvelle fenêtre ou un nouvel onglet'>Info TVA 12 Taux de la dette fiscale nette</a> ) et les prestations fournies sur le territoire suisse aux bénéficiaires institutionnels et aux personnes bénéficiaires visés<a href='https://www.admin.ch/opc/fr/classified-compilation/20091866/index.html#a143' target='_blank' title='Ouvre le lien dans une nouvelle fenêtre ou un nouvel onglet'> à l'art. 143 OTVA</a> peut être mise en compte à condition que le formulaire officiel ait été utilisé. Le montant total de l'impôt est ensuite reporté dans le formulaire de décompte (ch. 470). Vous pouvez supprimer toutes les données saisies en réinitialisant le formulaire.",
+            "saldo": "La TVA déclarée grevant les exportations de biens (cf. ch. 10 de l'<a href='https://www.gate.estv.admin.ch/mwst-webpublikationen/public/MI/12' target='_blank' title='Ouvre le lien dans une nouvelle fenêtre ou un nouvel onglet'>Info TVA 12 Taux de la dette fiscale nette</a>) et les prestations fournies sur le territoire suisse aux bénéficiaires institutionnels et aux personnes bénéficiaires visés<a href='https://www.admin.ch/opc/fr/classified-compilation/20091866/index.html#a143' target='_blank' title='Ouvre le lien dans une nouvelle fenêtre ou un nouvel onglet'> à l'art. 143 OTVA</a> peut être mise en compte à condition que le formulaire officiel ait été utilisé. Le montant total de l'impôt est ensuite reporté dans le formulaire de décompte (ch. 470). Vous pouvez supprimer toutes les données saisies en réinitialisant le formulaire."
+          },
+          "cta": {
+            "addForm": "Ajouter une facture",
+            "backToForm": "Réinitialiser le formulaire",
+            "cancel": "Annuler",
+            "validate": "Reporter le calcul"
+          },
+          "hideExpandLink": "Afficher davantage d'informations",
+          "label": {
+            "date": "Date",
+            "kind": "Type de biens / de prestations de services",
+            "number": "N°",
+            "sales": "Contre-prestations CHF",
+            "tax": "Impôt CHF",
+            "taxRate": "Taux d'imposition",
+            "taxRatePeriod": "Période d'imposition",
+            "total": "Total de l'impôt provenant des factures clients:"
+          },
+          "subContent": "Aucune facture client n'a été enregistrée Choisissez la rubrique « Ajouter une facture» pour saisir une nouvelle facture client.",
+          "subTitle": "Factures clients",
+          "taxRatePeriod": {
+            "1": "jusqu'au 31.12.2017",
+            "2": "dès le 01.01.2018",
+            "prior2018": {
+              "0": "jusqu'au 31.12.2010",
+              "1": "dès le 01.01.2011"
+            }
+          },
+          "title": "Annexe au décompte - exportations (formulaire 1050)",
+          "warning": "Voulez-vous supprimer toutes les entrées?"
+        },
+        "form1055": {
+          "content1055": {
+            "pauschal": "A chaque fois que vous revendez un bien mobilier identifiable acquis dans ce but, vous pouvez décider d’imposer ce chiffre d’affaires au moyen du taux de la dette fiscale nette accordé ou d’imposer la marge au taux de la dette fiscale nette de 6,5 % (resp. 6.7% jusqu'au 31.12.2017). Veuillez établir à cet effet une liste séparée et reporter le total des chiffres d'affaires, resp. des marges sur le formulaire suivant (voir <a href='https://www.gate.estv.admin.ch/mwst-webpublikationen/public/MI/12' target='_blank' title='Ouvre le lien dans une nouvelle fenêtre ou un nouvel onglet'> ch. 12.2 de l’Info TVA Taux de la dette fiscale nette</a>). Le total de la colonne 'Différence' sera finalement reporté dans le formulaire de décompte TVA (chiffre 471).Vous pouvez effacer toutes les données en réinitialisant le formulaire.",
+            "prior2018": {
+              "pauschal": "A chaque fois que vous revendez un bien mobilier identifiable acquis dans ce but, vous pouvez décider d’imposer ce chiffre d’affaires au moyen du taux forfaitaire accordé ou d’imposer la marge au taux forfaitaire de 6,7 % (resp. 6.4% jusqu'au 31.12.2010). Veuillez établir à cet effet une liste séparée et reporter le total des chiffres d'affaires, resp. des marges sur le formulaire suivant (voir ch. 12.2 de <a href='https://www.gate.estv.admin.ch/mwst-webpublikationen/public/MI/12' target='_blank' title='Ouvre le lien dans une nouvelle fenêtre ou un nouvel onglet'>l’Info TVA Taux de la dette fiscale nette</a>). Le total de la colonne \"Différence\" sera finalement reporté dans le formulaire de décompte TVA (chiffre 471). Vous pouvez effacer toutes les données en réinitialisant le formulaire.",
+              "saldo": "A chaque fois que vous revendez un bien mobilier identifiable acquis dans ce but, vous pouvez décider d’imposer ce chiffre d’affaires au moyen du taux de la dette fiscale nette accordé ou d’imposer la marge au taux de la dette fiscale nette de 6,7 % (resp. 6.4% jusqu'au 31.12.2010). Veuillez établir à cet effet une liste séparée et reporter le total des chiffres d'affaires, resp. des marges sur le formulaire suivant (voir ch. 12.2 de <a href='https://www.gate.estv.admin.ch/mwst-webpublikationen/public/MI/12' target='_blank' title='Ouvre le lien dans une nouvelle fenêtre ou un nouvel onglet'>l’Info TVA Taux de la dette fiscale nette</a>). Le total de la colonne \"Différence\" sera finalement reporté dans le formulaire de décompte TVA (chiffre 471). Vous pouvez effacer toutes les données en réinitialisant le formulaire."
+            },
+            "saldo": "A chaque fois que vous revendez un bien mobilier identifiable acquis dans ce but, vous pouvez décider d’imposer ce chiffre d’affaires au moyen du taux de la dette fiscale nette accordé ou d’imposer la marge au taux de la dette fiscale nette de 6,5 % (resp. 6.7% jusqu'au 31.12.2017). Veuillez établir à cet effet une liste séparée et reporter le total des chiffres d'affaires, resp. des marges sur le formulaire suivant (voir ch. 12.2 de l'<a href='https://www.gate.estv.admin.ch/mwst-webpublikationen/public/MI/12' target='_blank' title='Ouvre le lien dans une nouvelle fenêtre ou un nouvel onglet'> Info TVA 12 Taux de la dette fiscale nette</a>). Le total de la colonne 'Différence' sera finalement reporté dans le formulaire de décompte TVA (chiffre 471).Vous pouvez effacer toutes les données en réinitialisant le formulaire."
+          },
+          "cta": {
+            "addForm": "Ajouter une facture",
+            "backToForm": "Réinitialiser le formulaire",
+            "cancel": "Annuler",
+            "emptyTax": "Effacer les impôts préalables fictifs saisis",
+            "validate": "Reporter le calcul"
+          },
+          "expandContent1": {
+            "pauschal": "Cette réglementation n’est pas valable pour les véhicules jusqu’à 3,5 tonnes ainsi que pour tous les cas dans lesquels la déduction de l'impôt préalable fictif est exclue en vertu de <a href='https://www.admin.ch/opc/fr/classified-compilation/20081110/index.html#a28' target='_blank' title='Ouvre le lien dans une nouvelle fenêtre ou un nouvel onglet'> l’art. 28a LTVA</a> en lien avec <a hef=https://www.admin.ch/opc/de/classified-compilation/20091866/index.html#a90' target='_blank' title='Ouvre le lien dans une nouvelle fenêtre ou un nouvel onglet' > l’art. 90 al. 2 OTVA</a>. Tous les objets que vous revendez et pour lesquels vous souhaitez procéder à la mise en compte de l’impôt préalable fictif doivent être répertoriés individuellement sur une liste séparée (voir <a href='https://www.gate.estv.admin.ch/mwst-webpublikationen/public/pages/taxInfos/tableOfContent.xhtml?publicationId=1004992' target='_blank' title='Ouvre le lien dans une nouvelle fenêtre ou un nouvel onglet'> ch. 12.2 de l’Info TVA Taux de la dette fiscale nette</a>). Cette liste ne doit être transmise à l'AFC <b>que sur demande</b>. Vous devez déclarer le prix de vente total sous chiffre 200 du formulaire de décompte et l’imposer sous chiffre 321/322 au moyen du taux forfaitaire accordé.",
+            "prior2018": {
+              "pauschal": "Cette réglementation n’est pas valable pour les véhicules jusqu’à 3,5 tonnes ainsi que pour tous les cas dans lesquels la déduction de l'impôt préalable fictif est exclue en vertu de <a href='https://www.admin.ch/opc/fr/classified-compilation/20081110/index.html#a28' target='_blank' title='Ouvre le lien dans une nouvelle fenêtre ou un nouvel onglet' >l'art. 28a LTVA</a> en lien avec  <a href='https://www.admin.ch/opc/fr/classified-compilation/20091866/index.html#a90' target='_blank' title='Ouvre le lien dans une nouvelle fenêtre ou un nouvel onglet'>l'art. 90 al. 2 OTVA</a>. Tous les objets que vous revendez et pour lesquels vous souhaitez procéder à la mise en compte de l’impôt préalable fictif doivent être répertoriés individuellement sur une liste séparée (voir ch. 12.2 de <a href='https://www.gate.estv.admin.ch/mwst-webpublikationen/public/pages/taxInfos/tableOfContent.xhtml?publicationId=1004992' target='_blank' title='Ouvre le lien dans une nouvelle fenêtre ou un nouvel onglet' > l’Info TVA Taux de la dette fiscale nette</a> ). Cette liste ne doit être transmise à l'AFC que <b>sur demande</b>. Vous devez déclarer le prix de vente total sous chiffre 200 du formulaire de décompte et l’imposer sous chiffre 320/321 au moyen du taux forfaitaire accordé.",
+              "saldo": "Cette réglementation n’est pas valable pour les véhicules jusqu’à 3,5 tonnes ainsi que pour tous les cas dans lesquels la déduction de l'impôt préalable fictif est exclue en vertu de <a href='https://www.admin.ch/opc/fr/classified-compilation/20081110/index.html#a28' target='_blank' title='Ouvre le lien dans une nouvelle fenêtre ou un nouvel onglet' >l'art. 28a LTVA</a> en lien avec  <a href='https://www.admin.ch/opc/fr/classified-compilation/20091866/index.html#a90' target='_blank' title='Ouvre le lien dans une nouvelle fenêtre ou un nouvel onglet'>l'art. 90 al. 2 OTVA</a>. Tous les objets que vous revendez et pour lesquels vous souhaitez procéder à la mise en compte de l’impôt préalable fictif doivent être répertoriés individuellement sur une liste séparée (voir ch. 12.2 de<a href='https://www.gate.estv.admin.ch/mwst-webpublikationen/public/pages/taxInfos/tableOfContent.xhtml?publicationId=1004992' target='_blank' title='Ouvre le lien dans une nouvelle fenêtre ou un nouvel onglet'> l’Info TVA Taux de la dette fiscale nette</a> ). Cette liste ne doit être transmise à l'AFC que <b>sur demande</b>. Vous devez déclarer le prix de vente total sous chiffre 200 du formulaire de décompte et l’imposer sous chiffre 320/321 au moyen du taux de la dette fiscale nette accordé."
+            },
+            "saldo": "Cette réglementation n’est pas valable pour les véhicules jusqu’à 3,5 tonnes ainsi que pour tous les cas dans lesquels la déduction de l'impôt préalable fictif est exclue en vertu de <a href='https://www.admin.ch/opc/fr/classified-compilation/20081110/index.html#a28' target='_blank' title='Ouvre le lien dans une nouvelle fenêtre ou un nouvel onglet'> l’art. 28a LTVA</a> en lien avec <a hef='https://www.admin.ch/opc/de/classified-compilation/20091866/index.html#a90' target='_blank' title='Ouvre le lien dans une nouvelle fenêtre ou un nouvel onglet' > l’art. 90 al. 2 OTVA</a>. <br>Tous les objets que vous revendez et pour lesquels vous souhaitez procéder à la mise en compte de l’impôt préalable fictif doivent être répertoriés individuellement sur une liste séparée (voir <a href='https://www.gate.estv.admin.ch/mwst-webpublikationen/public/pages/taxInfos/tableOfContent.xhtml?publicationId=1004992' target='_blank' title='Ouvre le lien dans une nouvelle fenêtre ou un nouvel onglet'> ch. 12.2 de l’Info TVA Taux de la dette fiscale nette</a>). Cette liste ne doit être transmise à l'AFC <b>que sur demande</b>.<br> Vous devez déclarer le prix de vente total sous chiffre 200 du formulaire de décompte et l’imposer sous chiffre 321/322 au moyen du taux de la dette fiscale nette accordé."
+          },
+          "expandContent2": "Ce formulaire peut également être utilisé lorsque des biens identifiables sont acquis pour un prix global et destinés exclusivement à la vente sur le territoire suisse. Concernant la procédure à suivre dans pareils cas, veuillez prendre contact avec <a href='https://www.estv.admin.ch/estv/fr/home.html' target='_blank' title='Ouvre le lien dans une nouvelle fenêtre ou un nouvel onglet'> l'Administration fédérale des contributions, Division principale TVA</a>.",
+          "expandOldTaxLink": "Désirez-vous faire-valoir des déductions de l’impôt préalable fictif à l’ancien taux (avant 01.01.2018)?",
+          "hideExpandLink": "Afficher davantage d'informations",
+          "label": {
+            "difference": "Différence CHF",
+            "margin": "Marge CHF",
+            "sales": "Chiffre d'affaires CHF",
+            "tax": "Impôt CHF",
+            "taxRate": "Taux",
+            "totalDifference": "Total différence (note de crédit)"
+          },
+          "prior2018expandOldTaxLink": "Souhaitez-vous déduire de l'impôt préalable fictif à l'ancien taux d'imposition (avant le 01.01.2011)?",
+          "prior2018titleDifference": "Différence totale",
+          "showExpandLink": "Afficher davantage d'informations",
+          "subContent": "Aucune facture client n'a été enregistrée Choisissez la rubrique « Ajouter une facture» pour saisir une nouvelle facture client.",
+          "subTitle": "Factures clients",
+          "tab1055": "Impôt préalable fictif (formulaire 1055)",
+          "title": "Annexes au décompte formulaires 1055 et 1056",
+          "title1055": "Annexe formulaire 1055",
+          "titleDifference": "Différence totale des formulaires 1055 et 1056"
+        },
+        "form1056": {
+          "content1056": {
+            "pauschal": "Si vous avez acquis des pièces de collection telles que des objets d'art, des antiquités ou des objets analogues, vous pouvez appliquer l'imposition de la marge selon <a href='https://www.admin.ch/opc/fr/classified-compilation/20081110/index.html#a24a' target='_blank' title='Ouvre le lien dans une nouvelle fenêtre ou un nouvel onglet'> l'art. 24a LTVA</a>. Dans ce cas, vous devez enregistrer séparément toutes les pièces de collection sur une liste et calculer le chiffre d'affaire total ainsi que la marge totale au moyen du formulaire 1056 (comme pour l'impôt préalable fictif, voir <a href='https://www.gate.estv.admin.ch/mwst-webpublikationen/public/MI/12' target='_blank' title='Ouvre le lien dans une nouvelle fenêtre ou un nouvel onglet'>ch. 12.2 de l’Info TVA Taux de la dette fiscale nette)</a>.<br>Si le prix d'acquisition d'une pièce de collection dépasse le prix de revente, la perte doit être enregistrée comme marge négative. Le total de la colonne 'Différence' sera finalement reporté dans le formulaire de décompte TVA (chiffre 471).<br>Vous pouvez effacer toutes les données en réinitialisant le formulaire.",
+            "saldo": "Si vous avez acquis des pièces de collection telles que des objets d'art, des antiquités ou des objets analogues, vous pouvez appliquer l'imposition de la marge selon <a href='https://www.admin.ch/opc/fr/classified-compilation/20081110/index.html#a24a' target='_blank' title='Ouvre le lien dans une nouvelle fenêtre ou un nouvel onglet'> l'art. 24a LTVA</a>. Dans ce cas, vous devez enregistrer séparément toutes les pièces de collection sur une liste et calculer le chiffre d'affaire total ainsi que la marge totale au moyen du formulaire 1056 (comme pour l'impôt préalable fictif, voir <a href='https://www.gate.estv.admin.ch/mwst-webpublikationen/public/MI/12'  target='_blank' title='Ouvre le lien dans une nouvelle fenêtre ou un nouvel onglet'>ch. 12.2 de l’Info TVA Taux de la dette fiscale nette)</a>.<br>Si le prix d'acquisition d'une pièce de collection dépasse le prix de revente, la perte doit être enregistrée comme marge négative. Le total de la colonne 'Différence' sera finalement reporté dans le formulaire de décompte TVA (chiffre 471).<br>Vous pouvez effacer toutes les données en réinitialisant le formulaire."
+          },
+          "cta": {
+            "addForm": "Ajouter une facture",
+            "backToForm": "Réinitialiser le formulaire",
+            "cancel": "Annuler",
+            "emptyTax": "Effacer les impôts préalables fictifs saisis",
+            "validate": "Reporter le calcul"
+          },
+          "expandContent": {
+            "pauschal": "Si vous appliquez l'imposition de la marge lors de la revente de pièces de collection selon <a href='https://www.admin.ch/opc/fr/classified-compilation/20091866/index.html#a48' target='_blank' title='Ouvre le lien dans une nouvelle fenêtre ou un nouvel onglet'> l'art. 48b OTVA</a>, aquis dans ce but, vous n'avez pas le droit de faire mention de la TVA sur la facture. Tous les objets pour lesquels vous appliquez l'imposition de la marge doivent être enregistrés séparément sur une liste (comme pour l'impôt préalable fictif, voir <a href='https://www.gate.estv.admin.ch/mwst-webpublikationen/public/MI/12' target='_blank' title='Ouvre le lien dans une nouvelle fenêtre ou un nouvel onglet'>ch. 12.2 de l’Info TVA Taux de la dette fiscale nette</a>). Cette liste doit être signée valablement et ne sera remise à l'AFC <b>que sur demande</b>. Le chiffre d'affaire doit être reporté intégralement au chiffre 200 du décompte TVA et imposé au chiffre 321/322 au moyen du taux forfaitaire accordé. Si plusieurs taux vous ont été accordés, vous devez effectuer la répartition entre les différents taux. Le formulaire est également utilisable pour les pièces de collection acquises et revendues à un prix global. Concernant la procédure à suivre dans pareils cas, veuillez prendre contact avec <a href='https://www.estv.admin.ch/estv/fr/home.html' target='_blank' title='Ouvre le lien dans une nouvelle fenêtre ou un nouvel onglet'>l'Administration fédérale de contributions, Division principale TVA</a>.",
+            "saldo": "Si vous appliquez l'imposition de la marge lors de la revente de pièces de collection selon <a href='https://www.admin.ch/opc/fr/classified-compilation/20091866/index.html#a48' target='_blank' title='Ouvre le lien dans une nouvelle fenêtre ou un nouvel onglet'> l'art. 48b OTVA</a>, aquis dans ce but, vous n'avez pas le droit de faire mention de la TVA sur la facture. Tous les objets pour lesquels vous appliquez l'imposition de la marge doivent être enregistrés séparément sur une liste (comme pour l'impôt préalable fictif, voir <a href='https://www.gate.estv.admin.ch/mwst-webpublikationen/public/MI/12'  target='_blank' title='Ouvre le lien dans une nouvelle fenêtre ou un nouvel onglet'>ch. 12.2 de l’Info TVA Taux de la dette fiscale nette</a>). Cette liste doit être signée valablement et ne sera remise à l'AFC <b>que sur demande</b>. Le chiffre d'affaire doit être reporté intégralement au chiffre 200 du décompte TVA et imposé au chiffre 321/322 au moyen du taux de la dette fiscale nette accordé. Si 2 taux vous ont été accordés, vous devez effectuer la répartition entre les 2 taux. Le formulaire est également utilisable pour les pièces de collection acquises et revendues à un prix global.  Concernant la procédure à suivre dans pareils cas, veuillez prendre contact avec l'<a href='https://www.estv.admin.ch/estv/fr/home.html' target='_blank' title='Ouvre le lien dans une nouvelle fenêtre ou un nouvel onglet'>Administration fédérale de contributions, Division principale TVA</a>."
+          },
+          "hideExpandLink": "Afficher davantage d'informations",
+          "label": {
+            "difference": "Différence CHF",
+            "margin": "Marge CHF",
+            "sales": "Chiffre d'affaires CHF",
+            "tax": "Impôt CHF",
+            "taxRate": "Taux",
+            "totalDifference": "Total différence (note de crédit)"
+          },
+          "showExpandLink": "Afficher davantage d'informations",
+          "subContent": "Aucune facture client n'a été enregistrée. Choisissez la rubrique « Ajouter une facture» pour saisir une nouvelle facture client.",
+          "subTitle": "Factures clients",
+          "tab1056": "Imposition de la marge (formulaire 1056)",
+          "title": "Annexes au décompte formulaires 1055 et 1056",
+          "titleDifference": "Différence totale des formulaires 1055 et 1056"
+        },
+        "form10Common": {
+          "pss": "Taux forfaitaire",
+          "sss": "Taux de la dette fiscale nette",
+          "title1": "Mise en compte de l'impôt au 1er",
+          "title2": "Mise en compte de l'impôt au 2ème"
+        },
+        "form3xx": {
+          "content": "Veuillez saisir l'activité de l'assujetti et les chiffres d'affaires réalisés avec celle-ci. Si l'assujetti a le droit d'appliquer plus d'un taux forfaitaire, le taux moyen est calculé sur la base des indications relatives aux différentes activités. Le total du chiffre d'affaires et le montant de l'impôt sont ensuite reportés dans le formulaire de décompte (aux chiffres 321 et 322). Vous pouvez effacer toutes les données saisies en réinitialisant le formulaire.",
+          "cta": {
+            "addForm": "Ajouter une activité",
+            "backToForm": "Réinitialiser le formulaire",
+            "cancel": "Annuler",
+            "validate": "Reporter le calcul"
+          },
+          "label": {
+            "activity": "Activités",
+            "date": "Date",
+            "kind": "Type de biens / de prestations de services",
+            "sales": "Contre-prestations CHF",
+            "tax": "Impôt CHF",
+            "taxRate": "Taux d'imposition",
+            "taxRatePeriod": "Période d'imposition",
+            "total": "Total de l'impôt provenant des factures clients:"
+          },
+          "prior2018content": "Veuillez saisir l'activité de l'assujetti et les chiffres d'affaires réalisés avec celle-ci. Si l'assujetti a le droit d'appliquer plus d'un taux forfaitaire, le taux moyen est calculé sur la base des indications relatives aux différentes activités. Le total du chiffre d'affaires et le montant de l'impôt sont ensuite reportés dans le formulaire de décompte (aux chiffres 320 et 321). Vous pouvez effacer toutes les données saisies en réinitialisant le formulaire.",
+          "taxRatePeriod": {
+            "1": "jusqu'au 31.12.2017",
+            "2": "dès le 01.01.2018",
+            "prior2018": {
+              "0": "jusqu'au 31.12.2010",
+              "1": "dès le 01.01.2011"
+            }
+          },
+          "title": "Calcul du taux forfaitaire moyen",
+          "total": "Total et taux moyen",
+          "warning": "Voulez-vous supprimer toutes les entrées?"
+        },
+        "header": {
+          "declarationMethod": "Méthode de décompte",
+          "declarationPeriod": "Période de décompte",
+          "declaration_method": "Méthode de décompte",
+          "declaration_period": "Période de décompte",
+          "formOfReporting": "Mode de décompte",
+          "submissionDate": "Date de remise",
+          "title": "Informations sur le décompte et les délais",
+          "tooltip": "Ceci est le délai normal de dépôt. Les prolongations de délai ne sont pas affichées ici.",
+          "valuta": "Date de valeur (intérêts moratoires à partir du)",
+          "vereinbart": "selon contre-prestations convenues",
+          "vereinnahmt": "selon contre-prestations reçues"
+        },
+        "info": {
+          "annualDeclaration": "Concordance annuelle",
+          "annualDeclarationTitle": "Remplissez la concordance annuelle",
+          "annualDeclarationTxt": "<p>Ce formulaire est utilisé pour corriger tout écart constaté au cours de la période d'imposition précédente. <b>Par conséquent, seules les différences par rapport aux déclarations soumises doivent être déclarées.</b> Si aucun écart n'a été identifié, le formulaire ne doit pas être soumis. La date limite de remise est de 240 jours après la fin de la période fiscale.</p>",
+          "annualDeclarationTxt2EFF": "<p>Veuillez remplir intégralement le formulaire de concordance annuelle (Correction d'erreurs dans le décompte conformément à l'art. 72 LTVA) et le soumettre en ligne. Vous trouverez des informations sur la manière de le remplir dans l'<a href='https://www.gate.estv.admin.ch/mwst-webpublikationen/public/pages/taxInfos/tableOfContent.xhtml?publicationId=1013189&lang=fr' target='_blank' title='Ouvre le lien dans une nouvelle fenêtre ou un nouvel onglet'>Info TVA 15.</a></p>",
+          "annualDeclarationTxt2PSS": "<p>Veuillez remplir intégralement le formulaire de concordance annuelle (Correction d'erreurs dans le décompte conformément à l'art. 72 LTVA) et le soumettre en ligne. Vous trouverez des informations sur la manière de le remplir dans l'<a href='https://www.gate.estv.admin.ch/mwst-webpublikationen/public/pages/taxInfos/tableOfContent.xhtml?publicationId=1010429&lang=de' target='_blank' title='Ouvre le lien dans une nouvelle fenêtre ou un nouvel onglet'>Info TVA 13.</a></p>",
+          "annualDeclarationTxt2SSS": "<p>Veuillez remplir intégralement le formulaire de concordance annuelle (Correction d'erreurs dans le décompte conformément à l'art. 72 LTVA) et le soumettre en ligne. Vous trouverez des informations sur la manière de le remplir dans l'<a href='https://www.gate.estv.admin.ch/mwst-webpublikationen/public/pages/taxInfos/tableOfContent.xhtml?publicationId=1004992&lang=de' target='_blank' title='Ouvre le lien dans une nouvelle fenêtre ou un nouvel onglet'>Info TVA 12.</a></p>",
+          "auditingInProgressMessage": "Le décompte est en cours de vérification par un autre utilisateur et ne peut pas être ouvert.",
+          "auditingInProgressTitle": "Décompte en cours de vérification",
+          "creditPayment": "Les soldes créditeurs ne seront versés qu'après le traitement du formulaire soumis.",
+          "currencyHint": "Tous les montants s'entendent en francs et centimes",
+          "description": "Vous trouverez des informations sur la manière de remplir le décompte dans l'<a href='https://www.gate.estv.admin.ch/mwst-webpublikationen/public/pages/taxInfos/tableOfContent.xhtml?publicationId=1013189&lang=fr' target='_blank' title='Ouvre le lien dans une nouvelle fenêtre ou un nouvel onglet'>Info TVA 15</a>",
+          "description_pauschal": "Vous trouverez des informations sur la manière de remplir le décompte dans l'<a href='https://www.gate.estv.admin.ch/mwst-webpublikationen/public/pages/taxInfos/tableOfContent.xhtml?publicationId=1010429&lang=fr' target='_blank' title='Ouvre le lien dans une nouvelle fenêtre ou un nouvel onglet'>Info TVA 13</a>",
+          "description_saldo": "Vous trouverez des informations sur la manière de remplir le décompte dans l'<a href='https://www.gate.estv.admin.ch/mwst-webpublikationen/public/pages/taxInfos/tableOfContent.xhtml?publicationId=1004992&lang=fr' target='_blank' title='Ouvre le lien dans une nouvelle fenêtre ou un nouvel onglet'>Info TVA 12</a>",
+          "editingInProgressMessage": "Le décompte est en cours de traitement par un autre utilisateur et ne peut pas être ouvert.",
+          "editingInProgressTitle": "Décompte en travail",
+          "fillDeclaration": "Remplir le décompte",
+          "finalDeclarationTitle": "Remplissez le décompte final",
+          "finalDeclarationTxt": "<p>Avez-vous encore en votre possession des biens ou des prestations de services pour lesquels l'impôt préalable a été récupéré? Veuillez déclarer les prestations à soi-même sous chiffre 415: pour déterminer la valeur actuelle, réduisez le montant de l'impôt préalable demandé de manière linéaire pour chaque année écoulée </p><ul> <li>de 20% pour les biens mobiliers et les prestations de services</li><li>de 5% pour les biens immobiliers</li></ul> <p>Pour plus d'informations veuillez vous référer à la notice <a href='https://www.gate.estv.admin.ch/mwst-webpublikationen/public/pages/taxInfos/tableOfContent.xhtml?publicationId=1022896' target='_blank' title='Ouvre le lien dans une nouvelle fenêtre ou un nouvel onglet'>Info TVA 10</a></p><p>Veuillez noter: si des éléments ont déjà été déclarés dans les décomptes ordinaires, ils ne doivent pas être déclarés à nouveau dans le décompte final.</p>",
+          "hint": "Remarque:",
+          "mwst_12_info": "Info TVA 12",
+          "mwst_15_info": "Info TVA 15",
+          "saldo": "Toutes les données du chiffre d'affaires sont à saisir <b>brutes incl. TVA</b>",
+          "sapNotAvailable": "Malheureusement, l'adresse de remboursement ne peut être transmise par voie électronique pour le moment. L'AFC vous enverra par courrier postal un formulaire pour les coordonnées de remboursement. Veuillez le compléter et le renvoyer. Nous nous excusons pour le désagrément. "
+        },
+        "landingPage": {
+          "info": "Avez-vous besoin d'un délai pour le décompte et/ou pour le paiement? Demandez-les en ligne: <a href='https://www.moa.estv.admin.ch/moa/frist.html' target='_blank' title='Ouvre le lien dans une nouvelle fenêtre ou un nouvel onglet'>Prolongation de délai en ligne</a>",
+          "overview": "<p>Le décompte du {{periodName}} avec le code de déclaration {{vattoken}} a été fourni le {{submittedDate}} par {{firstName}} {{lastName}}{{company}} pour soumission de l’approbation de déclaration.</p><p>Veuillez transmettre l’approbation de la déclaration à la personne responsable. L’approbation de la déclaration signée doit être envoyée par la poste à l'adresse suivante:</p><p>Administration fédérale des contributions<br>Département principal TVA<br>Schwarztorstrasse 50<br>3024 Berne</p><p>Important : Le décompte n'est pas considérée comme déposée tant que l’approbation de déclaration n'a pas été reçue par l'AFC par la poste.</p><p>Voulez-vous corriger la déclaration à approuver ? Le code de déclaration vous permet d'apporter des corrections au décompte et de créer une nouvelle version. Cette fonction est à votre disposition jusqu'à ce que l'AFC reçoive l’approbation de la déclaration.Vous trouvez les informations relatives au paiement, le code de déclaration pour le prochain décompte et d'autres informations dans le résumé PDF de votre décompte..</p>"
+        },
+        "method": {
+          "effektiv": "Effective",
+          "pauschal": "Taux forfaitaire",
+          "saldo": "Taux de la dette fiscale nette"
+        },
+        "net_gross": {
+          "gross": "Brut (incl. TVA)",
+          "net": "Net (excl. TVA)",
+          "selection_description": "Toutes les données du chiffre d'affaires sont",
+          "tooltip": "<p>Si, au ch. 200, les contre-prestations sont déclarées sans TVA (chiffres d'affaires nets), il y a lieu de calculer la TVA en multipliant le chiffre d'affaires déclaré avec le taux d'imposition légal correspondant de 7.7%, 2.5% et 3.7%. </p> <p>Si, au ch. 200, les contre-prestations sont déclarées au brut (TVA incluse), elles correspondent à une base de calcul de 107.7%, 102.5% et 103.7%. La TVA peut être calculée à l'aide du multiplicateur correspondant (7,7% = 7,1495%, 2,5% = 2,4390% et 3,7% = 3,5680%).</p> <p>Le type de contre-prestation (nette ou brute) doit être conservé pour toute la période fiscale. Il est automatiquement pris en compte lors du calcul de l'impôt (chiffre 301 - 342 du formulaire). </p>"
+        },
+        "other_cash_flow_section": {
+          "900_description": "Subventions, taxes touristiques encaissées  par les offices du tourisme, contributions versées aux établissements chargés de l'élimination des déchets et d’approvisionnement en eau (let. a-c)",
+          "910_description": "Dons, dividendes, dédommagements, etc. (let. d à l)",
+          "title": "III. Autres mouvements de fonds (art. 18, al. 2)"
+        },
+        "stepper": {
+          "bankDetails": "Coordonnées bancaires",
+          "captureData": "Saisir les données",
+          "contactData": "Coordonnées de la personne qui remplit le formulaire",
+          "pickSubmissionVariant": "Sélectionnez la variante de remise",
+          "remindertNextDeclaration": "Code de décompte et rappel: prochain décompte",
+          "verifyAndSubmitDeclaration": "Vérifier et soumettre le décompte",
+          "verify_declaration": "Contrôler le décompte"
+        },
+        "subform": {
+          "0": "1er taux de dette fiscale nette",
+          "1": "2ème taux de dette fiscale nette",
+          "2": "1er taux de dette fiscale nette avant 2018",
+          "3": "2ème taux de dette fiscale nette avant 2018"
+        },
+        "submitted": {
+          "deadline": "Ces informations sont à votre disposition jusqu'au {{deadline}}. Nous vous recommandons de sauvegarder les documents localement.",
+          "declaration": "Décompte",
+          "declarationRelease": "Approbation de déclaration",
+          "overview": "Le décompte du {{periodName}} avec le code de décompte {{vattoken}} a été remis le {{submittedDate}} par {{firstName}} {{lastName}}{{company}}.",
+          "overviewFinal": "Le {{périodeName}} avec le code de décompte {{vattoken}} a été soumis le {{submittedDate}} par {{firstName}} {{lastName}}{{company}}.\t",
+          "summaryDeclaration": "Résumé du décompte"
+        },
+        "table": {
+          "th_amount": "Montant CHF",
+          "th_bezugtax": "Impôt sur les acquisitions",
+          "th_bezugtax_old": "Impôt sur les acquisitions (taux jusqu'au 31.12.2017)",
+          "th_bezugtax_old_prior2018": "Impôt sur les acquisitions (Taux jusqu'au 31.12.2010)",
+          "th_charges": "Contre-prestations",
+          "th_credit": "Crédit d'impôt",
+          "th_digit": "Chiffre",
+          "th_discount": "Déductions",
+          "th_pretax": "Impôt préalable",
+          "th_rate": "Taux",
+          "th_rate_old": "Taux (taux de l'impôt jusqu'au 31.12.2017)",
+          "th_rate_old_prior2018": "Taux (taux de l'impôt jusqu'au 31.12.2010)",
+          "th_sales": "Prestations CHF",
+          "th_tax": "Impôt CHF",
+          "th_turnover": "Chiffre d'affaires CHF"
+        },
+        "tax_calculation_section": {
+          "302_description": "Prestations soumises au taux normal",
+          "312_description": "Prestations soumises au taux réduit",
+          "321_description": "Prestations (1er taux)",
+          "322_description": "Prestations (1er taux)",
+          "331_description": "Prestations (2e taux)",
+          "332_description": "Prestations (2e taux)",
+          "342_description": "Prestations soumises au taux spécial pour l'hébergement",
+          "380_help": "Veuillez svp saisir ici les prestations soumises à l’impôt sur les acquisitions. En principe l’acquisition des prestations doit être imposée au taux normal. La contre-prestation s’entend hors TVA (la contre-prestation correspond à 100%). Les prestations acquises après le 31.12.2010 sont à déclarer sous le chiffre 381. Vous trouverez de plus amples informations dans  <a href='https://www.gate.estv.admin.ch/mwst-webpublikationen/public/pages/taxInfos/tableOfContent.xhtml?publicationId=1001238&lang=fr' target='_blank' title='Ouvre le lien dans une nouvelle fenêtre ou un nouvel onglet'>l’Info TVA 14 Impôt sur les acquisitions</a>.",
+          "381_help": "Veuillez svp saisir ici les prestations soumises à l’impôt sur les acquisitions. En principe l’acquisition des prestations doit être imposée au taux normal. La contre-prestation s’entend hors TVA (la contre-prestation correspond à 100%). Les prestations acquises après le 31.12.2017 sont à déclarer sous le chiffre 382. Vous trouverez de plus amples informations dans  <a href='https://www.gate.estv.admin.ch/mwst-webpublikationen/public/pages/taxInfos/tableOfContent.xhtml?publicationId=1001238&lang=fr' target='_blank' title='Ouvre le lien dans une nouvelle fenêtre ou un nouvel onglet'>l’Info TVA 14 Impôt sur les acquisitions</a>.",
+          "381_help_prior2018": "Veuillez svp saisir ici les prestations soumises à l’impôt sur les acquisitions. En principe l’acquisition des prestations doit être imposée au taux normal. La contre-prestation s’entend hors TVA (la contre-prestation correspond à 100%). Les prestations acquises avant le 01.01.2011 sont à déclarer sous le chiffre 380. Vous trouverez de plus amples informations dans <a href='https://www.gate.estv.admin.ch/mwst-webpublikationen/public/pages/taxInfos/tableOfContent.xhtml?publicationId=1001238&lang=fr' target='_blank' title='Ouvre le lien dans une nouvelle fenêtre ou un nouvel onglet'>l’Info TVA 14 Impôt sur les acquisitions</a>.",
+          "382_description": "Impôt sur les acquisitions (net, excl. TVA)",
+          "382_help": "Veuillez svp saisir ici les prestations soumises à l’impôt sur les acquisitions. En principe l’acquisition des prestations doit être imposée au taux normal. La contre-prestation s’entend hors TVA (la contre-prestation correspond à 100%). Les prestations acquises avant le 01.01.2018 sont à déclarer sous le chiffre 381. Vous trouverez de plus amples informations dans <a href='https://www.gate.estv.admin.ch/mwst-webpublikationen/public/pages/taxInfos/tableOfContent.xhtml?publicationId=1001238&lang=fr' target='_blank' title='Ouvre le lien dans une nouvelle fenêtre ou un nouvel onglet'>l’Info TVA 14 Impôt sur les acquisitions</a>.",
+          "399_description": "Total de l'impôt dû",
+          "399_descriptionHint": "(Ch. 301 jusqu'à 382)",
+          "399_sss_descriptionHint": "(Ch. 321 jusqu'à 382)",
+          "400_description": "Impôt préalable grevant les coûts en matériel et en prestations de services",
+          "405_description": "Impôt préalable grevant les investissements et autres charges d'exploitation",
+          "410_description": "Dégrèvement ultérieur de l'impôt préalable (art. 32, veuillez svp joindre un relevé détaillé)",
+          "410_help": "<p>Est déclaré sous ce chiffre l’impôt préalable qui n’a pas pu être déduit à une date antérieure parce que les conditions de <a href='https://www.admin.ch/opc/fr/classified-compilation/20081110/index.html#a28' target='_blank' title='Ouvre le lien dans une nouvelle fenêtre ou un nouvel onglet'>l’art. 28, al. 1 LTVA</a> n’étaient pas remplies. Un relevé détaillé doit être joint au décompte. .</p><p> Le relevé doit être envoyé par poste à l’AFC. Pour vous aider lors de l’envoi, utilisez la première page portant l’adresse de l’AFC au dos de la copie du décompte, laquelle se trouve sur la page de clôture. Vous trouverez de plus amples informations dans <a href='https://www.gate.estv.admin.ch/mwst-webpublikationen/public/pages/taxInfos/tableOfContent.xhtml?publicationId=1022896&lang=fr' target='_blank' title='Ouvre le lien dans une nouvelle fenêtre ou un nouvel onglet'>l’Info TVA 10 Changements d’affectation</a>.</p>",
+          "415_description": "Corrections de l'impôt préalable: double affectation (art. 30), prestations à soi-même (art. 31)",
+          "415_description_final": "Corrections concernant des biens immobiliers (art. 82 al. 2 et art. 93 OTVA)",
+          "415_help": "Dans ce champ il est possible de saisir des montants tant positifs que négatifs. Prenez en compte qu’avec le schéma de calcul le montant est déduit. Le moins moins devient alors plus.</p><p>Le résultat est visible dans le chiffre 479. Vous trouverez de plus amples informations dans l’<a href='https://www.gate.estv.admin.ch/mwst-webpublikationen/public/pages/taxInfos/tableOfContent.xhtml?publicationId=1014743&lang=fr' target='_blank' title='Ouvre le lien dans une nouvelle fenêtre ou un nouvel onglet'>Info TVA 09 Déduction de l’impôt préalable et corrections de la déduction de l’impôt préalable</a>.</p>",
+          "420_description": "Réduction de la déduction de l'impôt préalable: prestations n'étant pas considérées comme des contre-prestations, telles des subventions, taxes touristiques (art. 33, al. 2)",
+          "420_help": "Dans ce champ il est possible de saisir des montants tant positifs que négatifs. Prenez en compte qu’avec le schéma de calcul le montant est déduit. Le moins moins devient alors plus.</p><p>Le résultat est visible dans le chiffre 479. Vous trouverez de plus amples informations dans l’<a href='https://www.gate.estv.admin.ch/mwst-webpublikationen/public/pages/taxInfos/tableOfContent.xhtml?publicationId=1014743&lang=fr' target='_blank' title='Ouvre le lien dans une nouvelle fenêtre ou un nouvel onglet'>Info TVA 09 Déduction de l’impôt préalable et corrections de la déduction de l’impôt préalable</a>.</p>",
+          "470_description": "Mise en compte de l'impôt selon le formulaire no 1050",
+          "471_description": "Mise en compte de l'impôt selon le formulaire no 1055, 1056",
+          "471_description_prior2018": "Mise en compte de l’impôt d'après le formulaire 1055",
+          "500_description": "Montant à payer",
+          "510_description": "Solde en faveur de l'assujetti",
+          "collapsable_info_1": "Avez-vous encore du chiffre d'affaires à déclarer aux anciens taux (jusqu'au 31.12.2017)?",
+          "collapsable_info_1_prior2018": "Avez-vous encore du chiffre d'affaires à déclarer aux anciens taux (avant le 01.01.2011)?",
+          "collapsable_info_2": "Avez-vous encore de l'impôt sur les acquisitions à déclarer aux anciens taux (jusqu'au 31.12.2017)?",
+          "collapsable_info_2_prior2018": "Avez-vous encore de l'impôt sur les acquisitions à déclarer aux anciens taux (avant le 01.01.2011)?",
+          "round": "Arrondir",
+          "title": "II. Calcul de l'impôt",
+          "total_400_420": "Total ch. 400 à 420",
+          "total_470": "Total ch. 470 à 471",
+          "total_turnover": "Total du chiffre d'affaires imposable",
+          "total_turnover_hint": "(comme ch. 299):"
+        },
+        "title": "Décompte TVA",
+        "turnover_section": {
+          "200_description": "Total des contre-prestations convenues ou reçues, y. c. de prestations imposées par option, de transferts par procédure de déclaration, de prestations à l'étranger (ch. d'affaires mondial)",
+          "205_description": "Contre-prestations déclarées sous ch. 200 qui proviennent de prestations exclues du champ de l'impôt (art. 21) pour lesquelles il a été opté en vertu de l'art. 22",
+          "220_description": "Prestations exonérées (p. ex. exportations, art. 23), prestations exonérées fournies à des institutions et à des personnes bénéficaires (art. 107, al. 1, let. a)",
+          "220_help_pss": "<p>Lorsque le décompte est établi selon la méthode forfaitaire, il est autorisé de déduire sous le ch. 220 les chiffres d'affaires provenant d'exportations déclarés au ch. 200.</p></p><strong>Dans ce cas, vous renoncez à une compensation de l'impôt préalable calculé à l'aide du formulaire 1050 et vous ne pouvez pas déduire l'impôt préalable sous le ch. 470 du formulaire de décompte.</strong></p><p>Veuillez consulter l'<a href='https://www.gate.estv.admin.ch/mwst-webpublikationen/public/MI/13' target='_blank' title='Ouvre le lien dans une nouvelle fenêtre ou un nouvel onglet'>Info TVA 13</a> pour de plus amples informations.</p>",
+          "220_help_sss": "<p>Lorsque le décompte est établi selon la méthode des taux de la dette fiscale nette, il est autorisé de déduire sous le ch. 220 les chiffres d'affaires provenant d'exportations déclarés au ch. 200.</p></p><strong>Dans ce cas, vous renoncez à une compensation de l'impôt préalable calculé à l'aide du formulaire 1050 et vous ne pouvez pas déduire l'impôt préalable sous le ch. 470 du formulaire de décompte.</strong></p><p>Veuillez consulter l'<a href='https://www.gate.estv.admin.ch/mwst-webpublikationen/public/MI/12' target='_blank' title='Ouvre le lien dans une nouvelle fenêtre ou un nouvel onglet'>Info TVA 12</a> pour de plus amples informations.</p>",
+          "221_description": "Prestations fournies à l'étranger (lieu de la prestation à l'étranger)",
+          "225_description": "Transferts avec la procédure de déclaration (art. 38, veuillez svp joindre le  <a href='https://www.estv.admin.ch/dam/estv/fr/dokumente/mwst/formulare/verschiedene/0764_01.pdf.download.pdf/fm_0764_01.pdf' target='_blank' title='Télécharger le document PDF'>formulaire no 764</a>)",
+          "225_help": "<p>Il est prévu à <a href='https://www.admin.ch/opc/fr/classified-compilation/20081110/index.html#a38' target='_blank' title='Ouvre le lien dans une nouvelle fenêtre ou un nouvel onglet'>l’art. 38, al. 3 LTVA</a>, que les transferts au moyen de la procédure de déclaration (réorganisation au sens de la loi sur la fusion ou transfert de patrimoine ou de partie de patrimoine) sont à déclarer dans le cadre du décompte TVA ordinaire.</p> <p>Les contre-prestations déduites sous ce chiffre doivent également être déclarées sous le chiffre 200. Le formulaire 764 (procédure de déclaration) doit être envoyé par poste à l’AFC. Pour vous aider lors de l’envoi, utilisez la première page portant l’adresse de l’AFC au dos de la copie du décompte, laquelle se trouve sur la page de clôture.</p> <p>Vous trouverez de plus amples informations dans <a href='https://www.gate.estv.admin.ch/mwst-webpublikationen/public/pages/taxInfos/tableOfContent.xhtml?publicationId=1002742&lang=fr' target='_blank' title='Ouvre le lien dans une nouvelle fenêtre ou un nouvel onglet'>l’Info TVA 11</a> Transfert de patrimoine avec changements d’affectation.</p>",
+          "230_description": "Prestations exclues du champ de l'impôt (art. 21) fournies sur le territoire suisse pour lesquelles il n'a pas été opté selon l'art. 22",
+          "235_description": "Diminutions de la contre-prestation telles que rabais, escomptes, etc.",
+          "280_description": "Divers (p.ex. valeur du terrain, prix d'achat en cas d'imposition de la marge)",
+          "280_help": "Au cas où une déduction est effectuée sous ce chiffre, veuillez indiquer sous «Divers» de quoi il s’agit (<a href='https://www.gate.estv.admin.ch/mwst-webpublikationen/public/pages/taxInfos/tableOfContent.xhtml?publicationId=1013189&lang=fr' target='_blank' title='Ouvre le lien dans une nouvelle fenêtre ou un nouvel onglet'>Info TVA 15, chapitre 1.3</a>).",
+          "299_help": "Il s'agit ici d'un champ auxiliaire pour les contrôles de plausibilité, c'est-à-dire que le chiffre d'affaires total imposable calculé doit être identique au chiffre d'affaires total imposable sous le chiffre 299.",
+          "299_total_turnover": "Total du chiffre d'affaires imposable",
+          "299_total_turnover_hint": "(Ch. 200 moins ch. 289):",
+          "title": "I. Chiffre d'affaires",
+          "title_annual": "I. Chiffre d'affaires non déclaré dans les décomptes ordinaires"
+        }
+      },
+      "error": {
+        "buttons": {
+          "to_portal_login": "Accéder au portail de connexion"
+        },
+        "meta_title_401": "Non autorisé",
+        "meta_title_404": "Non trouvé",
+        "meta_title_405": "Erreur de serveur",
+        "title": "Une erreur est apparue",
+        "wrongPhoneNumber": "La remise d'un décompte TVA avec code de décompte n'est pas possible en utilisant un numéro de téléphone portable étranger. Veuillez vous inscrire avec un numéro de téléphone portable suisse."
+      },
+      "external_link": {
+        "eportal": "Tous les services"
+      },
+      "landingPage": {
+        "easy": {
+          "banner1": {
+            "ctaLink1": "http://admin.ch",
+            "ctaLink2": "http://admin.ch",
+            "ctaLink3": "https://www.admin.ch/gov/fr/accueil/conditions-utilisation.html",
+            "ctaName1": "Infos concernant les secteurs",
+            "ctaName2": "TVA conseils pratiques",
+            "ctaName3": "Base légale",
+            "title": "Web-Publi 2.0",
+            "txt": "Vous trouverez toutes les informations TVA dans les publications concernant la pratique."
+          },
+          "banner2": {
+            "ctaLink1": "http://admin.ch",
+            "ctaName1": "Infos concernant les secteurs",
+            "title": "Questions et réponses",
+            "txt": "Avez-vous des questions sur le décompte TVA easy? Vous trouverez ici les réponses aux questions les plus fréquemment posées."
+          },
+          "card1": {
+            "cta": "Prolonger les délais",
+            "link": " https://www.moa.estv.admin.ch/moa/#/home",
+            "title": "Prolonger les délais",
+            "txt": "Le délais de remise du décompte et du paiement peut être prolongé rapidement et aisément en ligne."
+          },
+          "card2": {
+            "cta": "Commander des attestations",
+            "link": "popup",
+            "title": "Attestations",
+            "txt": "Avez-vous besoin d'une attestation d'inscription ou d'une attestation d'entreprise?"
+          },
+          "card3": {
+            "cta": "Demander un plan de paiement",
+            "link": "https://www.estv.admin.ch/estv/fr/home/die-estv/kontaktformulare/kontakt-inkasso2.html",
+            "title": "Paiements échelonnés",
+            "txt": "Pour payer la TVA par acomptes vous pouvez demander un plan de paiement en ligne."
+          },
+          "card4": {
+            "cta": "S'inscrire à la TVA",
+            "link": "http://admin.ch",
+            "title": "TVA Inscription",
+            "txt": "Votre entreprise remplit-elle les conditions d'assujettissement à la TVA et doit-elle s'inscrire?"
+          },
+          "guestLogin": "S'inscrire en tant qu'invité",
+          "info": "Accès possible uniquement avec un téléphone portable et un numéro suisse.",
+          "mobileWarning": "Accès possible uniquement avec un téléphone portable et un numéro suisse.",
+          "title": "Entrez le code de décompte ",
+          "txt": "Vous avez reçu un code de décompte par la poste ou qui est mentionné sur votre dernier résumé de décompte, connectez-vous en tant qu'invité et remplissez votre décompte rapidement et aisément."
+        },
+        "pro": {
+          "card1": {
+            "cta": "Prolonger les délais",
+            "link": " https://www.moa.estv.admin.ch/moa/#/home",
+            "title": "Web-Publi 2.0",
+            "txt": "Vous trouverez toutes les informations TVA dans les publications concernant la pratique."
+          },
+          "cardMwst": {
+            "cta": "S'inscrire à la TVA",
+            "title": "TVA Inscription",
+            "txt": "Votre entreprise remplit-elle les conditions d'assujettissement à la TVA et doit-elle s'inscrire?"
+          },
+          "cardRegistrationComp": {
+            "cta1": "Enregistrer une entreprise/personne ",
+            "cta2": "Insérer un code d'enregistrement",
+            "link1": "...",
+            "link2": "...",
+            "title": "Enregistrer une entreprise/personne ",
+            "txt": "Vous n'avez encore aucune entreprise enregistrée pour le décompte TVA? Enregistrez votre entreprise afin que nous puissions vous envoyer un code d'enregistrement par courrier. Vous pourrez alors compléter vos décomptes rapidement et aisément."
+          },
+          "cardSuissetax": {
+            "cta": "Reprendre les données",
+            "title": "Reprendre de SuisseTax",
+            "txt": "Avez-vous déjà décompté votre TVA sur SuisseTax? Vous pouvez aisément reprendre vos données et autorisations."
+          },
+          "ctaLogin": "S'enregistrer",
+          "ctaNewAccount": "Créer maintenant un compte utilisateur",
+          "myDeclarations": "Mes décomptes",
+          "title": "Décompter rapidement et clairement",
+          "txt": "Souhaitez-vous en plus du décompte également établir des rectificatifs de décompte, des concordances annuelles, des prolongations de délai et d'autres fonctionnalités? Il suffit de créer un compte d'utilisateur et d'utiliser gratuitement décompte TVA pro.",
+          "warning": "Si vous avez déjà décompté la TVA sur SuisseTax auparavant, vous pouvez simplement reprendre vos autorisations après l'enregistrement.",
+          "widgetInfo": "Pour pouvoir utiliser décompte TVA pro, vous devez d'abord activer une entreprise.",
+          "widgetTitle": "Mes décomptes TVA"
+        }
+      },
+      "login": {
+        "button": "Login",
+        "content": "Vous devez d'abord vous inscrire en tant qu'invité pour utiliser ce service. Pour vous inscrire en tant qu'invité, vous devez disposer obligatoirement d'un numéro de téléphone portable suisse.",
+        "title": "S'inscrire sur le portail"
+      },
+      "moreVATServices": {
+        "addPartner": "Ajouter une société",
+        "maintainPermission": "Gérer les autorisations",
+        "metaTitle": "Autres services TVA",
+        "publication": "Publications de la pratique",
+        "qAndA": "Questions et réponses",
+        "registerVAT": "Inscription à la TVA",
+        "requestCertificates": "Commande d'attestations",
+        "requestPayment": "Demander un paiement échelonné "
+      },
+      "reminderDeclaration": {
+        "nextVatToken": {
+          "hintCode_1": "Veuillez noter le code de décompte ci-dessus pour votre prochain décompte. Le code de décompte est également contenu dans le résumé PDF.",
+          "hintCode_2": "Vous avez absolument besoin de ce code de décompte pour la prochaine période de décompte.",
+          "title": "Prochain code de décompte",
+          "title2": "Prochain code de décompte pour le"
+        },
+        "reminder": {
+          "addToCalendar": "Ajouter au calendrier",
+          "downloadReminder": "Télécharger le rappel",
+          "noReminder": "Aucun rappel ne peut être sélectionné pour les périodes de décomptes rétroactives",
+          "sendReminder": "Envoyer un message de rappel",
+          "title": "Rappel automatique",
+          "tooltipAddToCalendar": "Ajoutez un rappel à votre calendrier pour le délai de dépôt du prochain décompte. Le code de décompte pour le prochain décompte est indiqué.",
+          "tooltipSendReminder": "Vous serez averti par e-mail et/ou par SMS dès que le prochain décompte pourra être remis. Pour des raisons de sécurité, le code de décompte n'est inclus que dans la version SMS."
+        },
+        "title": "Pour la prochaine période de décompte"
+      },
+      "submission": {
+        "contactPerson": "Coordonnées pour les demandes de renseignements",
+        "dialog": {
+          "confirmHint": "En cliquant sur CONFIRMER le décompte est considéré comme remis et ne peut plus être modifié.",
+          "confirmHintElectronic": "En cliquant sur CONFIRMER, le décompte est considéré comme remis et ne peut plus être modifié.",
+          "confirmHintMwstPro": "Après confirmation les modifications ne sont possibles qu'au moyen d'un décompte rectificatif. ",
+          "confirmHintPaper": "En cliquant sur CONFIRMER, le décompte peut être libéré par le biais d'une approbation de déclaration.",
+          "confirmProvisionForAuditMessage": "Veuillez confirmer que vous souhaitez mettre à disposition le formulaire de décompte du {{période}} pour que {{société}} puisse l'examiner.\t",
+          "confirmProvisionForAuditTitle": "Voulez-vous mettre à disposition le décompte pour vérification?\t",
+          "confirmRejectionMessage": "Veuillez confirmer que vous souhaitez refuser le formulaire de décompte en cours de vérification, {{période}}, pour {{société}}.\t",
+          "confirmRejectionTitle": "Voulez-vous refuser le décompte à examiner?\t",
+          "summary": "Veuillez confirmer que vous avez établi le décompte \"{{period}}\" de l'entreprise {{company}}.",
+          "summaryAnnual": "Veuillez confirmer que vous souhaitez soumettre la concordance annuelle de la société {{company}} pour la {{period}}.",
+          "summaryApproval": "Vous avez effectué une correction pour la {{period}} pour la société {{company}}. L'approbation de la déclaration créée précédemment n'est plus valable.",
+          "summaryApprovalElec": "<p>Vous avez effectué une correction pour le {{period}} pour la société {{company}}. L'approbation de déclaration précédemment créée n'est plus valable.</p>",
+          "summaryApprovalPaper": "Vous avez effectué une correction pour le {{period}} pour la société {{company}}. L'approbation de déclaration précédemment créée n'est plus valable. </p>Si vous cliquez sur CONFIRMER, le décompte ne peut être approuvé qu'avec l'approbation de déclaration nouvellement créée.</p>",
+          "summaryRectification": "Confirmez que vous souhaitez soumettre le décompte rectificatif de la société {{company}} pour le {{period}}.",
+          "summarySchluss": "Confirmez que vous souhaitez soumettre le décompte finale de la société {{company}}.",
+          "title": "Vos données sont-elles correctes et complètes ?"
+        },
+        "form": {
+          "submissionVariant": "Variante de remise"
+        },
+        "preview": "Aperçu",
+        "previewDescription": "Veuillez vérifier vos données dans l'aperçu du décompte au format PDF.",
+        "submit": "Soumettre décompte",
+        "submitDescription": "Soumettez le décompte après avoir vérifié les informations. Si au moins une autre personne est autorisée à soumettre des décomptes TVA pour l'entreprise en question, vous êtes libre de mettre le décompte à sa disposition pour qu'elle le soumette. Les utilisateurs autorisés seront alors informés automatiquement.",
+        "titleVariant": "Veuillez choisir la variante de remise",
+        "tooltipElectronic": "Choisissez cette variante si vous désirez remettre directement le décompte. Il n'est pas nécessaire de signer ou d'envoyer le décompte par la poste.",
+        "tooltipPaper": "Si vous souhaitez faire approuver et/ou signer le décompte par différentes personnes, veuillez nous envoyer l'approbation de déclaration par poste. <br><b>Important: le décompte n'est considéré comme remis que lorsque l'approbation de déclaration signée est parvenue à l'AFC.</b>",
+        "variantElectronic": "Remettre directement",
+        "variantMissing": "Veuillez choisir une variante de remise.",
+        "variantPaper": "Remettre par poste avec l'approbation de la déclaration "
+      },
+      "support": {
+        "cta": {
+          "release": "Release"
+        },
+        "dialog": {
+          "message": "Cliquez sur OK pour confirmer que l'approbation de la déclaration a été reçue par l'AFC et est visible dans PDOS.",
+          "title": "Soumettre manuellement une approbation de déclaration."
+        },
+        "metaTitle": "Support",
+        "statusApproval": {
+          "0": "Ouvert",
+          "1": "Soumettre",
+          "2": "Soumis manuellement"
+        },
+        "statusDeclaration": {
+          "1": "Annulé",
+          "2": "Ouvert",
+          "3": "Soumis",
+          "4": "Soumis par un système externe"
+        },
+        "table": {
+          "approvalCreatedAt": "Date de l'approbation de déclaration",
+          "declarationDate": "Période de décompte",
+          "estvID": "Identifiant AFC",
+          "kommunikationsID": "Identifiant de l'envoi de l'approbation de déclaration",
+          "statusApproval": "Statut de l'approbation de déclaration",
+          "statusDeclaration": "Statut du décompte",
+          "uid": "IDE",
+          "version": "Version de l'approbation de déclaration"
+        }
+      },
+      "testing": {
+        "abrechnungscodeHeader": "Période de décompte",
+        "demoHint": "Cette page existe uniquement à des fins de démonstration",
+        "estvHeader": "AFC-ID",
+        "filter": "Filtre",
+        "gfHeader": "GF-ID",
+        "lastUpdate": "Dernière mise à jour",
+        "metaTitle": "Test",
+        "rectification": "Correction",
+        "statusHeader": "Statut",
+        "tokenHeader": "Code de décompte",
+        "uHeader": "U-ID"
+      },
+      "vatToken": {
+        "cardTitleEnterToken": "Entrez le code de décompte",
+        "company": "Entreprise",
+        "delayNeeded": "Avez-vous besoin d'un délai supplémentaire pour la remise ou le paiement du décompte ? Saisissez le aisément en ligne: <a href='https://www.moa.estv.admin.ch/moa/frist.html' target='_blank' title='Ouvre le lien dans une nouvelle fenêtre ou un nouvel onglet'>prolongation du délai de remise du décompte et de paiement de l’impôt</a>",
+        "details": "Vos informations",
+        "enterVatTokenNote": "Veuillez entrer le code de décompte que vous avez reçu par poste ou qui est mentionné sur votre dernier résumé de décompte et le confirmer.",
+        "error": {
+          "api": {
+            "101": "Le code de décompte n'est pas valable.",
+            "102": "Le décompte a déjà été remis par un autre canal. Le code de décompte ne peut plus être utilisé.",
+            "103": "Le code de décompte n'est pas valable. Veuillez vérifier la saisie des données et réintroduire le code de décompte.",
+            "105": "Le temps d'affichage est expiré."
+          }
+        },
+        "forgotten": "Oublié le code de décompte?",
+        "forgottenToken": "Avez-vous oublié votre code de décompte?",
+        "form": {
+          "acceptedTermsAndConditions": "J'accepte les <a href='/assets/pdf/201209_conditions_d_utilisation.pdf' target='_blank' title='Ouvre le lien dans une nouvelle fenêtre ou un nouvel onglet' class='link'>conditions générales</a>.",
+          "applicantDeclaredJustified": "Je suis autorisé(e), à remplir le décompte pour l'entreprise susmentionnée.",
+          "asEmail": "par e-mail",
+          "asMessage": "par sms",
+          "cellNumber": "N° de téléphone portable CH",
+          "code": "Code de décompte",
+          "companyName": "Nom du représentant fiscal",
+          "email": "e-mail",
+          "firstName": "Prénom",
+          "lastName": "Nom",
+          "linkTcsPdf": "TVA_décompte_easy_Conditions d'utilisation.pdf",
+          "mobileNumber": "Numéro de téléphone portable",
+          "phoneNumber": "Numéro de téléphone",
+          "role": "Rôle",
+          "roles": {
+            "1": "Société ou personne assujettie",
+            "2": "Représentant fiscal"
+          }
+        },
+        "generalTermsAndCondition": "Informations juridiques CG / etc.",
+        "metaTitle": "Décompte TVA easy",
+        "mwstDeclaration": "Décompte TVA",
+        "permission": "Je suis autorisé(e) à remplir et à remettre le décompte pour l'entreprise susmentionnée.",
+        "personalData": "Coordonnées de la personne qui remplit le formulaire",
+        "personalDataTitle": "Coordonnées de la société",
+        "phoneNumberHint": "Ce numéro de téléphone portable sera utilisé pour les notifications par SMS.",
+        "reorder": {
+          "back": "Retour à 'Entrez le code de décompte'",
+          "che": "CHE-",
+          "enterMwstNr": "Veuillez entrer votre numéro de TVA. Les codes de tous les décomptes en suspens vous seront envoyés par courrier dans les prochains jours à l'adresse de correspondance enregistrée auprès de l'AFC.",
+          "error": {
+            "api": {
+              "304": "Le numéro de TVA n'est pas valable. Veuillez vérifier l'entrée et saisir à nouveau le numéro de TVA."
+            }
+          },
+          "form": {
+            "mwstNr": "N° de TVA"
+          },
+          "info": "Vous effectuez vos décomptes avec AFC SuisseTax ? Veuillez utiliser AFC SuisseTax pour envoyer votre décompte. Il n'est pas possible de commander un code de décompte.",
+          "link": "Veuillez commander les codes de décompte pour les décomptes avant Q4/2020, S2/2020 ou M12/2020 <a href='https://www.estv.admin.ch/estv/fr/home/mehrwertsteuer/dienstleistungen/formulare-online/nachbestellung-abrechnungsformular.html' target='_blank' title='Ouvre le lien dans une nouvelle fenêtre ou un nouvel onglet'>ici</a>.",
+          "mwst": "TVA",
+          "send": "Nouvelle commande d'un code de décompte",
+          "success": {
+            "noOpenDeclarationFound": "Il n'y a pas de décompte ouvert",
+            "openDeclarationFound": "Merci pour votre commande. Dans les prochains jours, vous recevrez par courrier les codes pour tous les décomptes en suspens."
+          },
+          "title": "Nouvelle commande d'un code de décompte?"
+        },
+        "reorderToken": "Nouvelle commande d'un code de décompte",
+        "title": "Remettre le décompte",
+        "validVatTokenNote": "Le code saisi est valable et libère le décompte suivant:"
+      }
+    },
+    "tabNavigation": {
+      "moreVATServices": {
+        "message": "Pour ajouter une entreprise ou gérer les autorisations, vous devez créer un compte utilisateur ePortal ou vous connecter avec votre compte déjà existant.",
+        "title": "créer un compte utilisateur"
+      }
+    },
+    "timer": {
+      "autoLogoutDueToInactivity": "Vous avez été déconnecté automatiquement pour cause d'inactivité.",
+      "autoLogoutIn": "Vous serez automatiquement déconnecté:",
+      "login": "Connexion",
+      "stayLoggedIn": "Rester connecté",
+      "userInactivityAutoLogout": "Déconnexion automatique pour cause d'inactivité de l'utilisateur"
+    }
+  }
+}

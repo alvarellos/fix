@@ -1,0 +1,1099 @@
+{
+  "i18n": {
+    "application": {
+      "code": "Replace me [App code]",
+      "description": "Replace me [App description]",
+      "shortName": "Replace me [App shortname]",
+      "title": "MWST abrechnen"
+    },
+    "ax": {
+      "downloadPDF": "PDF herunterladen",
+      "helpFor": "Hilfe zu Ziffer ",
+      "helpForNetGross": "Hilfe zu Umsatzangaben",
+      "showAdditionalInfo": "Zusätzliche Informationen einblenden/ausblenden",
+      "showOldTaxRates": "Alte Steuersätze einblenden/ausblenden"
+    },
+    "common": {
+      "aria": {
+        "closeDialog": "Dialogfenster schliessen",
+        "error": "Fehler: ",
+        "info": "Hinweis: ",
+        "infoCloseDescriptor": "Benachrichtigung schliessen",
+        "infoDescriptor": "Hinweisbox",
+        "newWindow": "Öffnet den Link in einem neuen Fenster oder Tab",
+        "opensDialog": "Dialogfenster öffnen",
+        "success": "Erfolg: ",
+        "warning": "Warnung: "
+      },
+      "buttonActions": {
+        "adjustDeclaration": "Abrechnung korrigieren",
+        "back": "Zurück",
+        "backStartPage": "Zurück zur Startseite",
+        "backToBusinessCaseOverview": "Zurück zu 'Meine MWST-Abrechnungen'",
+        "back_code": "Zurück zu 'Abrechnungscode eingeben'",
+        "backtoOverview": "Zurück zur Übersicht",
+        "buffer": "Zwischenspeichern",
+        "cancel": "Abbrechen",
+        "changeReminder": "Erinnerungen anpassen",
+        "confirm": "Bestätigen",
+        "continue": "Weiter",
+        "correction": "Abrechnung korrigieren",
+        "emptyForm": "Formular leeren",
+        "extend": "Fristen verlängern",
+        "furtherDeclaration": "Eine weitere Abrechnung einreichen",
+        "guest": "Abmelden",
+        "logout": "Abmelden",
+        "logoutGuest": "Abmelden",
+        "ok": "OK",
+        "provideDeclaration": "Bereitstellen",
+        "refreshData": "Daten aktualisieren",
+        "rejectDeclaration": "Ablehnen",
+        "reset": "Zurücksetzen",
+        "save": "Zwischenspeichern",
+        "saveAndPreview": "Vorschau",
+        "submitDeclaration": "Einreichen",
+        "uploadXML": "XML hochladen"
+      },
+      "errors": {
+        "errorCode": "Error (Code: {{ value }})",
+        "general": "Es ist ein Fehler aufgetreten. Bitte versuchen Sie es später nochmal. (Error code: {{ value }})",
+        "http": {
+          "101": "Vat token deleted",
+          "102": "vat token sumbitted externally",
+          "103": "invalid token",
+          "104": "Invalid applicant information",
+          "105": "vat token sumbitted over deadline",
+          "106": "invalid contact information",
+          "201": "",
+          "300": "No such declaration request exists",
+          "301": "Update of declaration request failed",
+          "302": "Storing the PDF form failed",
+          "303": "Retrieval of the declaration request form (PDF) failed",
+          "304": "Die MWST-Nr. ist ungültig. Bitte überprüfen Sie die Eingabe und geben Sie die MWST-Nr. erneut ein",
+          "305": "",
+          "400": "Bad request",
+          "401": "Not authorized",
+          "404": "Die angeforderte Seite ist nicht verfügbar.",
+          "500": "Interner Server Fehler",
+          "501": "Not implemented",
+          "502": "Bad gateway",
+          "503": "Service unavailable",
+          "600": "not a suisse phone number",
+          "700": "The declaration cannot be currently rectified",
+          "701": "The declaration rectification cannot be currently deleted",
+          "800": "Declaration semaphore lock. Cannot be acquired",
+          "801": "Declaration semaphore lock. Cannot be released",
+          "803": "Declaration semaphore lock. Cannot be touched",
+          "900": "Failed to import XML VAT declaration due to unmarshal error",
+          "901": "Failed to import XML VAT declaration due to incomplete (either irregular or undefined) general information",
+          "902": "Failed to import XML VAT declaration. No such declaration request exists for MWST-Nr",
+          "903": "Failed to import XML VAT declaration due to conversation error"
+        }
+      },
+      "help": {
+        "address": "Eidg. Steuerverwaltung ESTV<br>Servicedesk E-Government<br>3003 Bern<br>Telefon: +41 58 464 54 01",
+        "contactForm": "Kontaktformular",
+        "contactFormInkasso": "https://www.estv.admin.ch/estv/de/home/die-estv/kontaktformulare/kontakt-mehrwertsteuer1.html",
+        "contactFormMwst": "https://www.estv.admin.ch/estv/de/home/die-estv/kontaktformulare/kontakt-inkasso1.html",
+        "email": "E-Mail",
+        "help": "Hilfe",
+        "phone": "Telefon",
+        "sub": "Bei Fragen zur MWST-Abrechnung steht Ihnen unser Servicedesk zur Verfügung:",
+        "sub2": "Bei fachlichen Fragen zur Mehrwertsteuer steht Ihnen zur Verfügung:",
+        "sub3": "Bei Fragen zum Inkasso steht Ihnen zur Verfügung:",
+        "title": "Kontakt MWST-Abrechnung easy",
+        "title2": "Kontakt Fachfragen Mehrwertsteuer",
+        "title3": "Kontakt Inkassofragen",
+        "zone": "Zone"
+      },
+      "labels": {
+        "action": "Action",
+        "actions": "Actions",
+        "cancel": "Cancel",
+        "delete": "Delete",
+        "edit": "Edit",
+        "no": "No",
+        "optional": "(optional)",
+        "required": "* required field",
+        "save": "Save",
+        "saveChanges": "Save changes",
+        "select": "Please select",
+        "yes": "Yes"
+      },
+      "locales": {
+        "de": "Deutsch",
+        "en": "English",
+        "fr": "Français",
+        "it": "Italiano"
+      },
+      "misc": {
+        "none": "Keiner"
+      },
+      "validation": {
+        "error": {
+          "commentLength": "Kommentar darf nicht mehr als 50 Zeichen enthalten.",
+          "email": "Das eingegebene Format ist falsch.",
+          "emailFormat": "Email Format ist falsch.",
+          "emailMandatory": "Email ist ein Pflichtfeld",
+          "invalidMwstFormat": "Die eingegebene MWST-Nr entspricht nicht dem Format 'xxx.xxx.xxx'",
+          "invalideDateFormat": "ungültiges Datumsformat",
+          "marginMissing": "Marge fehlt",
+          "max": "Die eingegebene Zahl ist grösser als das zulässige Maximum (999'999'999'999.99).",
+          "maxEmail": "Bitte geben sie eine E-Mail-Adresse mit weniger als 241-Zeichen ein.",
+          "missing": "Auf dem Formular wurden nicht alle Felder korrekt ausgefüllt. Bitte überprüfen Sie die rot-markierten Felder.",
+          "name": "Das eingegebene Format ist falsch",
+          "noValue": "Das Eingegebene ist keine Zahl.",
+          "overMaxLength": "Nicht mehr als {{overMaxLength}} Zeichen erlaubt.",
+          "phone": "Nur Zahlen erlaubt",
+          "phoneFormat": "CH-Mobiltelefonnummer Format ist falsch.",
+          "phoneFormatAlphanCharOrSpaces": "Bitte nur Nummern ohne Leerzeichen verwenden",
+          "phoneFormatMissingPlus": "Bitte geben sie die Landesvorwahl an",
+          "phoneFormatTooLong": "Die Rufnummer ist zu lang",
+          "phoneFormatTooShort": "Die Rufnummer ist zu kurz",
+          "phoneFormatWithZeros": "Bitte geben Sie eine Rufnummer im Format +41XXXXXXXXX ein",
+          "phoneMandatory": "Telefonnummer ist ein Pflichtfeld",
+          "required": "Pflichtfeld",
+          "salesMissing": "Umsatz fehlt",
+          "taxRate": "Steuersatz fehlt",
+          "taxRateMissing": "Bitte wählen Sie einen Steuersatz aus",
+          "z200_205": "Ziffer 200 darf nicht kleiner als Ziffer 205 oder leer sein.",
+          "z280_noComment": "Kommentar wird benötigt",
+          "z280_noValue": "Umsatzabzug fehlt",
+          "z299": "Die Summe der Ziffern 299 und 379 sind nicht identisch. Bitte überprüfen Sie Ihre Angaben unter der Steuerberechnung.",
+          "z381_382_high": "Der Steuerbetrag ist zu hoch.",
+          "z381_382_null": "Der Steuerbetrag darf nicht Null sein."
+        },
+        "formErrors": "Fehler",
+        "hint": {
+          "phone": "Beispiel: +41XXXXXXXXX"
+        }
+      }
+    },
+    "footer": {
+      "ci": "Eidgenössisches Finanzdepartement",
+      "legalBasis": "Rechtliche Grundlagen",
+      "legalLink": "https://www.admin.ch/gov/de/start/rechtliches.html"
+    },
+    "notification": {
+      "allFieldsRequired": "Es sind alle Felder auszufüllen!",
+      "error": "Es ist ein Fehler aufgetreten. Bitte versuchen Sie es später nochmal.",
+      "saved": "Gespeichert"
+    },
+    "oblique": {
+      "footer": {
+        "info": {
+          "title": "Eidgenössisches Finanzdepartement"
+        },
+        "links": {
+          "title": "Eidgenössisches Finanzdepartement"
+        },
+        "title": "Eidgenössisches Finanzdepartement"
+      },
+      "header": {
+        "controls": {
+          "title": "Controls"
+        },
+        "languages": {
+          "title": "Deutsch"
+        },
+        "logo": "Schweizerische Eidgenossenschaft",
+        "navigation": {
+          "title": "Navigation"
+        },
+        "title": "MWST-Abrechnung easy"
+      },
+      "master-layout": {
+        "accesskey": {
+          "homepage": "Homepage",
+          "mainContent": "Inhalt",
+          "navigation": "Navigation"
+        }
+      },
+      "notification": {
+        "type": {
+          "error": "Error",
+          "info": "Info",
+          "success": "Erfolgreich",
+          "warn": "Achtung"
+        }
+      }
+    },
+    "routes": {
+      "Copy/Replace me [routeName]": {
+        "metaTitle": "",
+        "title": ""
+      },
+      "Replace me [routeName]": {
+        "metaTitle": "",
+        "title": ""
+      },
+      "bank": {
+        "account": {
+          "favours": "Begünstigt",
+          "financialInstitution": "Finanzinstitut",
+          "iban": "IBAN"
+        },
+        "bankAccountNumber": {
+          "accountNumber": "Kontonummer",
+          "accountType": "Konto-Typ",
+          "bankClearingNr": "Bankclearing-Nr. / IID",
+          "checkNumber": "IBAN/Kontonummer prüfen",
+          "country": "Land der Bankverbindung",
+          "differentAccountNumber": "Andere Kontonummer",
+          "error": {
+            "invalid": "Die IBAN ist ungültig.",
+            "invalidBankAccount": "Die Kontonummer ist falsch - bitte beachten Sie die Formatierung.",
+            "invalidBankclearing": "Die Bankclearing-Nr. / IID ist falsch oder existiert im gewählten Land nicht.",
+            "missingBankAccountSelection": "Bitte wählen Sie eine Bankverbindung aus, bevor Sie fortfahren.",
+            "missingInformation": "Bitte erfassen und bestätigen Sie die Bankdaten, bevor Sie fortfahren.",
+            "qrIban": "Bitte beachten Sie, dass die ESTV zur Zeit noch keine Auszahlungen mittels QR-IBAN verarbeitet. Bitte teilen Sie uns daher Ihre Bankverbindung mit der bisherigen IBAN-Nummer mit."
+          },
+          "iban": "IBAN",
+          "internationalTransfer": "Allfällige Kosten bei internationalen Zahlungen sind vollständig durch den Empfänger zu tragen.",
+          "title": "Kontoangaben"
+        },
+        "description": {
+          "addNewBankAccount": "Bitte erfassen Sie eine Bankverbindung für die Auszahlung des Guthabens",
+          "availableBankAccounts": "Die folgenden Bankverbindungsdaten sind aktuell bei der ESTV hinterlegt"
+        },
+        "header": {
+          "change": "Bankverbindung ändern",
+          "check": "Bankverbindung prüfen",
+          "new": "Neue Bankverbindung erfassen"
+        },
+        "payment": {
+          "beneficiaryPerson": "Begünstigte Person",
+          "differentPayee": "Abweichender Zahlungsempfänger",
+          "differentPayeeInfo": "Zahlungsempfänger, welche nicht dem steuerpflichtigen Unternehmen entsprechen, können aus Sicherheitsgründen nicht online geändert werden. Bei Auswahl dieser Option wird die ESTV daher automatisch ein Formular zur Meldung abweichender Zahlungsempfänger an die Sitzadresse des steuerpflichtigen Unternehmens senden.",
+          "hint": "Hinweis: Die Auszahlung von Guthaben erfolgt erst nach Verarbeitung des eingereichten Formulars.",
+          "taxableCompany": "Steuerpflichtiges Unternehmen",
+          "title": "Auszahlung zugunsten"
+        },
+        "verifyBankAccount": {
+          "bankAccountSelection": "Bitte wählen Sie eine der hinterlegten Bankverbindungen aus oder erfassen Sie eine neue:",
+          "changeBankAccount": "Ich möchte die Bankverbindung ändern",
+          "no": "Nein, ich möchte die Bankverbindung ändern",
+          "question": "Sind diese Angaben korrekt",
+          "yes": "Ja, die Angaben sind korrekt"
+        }
+      },
+      "business": {
+        "audit": "Zur Prüfung",
+        "date": "Heute ist der",
+        "declare": "Abrechnen",
+        "dialog": {
+          "address": "Sitzadresse",
+          "endDatumMWSTPflicht": "Ende MWST-Pflicht",
+          "estvid": "ESTV-ID"
+        },
+        "errorTitle": "Fehlermeldung",
+        "errorTxt": "Leider ist ein Fehler aufgetreten, bitte versuchen Sie es später nochmals.",
+        "infoCreateAnnualMultiplePartners": "Haben Sie Mängel in einer Steuerperiode festgestellt? <br>Reichen Sie einfach eine <b>Jahresabstimmung</b> über den Aktionsbutton <i class='info-icon fa fa-ellipsis-h icon-plus' aria-hidden='true'></i> auf der letzten eingereichten Abrechnung der jeweiligen Steuerperiode ein.",
+        "infoCreateAnnualSinglePartnerPart1": "Haben Sie Mängel in der Steuerperiode {{ year }} festgestellt? Reichen Sie schnell und einfach eine ",
+        "infoCreateAnnualSinglePartnerPart2": " ein.",
+        "infoCreateRectification": "<b>Korrekturabrechnungen</b> können Sie über den Aktionsbutton <i class='info-icon fa fa-ellipsis-h icon-plus' aria-hidden='true'></i> bei einer bereits eingereichten Abrechnung einreichen.",
+        "isFinal": "Schlussabrechnung",
+        "labelAnnual": "Jahresabstimmung",
+        "metaTitle": "MWST-Abrechnung pro",
+        "noOpenDeclaration": "Sie haben keine offene MWST-Abrechnung.",
+        "noOpenDeclarationInfo": "Sobald eine Abrechnung vorhanden ist, werden Sie benachrichtigt.",
+        "noSubmittedDeclaration": "Sie haben noch keine eingereichte MWST-Abrechnung.",
+        "pageTitle": "MWST-Abrechnung pro",
+        "popup": "<ul><li>Es wird sowohl die Abrechnungsfrist als auch die Zahlungsfrist verlängert,</li><li>Gemäss Art. 87 Abs. 1 MWSTG ist ab dem Fälligkeitsdatum <b>ein Verzugszins</b> geschuldet.</li><li>Die Frist gilt mit Absenden dieses Formulars als bewilligt. Sie erhalten keine Bestätigung.</li></ul>",
+        "popupTitle": "Fristen verlängern",
+        "table": {
+          "MONAT": "Monat",
+          "QUARTAL": "Quartal",
+          "SEMESTER": "Semester",
+          "company": "Unternehmen / MWST Nr.",
+          "correctedDate": "Korrigiert",
+          "estimateDate": "Eingereicht nach Schätzung",
+          "estimateDateWarning": "MWST geschätzt",
+          "outdated": "Frist abgelaufen",
+          "periodName": "Abrechnung",
+          "status": "Status",
+          "submissionDate": "Einreichefrist",
+          "submittedDate": "Eingereicht",
+          "submittedOnPaper": "Auf Papier eingereicht",
+          "valuta": "Valuta (Verzugszins ab)",
+          "year": "Jahresabstimmung"
+        },
+        "widget": {
+          "declarations": "Abrechnungen",
+          "open": "Offene",
+          "selected": "Anzeigen",
+          "submitted": "Eingereichte"
+        },
+        "xmlUpload": {
+          "dialogIntro": "Falls ihr Buchhaltungsprogramm den Datenexport im <a href='https://www.ech.ch/de/dokument/c1c91d58-22be-4410-af40-d9baf7c8b3ae' target='_blank' title='Öffnet den Link in einem neuen Fenster oder Tab'><i class='fas fa-external-link-alt'></i> eCH-0217-Standard (eMWST)</a> beherrscht, können Sie die MWST-Abrechnungsdaten direkt aus Ihrer Finanzbuchhaltung übernehmen.",
+          "dialogIntroMore": "Exportieren Sie dazu in Ihrem Buchhaltungsprogramm die gewünschte Abrechnungsperiode als eCH-2017-XML-Dokument. Wählen Sie anschliessend in MWST-Abrechnung pro das exportierte eCH-0217-XML-Dokument für den Datenimport aus. Nach dem Import sind die Daten zu überprüfen und ggf. zu ergänzen. Anschliessend kann die Abrechnung normal eingereicht werden.",
+          "dialogMore": "Mehr",
+          "dialogTitle": "Abrechnungsdaten importieren",
+          "dialogXmlInfo": "Das deklarierende Unternehmen sowie die betroffene Steuerperiode werden automatisch beim Import erkannt.",
+          "error": {
+            "declarationMethodEffective": "Effektiv",
+            "declarationMethodLabel": "Abrechnungsmethode",
+            "declarationMethodPauschal": "Pauschalsteuersatz",
+            "declarationMethodSaldo": "Saldosteuersatz",
+            "importFailedContent": "Die Datei konnte nicht gelesen werden. Bitte überprüfen Sie ob es sich um ein gültiges XML-Dokument gemäss dem eCH-0217-Standard handelt.",
+            "messageAnnualRectification": "Eine Jahresabstimmung konnte für den Steuerpflichtigen mit der {{ vatNumber }} mit folgenden Angaben nicht gefunden werden",
+            "messageOriginalDecl": "Eine Ersteinreichung konnte für den Steuerpflichtigen mit der {{ vatNumber }} mit folgenden Angaben nicht gefunden werden",
+            "messageRectification": "Eine Korrekturabrechnung konnte für den Steuerpflichtigen mit der Mehrwertsteuer-Nummer {{ vatNumber }} mit folgenden Angaben nicht gefunden werden",
+            "periodFromToString": "{{periodFrom}} bis {{periodTo}}",
+            "periodLabel": "Periode",
+            "title": "Fehler beim Datenimport"
+          },
+          "fileCancelLabel": "Ausgewählte Datei entfernen",
+          "fileFormatHint": "Format: XML (eMWST)",
+          "fileSelectButtonHint": "Format: XML (eMWST)",
+          "fileSelectButtonLabel": "Datei hinzufügen",
+          "fileSelectTitle": "XML-Datei für den Datenimport wählen",
+          "importSuccessContent": "Die Daten aus der XML-Datei wurden ins Formular übernommen",
+          "importSuccessTitle": "Daten importiert",
+          "noFileSelectedText": "Noch keine Datei ausgewählt"
+        }
+      },
+      "confirmation": {
+        "addressESTV": "Eidgenössische Steuerverwaltung<br>Hauptabteilung MWST<br>Schwarztorstrasse 50<br>3024 Bern",
+        "adjustDeclarationViaCode": "Möchten Sie die Abrechnung vor der Freigabe korrigieren? Mit dem Abrechnungscode haben Sie die Möglichkeit Änderungen vorzunehmen und eine neue Abrechnung zu erstellen.",
+        "copyDeclaration": "Kopie Ihrer Abrechnung {{period}}",
+        "copyDeclarationAnnualRectification": "Kopie Ihrer Jahresabstimmung",
+        "copyDeclarationRectification": "Kopie Ihrer Korrekturabrechnung {{period}}",
+        "copyFinalDeclaration": "Kopie Ihrer Schlussabrechnung",
+        "corrections": "Haben Sie Korrekturen? Bitte benutzen Sie die Korrekturabrechnung auf unserer",
+        "deadlineExtension": "MWST-Fristverlängerung",
+        "deadlineExtensionInfo": "Benötigen Sie eine Abrechnungs- und/oder eine Zahlungsfrist? Beantragen Sie diese bequem online:",
+        "declarationApproval": "Deklarationsfreigabe {{period}}",
+        "draftDeclaration": "Entwurf Ihrer Abrechnung {{period}}",
+        "infoProvisionForAudit": "Die für die Einreichung berechtigten Benutzer wurden automatisch über die Bereitstellung der Abrechnung informiert.",
+        "infoRejection": "Der Benutzer, welcher die Abrechnung zur Prüfung bereitgestellt hat, wurde automatisch über die Ablehnung der Abrechnung informiert.",
+        "information": "In der PDF-Zusammenfassung Ihrer Abrechnung finden Sie die Zahlungsinformationen und den Abrechnungscode für die nächste Abrechnung.",
+        "infosInPDF": "In der PDF-Zusammenfassung Ihrer Abrechnung finden Sie die Zahlungsinformationen und den Abrechnungscode für die nächste Abrechnung.",
+        "mwstProDescription": "Untenstehend können Sie eine Kopie der Abrechnung zur Ablage herunterladen. Ausserdem können Sie ihre Abrechnung jederzeit unter Ihren eingereichten MWST-Abrechnungen anzeigen und herunterladen.",
+        "mwstProDescriptionRectification": "Untenstehend können Sie eine Kopie der Korrekturabrechnung zur Ablage herunterladen. Ausserdem können Sie ihre Korrekturabrechnung jederzeit unter Ihren eingereichten MWST-Abrechnungen anzeigen und herunterladen.",
+        "payment": "Möchten Sie die Zahlungsfrist verlängern oder in Raten zahlen? Beantragen Sie diese bequem online:",
+        "paymentDeadline": "Zahlungsfrist",
+        "paymentDeadlineDescription": "Möchten Sie die Zahlungsfrist verlängern? Beantragen Sie diese bequem online:",
+        "paymentInstallment": "Ratenzahlungen",
+        "paymentInstallmentDescription": "Benötigen Sie Ratenzahlungen? Reichen Sie uns einen Vorschlag für einen Zahlungsplan ein:",
+        "providedForAudit": "Herzlichen Dank. Die Abrechnung wurde bereitgestellt.",
+        "rejected": "Die Abrechnung wurde abgelehnt",
+        "sendDeclarationApproval": "Lassen Sie die Deklrarationsfreigabe durch die zuständige Person unterzeichnen und senden Sie sie per Post an:",
+        "submitted": "Herzlichen Dank. Sie haben Ihre Abrechnung eingereicht.",
+        "submittedForDeclarationApproval": "Besten Dank, Ihre Deklarationsfreigabe steht zur Unterzeichnung bereit.",
+        "submittedRectification": "Herzlichen Dank. Sie haben Ihre Korrekturabrechnung eingereicht.",
+        "submittingViaPostHint": "<b>Wichtig: Die Abrechnung gilt erst dann als eingereicht, wenn die Deklarationsfreigabe per Post bei der ESTV eintrifft.</b>",
+        "summary": "Zusammenfassung Ihrer Abrechnung {{period}}",
+        "summaryPDF": "PDF Zusammenfassungen",
+        "summaryPDFFinalDeclaration": "Zusammenfassung Schlussabrechnung per {{ finalDate }}",
+        "title": "Bestätigung",
+        "waitForPDF": "Haben Sie bitte einen Moment Geduld, das PDF wird erstellt.",
+        "website": "Website"
+      },
+      "declaration": {
+        "correction": {
+          "confirmAbortionContent": "Bitte bestätigen Sie, dass Sie die angelegte Korrektur verwerfen möchten. Alle Änderungen werden unwiderruflich gelöscht.",
+          "continueCurrentCorrection": "Laufende Korrektur fortsetzen",
+          "continueInYearlyCorrection": "Laufende Jahresabstimmung fortsetzen",
+          "correctDeclaration": "Abrechnung korrigieren",
+          "correction": "Korrektur",
+          "correctionConfirmationInfo": "Diese Abrechnung wurde am {{ submissionDate }} von {{ submittingUserName }} eingereicht. Was möchten Sie tun?",
+          "discardCorrection": "Korrektur verwerfen",
+          "displayPdfCopy": "Kopie der Abrechnung anzeigen",
+          "errorOnCreate": "Fehler beim Anlegen der Korrekturversion. Versuchen Sie es später erneut.",
+          "errorOnDelete": "Fehler beim Löschen der Korrekturversion. Versuchen Sie es später erneut.",
+          "fillInCorrectionInfo": "Diese Korrekturabrechnung ersetzt die bereits eingereichte Abrechnung. Die Korrekturabrechnung enthält die Werte aus der letzten Einreichung. Auf der nächsten Seite können Sie die Korrekturabrechnung entweder direkt an die Eidgenössische Steuerverwaltung übermitteln oder an den Ausfüller zurückweisen zwecks Nachbesserung.",
+          "fillInCorrectionInfoLink": "Informationen zum Ausfüllen finden Sie in der <a href='https://www.gate.estv.admin.ch/mwst-webpublikationen/public/pages/taxInfos/tableOfContent.xhtml?publicationId=1013189' target='_blank' title='Öffnet den Link in einem neuen Fenster oder Tab'>MWST-Info 15</a>",
+          "fillInCorrectionInfoUserDate": "Für diese Abrechnung  wurde am {{ correctionCreationDate }} von {{ correctionCreateUserName }} eine Korrekturabrechnung angelegt aber noch nicht eingereicht. ",
+          "fillInCorrectionTitle": "Korrekturabrechnung ausfüllen",
+          "handInCorrection": "Korrekturabrechnung einreichen",
+          "handInYearlyCorrection": "Jahresabstimmung einreichen",
+          "submittedByExternalSystem": "Extern eingereicht"
+        },
+        "dialog": {
+          "description": "Möchten Sie alle Einträge löschen?",
+          "title": "Formular leeren"
+        },
+        "error": {
+          "api": {
+            "400": "Die Deklarationsfreigabe ist noch nicht bereit. Bitte versuchen Sie es zu einem späteren Zeitpunkt nochmals herunter zu laden.",
+            "401": "Die Deklarationsfreigabe wurde nicht gefunden."
+          }
+        },
+        "form": {
+          "z200": "Ziffer 200",
+          "z205": "Ziffer 205",
+          "z220": "Ziffer 220",
+          "z221": "Ziffer 221",
+          "z225": "Ziffer 225",
+          "z230": "Ziffer 230",
+          "z235": "Ziffer 235",
+          "z280": "Ziffer 280",
+          "z289": "Ziffer 289",
+          "z299": "Ziffer 299",
+          "z301": "Ziffer 301",
+          "z302": "Ziffer 302",
+          "z311": "Ziffer 311",
+          "z312": "Ziffer 312",
+          "z321": "Ziffer 321",
+          "z322": "Ziffer 322",
+          "z331": "Ziffer 331",
+          "z332": "Ziffer 332",
+          "z341": "Ziffer 341",
+          "z342": "Ziffer 342",
+          "z381": "Ziffer 381",
+          "z382": "Ziffer 382",
+          "z399": "Ziffer 399",
+          "z400": "Ziffer 400",
+          "z405": "Ziffer 405",
+          "z410": "Ziffer 410",
+          "z415": "Ziffer 415",
+          "z420": "Ziffer 420",
+          "z470": "Ziffer 470",
+          "z471": "Ziffer 471",
+          "z479": "Ziffer 479",
+          "z500": "Ziffer 500",
+          "z510": "Ziffer 510",
+          "z900": "Ziffer 900",
+          "z910": "Ziffer 910"
+        },
+        "form1050": {
+          "ExpandLink": "Zusätzliche Informationen anzeigen",
+          "ExpandList1": {
+            "line1": {
+              "pauschal": "die unten aufgeführten Umsätze in der entsprechenden MWST-Abrechnung unter Ziffer 321/322 resp. 331/332 zum massgebenden bewilligten Pauschalsteuersatz deklariert wurden,",
+              "prior2018": {
+                "pauschal": "die unten aufgeführten Umsätze in der entsprechenden MWST-Abrechnung unter Ziffer 320/330 resp. 321/331 zum massgebenden bewilligten Pauschalsteuersatz deklariert wurden,",
+                "saldo": "die unten aufgeführten Umsätze in der entsprechenden MWST-Abrechnung unter Ziffer 320/330 resp. 321/331 zum massgebenden bewilligten Saldosteuersatz deklariert wurden,"
+              },
+              "saldo": "die unten aufgeführten Umsätze in der entsprechenden MWST-Abrechnung unter Ziffer 321/322 resp. 331/332 zum massgebenden bewilligten Saldosteuersatz deklariert wurden,"
+            },
+            "line2": {
+              "pauschal": "die Nachweise und Belege auf Verlangen jederzeit vorgelegt werden können,",
+              "saldo": "die Nachweise und Belege auf Verlangen jederzeit vorgelegt werden können,"
+            },
+            "line3": {
+              "pauschal": "bei Rechnungen in fremder Währung nach <a href='http://www.admin.ch/opc/de/classified-compilation/20091866/index.html#a45' target='_blank' title='Öffnet den Link in einem neuen Fenster oder Tab'>Artikel 45 MWSTV</a> vorgegangen wurde",
+              "saldo": "bei Rechnungen in fremder Währung nach <a href='http://www.admin.ch/opc/de/classified-compilation/20091866/index.html#a45' target='_blank' title='Öffnet den Link in einem neuen Fenster oder Tab'>Artikel 45 MWSTV</a> vorgegangen wurde"
+            }
+          },
+          "ExpandList2": {
+            "line1": {
+              "pauschal": "Lieferungen im Ausland (z.B. Paris-Berlin) und als im Ausland ausgeführte geltende Dienstleistungen (Ort der Dienstleistung liegt im Ausland) sind in der Abrechnung unter Ziffer 200 zu deklarieren und unter Ziffer 221 abzuziehen. Solche Umsätze dürfen somit <b>nicht</b> in diesem Formular aufgeführt werden.",
+              "saldo": "Lieferungen im Ausland (z.B. Paris-Berlin) und als im Ausland ausgeführte geltende Dienstleistungen (Ort der Dienstleistung liegt im Ausland) sind in der Abrechnung unter Ziffer 200 zu deklarieren und unter Ziffer 221 abzuziehen. Solche Umsätze dürfen somit <b>nicht</b> in diesem Formular aufgeführt werden."
+            },
+            "line2": {
+              "pauschal": "Kürzungen der MWST infolge Minderung des Rechnungsbetrages (zum Beispiel durch nachträgliche Rabatte, Skonti und Storni) sind wie folgt zu berücksichtigen:<br>a) Ist die betreffende Rechnung in dieser Aufstellung aufgeführt, so sind die gekürzten Beträge einzutragen;<br>b) War die betreffende Rechnung in einem früheren Anrechnungsantrag enthalten, so ist der entsprechende Abzug - unter Angabe der zugrunde liegenden Rechnung - am Schluss der Aufstellung vorzunehmen.",
+              "saldo": "Kürzungen der MWST infolge Minderung des Rechnungsbetrages (zum Beispiel durch nachträgliche Rabatte, Skonti und Storni) sind wie folgt zu berücksichtigen: <br>a) Ist die betreffende Rechnung in dieser Aufstellung aufgeführt, so sind die gekürzten Beträge einzutragen;<br>b) War die betreffende Rechnung in einem früheren Anrechnungsantrag enthalten, so ist der entsprechende Abzug - unter Angabe der zugrunde liegenden Rechnung - am Schluss der Aufstellung vorzunehmen."
+            },
+            "line3": {
+              "pauschal": "Im Falle von Beherbergungsleistungen (Steuersatz bis 31.12.2017: 3.8%; ab 1.1.2018: 3.7%) ist die Steueranrechnung nur dann möglich, wenn die Beherbergungsleistungen an nach <a href='https://www.admin.ch/opc/de/classified-compilation/20091866/index.html#a143' target=_'blank'>Artikel 143 MWSTV</a> begünstigte Institutionen und Personen erbracht werden.",
+              "prior2018": {
+                "pauschal": "Im Falle von Beherbergungsleistungen (Steuersatz bis 31.12.2010: 3.6%; ab 01.01.2011: 3.8%) ist die Steueranrechnung nur dann möglich, wenn die Beherbergungsleistungen an nach <a href='https://www.admin.ch/opc/de/classified-compilation/20091866/index.html#a143' target=_'blank'>Artikel 143 MWSTV</a> begünstigte Institutionen und Personen erbracht werden.",
+                "saldo": "Im Falle von Beherbergungsleistungen (Steuersatz bis 31.12.2010: 3.6%; ab 01.01.2011: 3.8%) ist die Steueranrechnung nur dann möglich, wenn die Beherbergungsleistungen an nach <a href='https://www.admin.ch/opc/de/classified-compilation/20091866/index.html#a143' target=_'blank'>Artikel 143 MWSTV</a> begünstigte Institutionen und Personen erbracht werden."
+              },
+              "saldo": "Im Falle von Beherbergungsleistungen (Steuersatz bis 31.12.2017: 3.8%; ab 1.1.2018: 3.7%) ist die Steueranrechnung nur dann möglich, wenn die Beherbergungsleistungen an nach <a href='https://www.admin.ch/opc/de/classified-compilation/20091866/index.html#a143' target=_'blank'>Artikel 143 MWSTV</a> begünstigte Institutionen und Personen erbracht werden."
+            }
+          },
+          "ExpandTitle1": "Mit der elektronischen Einreichung des Beiblatts wird bestätigt, dass:",
+          "ExpandTitle2": "Bitte beachten Sie:",
+          "content": {
+            "pauschal": "Die Anrechnung der deklarierten MWST erfolgt auf Exportlieferungen von Gegenständen (siehe Ziff. 10 der <a href='https://www.gate.estv.admin.ch/mwst-webpublikationen/public/MI/12' target='_blank' title='Öffnet den Link in einem neuen Fenster oder Tab'>MWST-Info 12 Saldosteuersätze</a>) sowie im Inland erbrachten Leistungen an nach <a href='https://www.admin.ch/opc/de/classified-compilation/20091866/index.html#a143' target='_blank' title='Öffnet den Link in einem neuen Fenster oder Tab'>Artikel 143 MWSTV</a> begünstigte Institutionen und Personen, sofern das amtliche Formular verwendet wird. Der totale Steuerbetrag wird abschliessend in das Abrechnungsformular (Ziff. 470) übernommen. Sie können alle vorgenommenen Eingaben löschen, indem Sie das Formular zurücksetzen.",
+            "saldo": "Die Anrechnung der deklarierten MWST erfolgt auf Exportlieferungen von Gegenständen (siehe Ziff. 10 der <a href='https://www.gate.estv.admin.ch/mwst-webpublikationen/public/MI/12' target='_blank' title='Öffnet den Link in einem neuen Fenster oder Tab'>MWST-Info 12 Saldosteuersätze</a>) sowie im Inland erbrachten Leistungen an nach <a href='https://www.admin.ch/opc/de/classified-compilation/20091866/index.html#a143' target='_blank' title='Öffnet den Link in einem neuen Fenster oder Tab'>Artikel 143 MWSTV</a> begünstigte Institutionen und Personen, sofern das amtliche Formular verwendet wird. Der totale Steuerbetrag wird abschliessend in das Abrechnungsformular (Ziff. 470) übernommen. Sie können alle vorgenommenen Eingaben löschen, indem Sie das Formular zurücksetzen."
+          },
+          "cta": {
+            "addForm": "Rechnung hinzufügen",
+            "backToForm": "Formular zurücksetzen",
+            "cancel": "Abbrechen",
+            "validate": "Berechnung übernehmen"
+          },
+          "hideExpandLink": "Zusätzliche Informationen ausblenden",
+          "label": {
+            "date": "Datum",
+            "kind": "Art des Gegenstände / Dienstleistungen",
+            "number": "Nr.",
+            "sales": "Entgelte CHF",
+            "tax": "Steuer CHF",
+            "taxRate": "Steuersätze",
+            "taxRatePeriod": "Steuersatzperiode",
+            "total": "Total Steuerbetrag aus Kundenrechnungen:"
+          },
+          "subContent": "Es sind keine Kundenrechnungen erfasst. Um eine neue Kundenrechnung zu erfassen wählen Sie 'Rechnung hinzufügen'.",
+          "subTitle": "Kundenrechnungen",
+          "taxRatePeriod": {
+            "1": "bis 31.12.2017",
+            "2": "ab 01.01.2018",
+            "prior2018": {
+              "0": "bis 31.12.2010",
+              "1": "ab 01.01.2011"
+            }
+          },
+          "title": "Beiblatt Export (Formular 1050)",
+          "warning": "Wollen Sie alle Einträge löschen?"
+        },
+        "form1055": {
+          "content1055": {
+            "pauschal": "Sie können für jeden Verkauf eines individualisierbaren beweglichen Gegenstandes, den Sie zu diesem Zweck bezogen haben, entscheiden, ob Sie den Umsatz mit dem bewilligten Pauschalsteuersatz oder aber die Marge mit dem festen Pauschalsteuersatz von 6.5% (bzw. 6.7% bis 31.12.2017) abrechnen wollen. Erstellen Sie dazu eine separate Liste und tragen Sie die summierten Umsätze bzw. Margen in das folgende Formular ein (siehe Ziffer 12.2 der <a href='https://www.gate.estv.admin.ch/mwst-webpublikationen/public/MI/12' target='_blank' title='Öffnet den Link in einem neuen Fenster oder Tab'>MWST-Info 12 Saldosteuersätze</a>). Der totale Differenzbetrag wird abschliessend in das Abrechnungsformular (Ziff. 471) übernommen. Sie können alle vorgenommenen Eingaben löschen, indem Sie das Formular zurücksetzen.",
+            "prior2018": {
+              "pauschal": "Sie können für jeden Verkauf eines individualisierbaren beweglichen Gegenstandes, den Sie zu diesem Zweck bezogen haben, entscheiden, ob Sie den Umsatz mit dem bewilligten Pauschalsteuersatz oder aber die Marge mit dem festen Pauschalsteuersatz von 6.7% (bzw. 6.4% bis 31.12.2010) abrechnen wollen. Erstellen Sie dazu eine separate Liste und tragen Sie die summierten Umsätze bzw. Margen in das folgende Formular ein (siehe Ziffer 12.2 der <a href='https://www.gate.estv.admin.ch/mwst-webpublikationen/public/MI/12' target='_blank' title='Öffnet den Link in einem neuen Fenster oder Tab'>MWST-Info 12 Saldosteuersätze</a>). Der totale Differenzbetrag wird abschliessend in das Abrechnungsformular (Ziff. 471) übernommen. Sie können alle vorgenommenen Eingaben löschen, indem Sie das Formular zurücksetzen.",
+              "saldo": "Sie können für jeden Verkauf eines individualisierbaren beweglichen Gegenstandes, den Sie zu diesem Zweck bezogen haben, entscheiden, ob Sie den Umsatz mit dem bewilligten Saldosteuersatz oder aber die Marge mit dem festen Saldosteuersatz von 6.7% (bzw. 6.4% bis 31.12.2010) abrechnen wollen. Erstellen Sie dazu eine separate Liste und tragen Sie die summierten Umsätze bzw. Margen in das folgende Formular ein (siehe Ziffer 12.2 der <a href='https://www.gate.estv.admin.ch/mwst-webpublikationen/public/MI/12' target='_blank' title='Öffnet den Link in einem neuen Fenster oder Tab'>MWST-Info 12 Saldosteuersätze</a>). Der totale Differenzbetrag wird abschliessend in das Abrechnungsformular (Ziff. 471) übernommen. Sie können alle vorgenommenen Eingaben löschen, indem Sie das Formular zurücksetzen."
+            },
+            "saldo": "Sie können für jeden Verkauf eines individualisierbaren beweglichen Gegenstandes, den Sie zu diesem Zweck bezogen haben, entscheiden, ob Sie den Umsatz mit dem bewilligten Saldosteuersatz oder aber die Marge mit dem festen Saldosteuersatz von 6.5% (bzw. 6.7% bis 31.12.2017) abrechnen wollen. Erstellen Sie dazu eine separate Liste und tragen Sie die summierten Umsätze bzw. Margen in das folgende Formular ein (siehe Ziffer 12.2 der <a href='https://www.gate.estv.admin.ch/mwst-webpublikationen/public/MI/12' target='_blank' title='Öffnet den Link in einem neuen Fenster oder Tab'>MWST-Info 12 Saldosteuersätze</a>). Der totale Differenzbetrag wird abschliessend in das Abrechnungsformular (Ziff. 471) übernommen. Sie können alle vorgenommenen Eingaben löschen, indem Sie das Formular zurücksetzen."
+          },
+          "cta": {
+            "addForm": "Rechnung hinzufügen",
+            "backToForm": "Formular zurücksetzen",
+            "cancel": "Abbrechen",
+            "emptyTax": "Fiktive Vorsteuer leeren",
+            "validate": "Berechnung übernehmen"
+          },
+          "expandContent1": {
+            "pauschal": "Diese Regelung gilt nicht für Automobile bis zu einem Gesamtgewicht von 3,5 Tonnen und auch nicht in allen anderen Fällen, in denen nach <a href='https://www.admin.ch/opc/de/classified-compilation/20081110/index.html#a28' target='_blank' title='Öffnet den Link in einem neuen Fenster oder Tab'>Art. 28a MWSTG</a> i.V.m. <a hef='https://www.admin.ch/opc/de/classified-compilation/20091866/index.html#a90' target='_blank' title='Öffnet den Link in einem neuen Fenster oder Tab'>Art. 90 Abs. 2 MWSTV</a> der Abzug der fiktiven Vorsteuer ausgeschlossen ist. Alle Gegenstände, bei deren Wiederverkauf Sie die fiktive Vorsteuer anrechnen lassen wollen, müssen Sie in einer separaten Liste einzeln aufführen (siehe Ziffer 12.2 der <a href='https://www.gate.estv.admin.ch/mwst-webpublikationen/public/pages/taxInfos/tableOfContent.xhtml?publicationId=1004992' target='_blank' title='Öffnet den Link in einem neuen Fenster oder Tab'>MWST-Info 12 Saldosteuersätze</a>). Diese Liste müssen Sie der ESTV <b>nur auf Verlangen</b> einreichen. Der gesamte Verkaufserlös ist vollumfänglich unter Ziffer 200 des Abrechnungsformulars aufzuführen und unter Ziffer 322 resp. 321 mit dem bewilligten Pauschalsteuersatz zu versteuern.",
+            "prior2018": {
+              "pauschal": "Diese Regelung gilt nicht für Automobile bis zu einem Gesamtgewicht von 3,5 Tonnen und auch nicht in allen anderen Fällen, in denen nach <a href='https://www.admin.ch/opc/de/classified-compilation/20081110/index.html#a28' target='_blank' title='Öffnet den Link in einem neuen Fenster oder Tab'>Art. 28a MWSTG</a> i.V.m. <a hef='https://www.admin.ch/opc/de/classified-compilation/20091866/index.html#a90' target='_blank' title='Öffnet den Link in einem neuen Fenster oder Tab' >Art. 90 Abs. 2 MWSTV</a> der Abzug der fiktiven Vorsteuer ausgeschlossen ist. Alle Gegenstände, bei deren Wiederverkauf Sie die fiktive Vorsteuer anrechnen lassen wollen, müssen Sie in einer separaten Liste einzeln aufführen (siehe Ziffer 12.2 der <a href='https://www.gate.estv.admin.ch/mwst-webpublikationen/public/pages/taxInfos/tableOfContent.xhtml?publicationId=1004992' target='_blank' title='Öffnet den Link in einem neuen Fenster oder Tab'>MWST-Info 12 Saldosteuersätze</a>). Diese Liste müssen Sie der ESTV <b>nur auf Verlangen</b> einreichen. Der gesamte Verkaufserlös ist vollumfänglich unter Ziffer 200 des Abrechnungsformulars aufzuführen und unter Ziffer 321 resp. 320 mit dem bewilligten Pauschalsteuersatz zu versteuern.",
+              "saldo": "Diese Regelung gilt nicht für Automobile bis zu einem Gesamtgewicht von 3,5 Tonnen und auch nicht in allen anderen Fällen, in denen nach <a href='https://www.admin.ch/opc/de/classified-compilation/20081110/index.html#a28' target='_blank' title='Öffnet den Link in einem neuen Fenster oder Tab' >Art. 28a MWSTG</a> i.V.m. <a href='https://www.admin.ch/opc/de/classified-compilation/20091866/index.html#a90' target='_blank' title='Öffnet den Link in einem neuen Fenster oder Tab' >Art.90 Abs. 2 MWSTV</a> der Abzug der fiktiven Vorsteuer ausgeschlossen ist. Alle Gegenstände, bei deren Wiederverkauf Sie die fiktive Vorsteuer anrechnen lassen wollen, müssen Sie in einer separaten Liste einzeln aufführen (siehe Ziffer 12.2 der <a href='https://www.gate.estv.admin.ch/mwst-webpublikationen/public/pages/taxInfos/tableOfContent.xhtml?publicationId=1004992' target='_blank' title='Öffnet den Link in einem neuen Fenster oder Tab' >MWST-Info 12 Saldosteuersätze</a>). Diese Liste müssen Sie der ESTV <b>nur auf Verlangen</b> einreichen. Der gesamte Verkaufserlös ist vollumfänglich unter Ziffer 200 des Abrechnungsformulars aufzuführen und unter Ziffer 320/330 resp. 321/331 mit dem bewilligten Saldosteuersatz zu versteuern."
+            },
+            "saldo": "Diese Regelung gilt nicht für Automobile bis zu einem Gesamtgewicht von 3,5 Tonnen und auch nicht in allen anderen Fällen, in denen nach <a href='https://www.admin.ch/opc/de/classified-compilation/20081110/index.html#a28' target='_blank' title='Öffnet den Link in einem neuen Fenster oder Tab' >Art. 28a MWSTG</a> i.V.m. <a href='https://www.admin.ch/opc/de/classified-compilation/20091866/index.html#a90' target='_blank' title='Öffnet den Link in einem neuen Fenster oder Tab' >Art.90 Abs. 2 MWSTV</a> der Abzug der fiktiven Vorsteuer ausgeschlossen ist. Alle Gegenstände, bei deren Wiederverkauf Sie die fiktive Vorsteuer anrechnen lassen wollen, müssen Sie in einer separaten Liste einzeln aufführen (siehe Ziffer 12.2 der <a href='https://www.gate.estv.admin.ch/mwst-webpublikationen/public/pages/taxInfos/tableOfContent.xhtml?publicationId=1004992' target='_blank' title='Öffnet den Link in einem neuen Fenster oder Tab' >MWST-Info 12 Saldosteuersätze</a>). Diese Liste müssen Sie der ESTV <b>nur auf Verlangen</b> einreichen. Der gesamte Verkaufserlös ist vollumfänglich unter Ziffer 200 des Abrechnungsformulars aufzuführen und unter Ziffer 321/322 resp. 331/332 mit dem bewilligten Saldosteuersatz zu versteuern."
+          },
+          "expandContent2": "Das Formular ist auch anwendbar bei individualisierbaren beweglichen Gegenständen, die zu einem Gesamtpreis erworben und verkauft werden. Für das Vorgehen in diesen Fällen wenden Sie sich bitte an die <a href='https://www.estv.admin.ch/estv/de/home.html' target='_blank' title='Öffnet den Link in einem neuen Fenster oder Tab' >Eidg. Steuerverwaltung Hauptabteilung Mehrwertsteuer</a>.",
+          "expandOldTaxLink": "Wünschen Sie fiktive Vorsteuerabzüge zu den alten Steuersätzen (vor 01.01.2018) anzurechnen?",
+          "hideExpandLink": "Zusätzliche Informationen ausblenden",
+          "label": {
+            "difference": "Differenz CHF",
+            "margin": "Marge CHF",
+            "sales": "Umsatz CHF",
+            "tax": "Steuer CHF",
+            "taxRate": "Satz",
+            "totalDifference": "Total Differenz (Gutschrift)"
+          },
+          "prior2018expandOldTaxLink": "Wünschen Sie fiktive Vorsteuerabzüge zu den alten Steuersätzen (vor 01.01.2011) anzurechnen?",
+          "prior2018titleDifference": "Total Differenz",
+          "showExpandLink": "Zusätzliche Informationen anzeigen",
+          "subContent": "Es sind keine Kundenrechnungen erfasst. Um eine neue Kundenrechnung zu erfassen wählen Sie 'Rechnung hinzufügen'.",
+          "subTitle": "Kundenrechnungen",
+          "tab1055": "Fiktive Vorsteuer (Formular 1055)",
+          "title": "Beiblätter Formulare 1055 und 1056",
+          "title1055": "Beiblatt Formular 1055",
+          "titleDifference": "Total Differenz aus Formularen 1055 und 1056"
+        },
+        "form1056": {
+          "content1056": {
+            "pauschal": "Haben Sie ein Sammlerstück wie Kunstgegenstände, Antiquitäten und dergleichen erworben, so können Sie die Margenbesteuerung nach <a href='https://www.admin.ch/opc/de/classified-compilation/20081110/index.html#a24a' target='_blank' title='Öffnet den Link in einem neuen Fenster oder Tab' >Art. 24a MWSTG</a>  anwenden. Sie haben dazu alle diese Sammlerstücke in einer Liste einzeln aufzuführen und den Gesamtumsatz sowie die Gesamtmarge mittels Formular 1056 zu ermitteln (analog wie beim fiktiven Vorsteuerabzug, siehe <a href='https://www.gate.estv.admin.ch/mwst-webpublikationen/public/MI/12' target='_blank' title='Öffnet den Link in einem neuen Fenster oder Tab'>Ziffer 12.2 der MWST-Info Saldosteuersätze</a>). Übersteigt der Ankaufspreis eines Sammlerstückes den Verkaufspreis, so ist als Marge der Verlust einzusetzen. Der totale Differenzbetrag wird anschliessend in das Abrechnungsformular (Ziff. 471) übernommen. Sie können alle vorgenommenen Eingaben löschen, indem Sie das Formular zurücksetzen.",
+            "saldo": "Haben Sie ein Sammlerstück wie Kunstgegenstände, Antiquitäten und dergleichen erworben, so können Sie die Margenbesteuerung nach <a href='https://www.admin.ch/opc/de/classified-compilation/20081110/index.html#a24a' target='_blank' title='Öffnet den Link in einem neuen Fenster oder Tab'>Art. 24a MWSTG</a> anwenden. Sie haben dazu alle diese Sammlerstücke in einer Liste einzeln aufzuführen und den Gesamtumsatz sowie die Gesamtmarge mittels Formular 1056 zu ermitteln (analog wie beim fiktiven Vorsteuerabzug, siehe <a href='https://www.gate.estv.admin.ch/mwst-webpublikationen/public/pages/taxInfos/tableOfContent.xhtml?publicationId=1004992&lang=de' target='_blank' title='Öffnet den Link in einem neuen Fenster oder Tab'>Ziffer 12.2 der MWST-Info Saldosteuersätze</a>). Übersteigt der Ankaufspreis eines Sammlerstückes den Verkaufspreis, so ist als Marge der Verlust einzusetzen. Der totale Differenzbetrag wird anschliessend in das Abrechnungsformular (Ziff. 471) übernommen. Sie können alle vorgenommenen Eingaben löschen, indem Sie das Formular zurücksetzen."
+          },
+          "cta": {
+            "addForm": "Rechnung hinzufügen",
+            "backToForm": "Formular zurücksetzen",
+            "cancel": "Abbrechen",
+            "emptyTax": "Fiktive Vorsteuer leeren",
+            "validate": "Berechnung übernehmen"
+          },
+          "expandContent": {
+            "pauschal": "Wollen Sie auf Sammlerstücken nach <a href='https://www.admin.ch/opc/de/classified-compilation/20091866/index.html#a48' target='_blank' title='Öffnet den Link in einem neuen Fenster oder Tab'>Art. 48b MWSTV</a>, die Sie für den Wiederverkauf bezogen haben, die Margenbesteuerung anwenden, dürfen Sie in der Rechnung nicht auf die MWST hinweisen. Alle Gegenstände, bei denen Sie die Margenbesteuerung anwenden möchten, müssen Sie in einer separaten Liste einzeln aufführen (analog wie beim fiktiven Vorsteuerabzug, siehe <a href='https://www.gate.estv.admin.ch/mwst-webpublikationen/public/MI/12' target='_blank' title='Öffnet den Link in einem neuen Fenster oder Tab'>Ziffer 12.2 der MWST-Info Saldosteuersätze</a>). Diese Liste müssen Sie rechtsgültig unterzeichnen und der ESTV <b> nur auf Verlangen</b> einreichen. Der Verkaufserlös ist vollumfänglich in Ziffer 200 des Abrechnungsformulars aufzuführen und unter Ziffer 321/322 mit dem bewilligten Pauschalsteuersatz zu versteuern. Wurden Ihnen mehrere Pauschalsteuersätze bewilligt, haben Sie dies aufgeteilt nach diesen Pauschalsteuersätzen zu tun. Das Formular ist auch anwendbar bei Sammlerstücken, die zu einem Gesamtpreis erworben und verkauft werden. Für das Vorgehen in diesem Fall, wenden Sie sich bitte an die <a href='https://www.estv.admin.ch/estv/de/home.html' target='_blank' title='Öffnet den Link in einem neuen Fenster oder Tab'>Eidgenössische Steuerverwaltung</a>.",
+            "saldo": "Wollen Sie auf Sammlerstücken nach  <a href='https://www.admin.ch/opc/de/classified-compilation/20091866/index.html#a48' target='_blank' title='Öffnet den Link in einem neuen Fenster oder Tab'>Art. 48b MWSTV</a>, die Sie für den Wiederverkauf bezogen haben, die Margenbesteuerung anwenden, dürfen Sie in der Rechnung nicht auf die MWST hinweisen.  Alle Gegenstände, bei denen Sie die Margenbesteuerung anwenden möchten, müssen Sie in einer separaten Liste einzeln aufführen (analog wie beim fiktiven Vorsteuerabzug, siehe <a href='https://www.gate.estv.admin.ch/mwst-webpublikationen/public/pages/taxInfos/tableOfContent.xhtml?publicationId=1004992&lang=de' target='_blank' title='Öffnet den Link in einem neuen Fenster oder Tab' >Ziffer 12.2 der MWST-Info Saldosteuersätze</a>). Diese Liste müssen Sie rechtsgültig unterzeichnen und der ESTV <b>nur auf Verlangen</b> einreichen. Der Verkaufserlös ist vollumfänglich in Ziffer 200 des Abrechnungsformulars aufzuführen und unter Ziffer 321/322 mit dem bewilligten Saldosteuersatz zu versteuern. Wurden Ihnen zwei Saldosteuersätze bewilligt, haben Sie dies aufgeteilt nach den beiden Saldosteuersätzen zu tun. Das Formular ist auch anwendbar bei Sammlerstücken, die zu einem Gesamtpreis erworben und verkauft werden. Für das Vorgehen in diesem Fall, wenden Sie sich bitte an die <a href='https://www.estv.admin.ch/estv/de/home.html' target='_blank' title='Öffnet den Link in einem neuen Fenster oder Tab'>Eidgenössische Steuerverwaltung</a>."
+          },
+          "hideExpandLink": "Zusätzliche Informationen ausblenden",
+          "label": {
+            "difference": "Differenz CHF",
+            "margin": "Marge CHF",
+            "sales": "Umsatz CHF",
+            "tax": "Steuer CHF",
+            "taxRate": "Satz",
+            "totalDifference": "Total Differenz (Gutschrift)"
+          },
+          "showExpandLink": "Zusätzliche Informationen anzeigen",
+          "subContent": "Es sind keine Kundenrechnungen erfasst. Um eine neue Kundenrechnung zu erfassen wählen Sie 'Rechnung hinzufügen'.",
+          "subTitle": "Kundenrechnungen",
+          "tab1056": "Margenbesteuerung (Formular 1056)",
+          "title": "Beiblätter Formulare 1055 und 1056",
+          "titleDifference": "Total Differenz aus Formularen 1055 und 1056"
+        },
+        "form10Common": {
+          "pss": "Pauschalsteuersatz",
+          "sss": "Saldosteuersatz",
+          "title1": "Anrechnung zum 1.",
+          "title2": "Anrechnung zum 2."
+        },
+        "form3xx": {
+          "content": "Bitte erfassen Sie die Tätigkeit der steuerpflichtigen Person mit den entsprechenden Umsätzen. Falls für die steuerpflichtige Person mehr als ein Pauschalsteuersatz bewilligt wurde, wird der Durchschnittssatz über die Angabe von mehreren Tätigkeiten ermittelt. Das Umsatztotal und der Steuerbetrag werden danach in das Abrechnungsformular (Ziff. 321 + 322) übernommen. Sie können alle vorgenommenen Eingaben löschen, indem Sie das Formular zurücksetzen.",
+          "cta": {
+            "addForm": "Tätigkeit hinzufügen",
+            "backToForm": "Formular zurücksetzen",
+            "cancel": "Abbrechen",
+            "validate": "Berechnung übernehmen"
+          },
+          "label": {
+            "activity": "Tätigkeiten",
+            "date": "Datum",
+            "kind": "Art der Gegenstände / Dienstleistungen",
+            "sales": "Entgelte CHF",
+            "tax": "Steuer CHF",
+            "taxRate": "Steuersätze",
+            "taxRatePeriod": "Steuersatzperiode",
+            "total": "Total Steuerbetrag aus Kundenrechnungen:"
+          },
+          "prior2018content": "Bitte erfassen Sie die Tätigkeit der steuerpflichtigen Person mit den entsprechenden Umsätzen. Falls für die steuerpflichtige Person mehr als ein Pauschalsteuersatz bewilligt wurde, wird der Durchschnittssatz über die Angabe von mehreren Tätigkeiten ermittelt. Das Umsatztotal und der Steuerbetrag werden danach in das Abrechnungsformular (Ziff. 321 + 320) übernommen. Sie können alle vorgenommenen Eingaben löschen, indem Sie das Formular zurücksetzen.",
+          "taxRatePeriod": {
+            "1": "bis 31.12.2017",
+            "2": "ab 01.01.2018",
+            "prior2018": {
+              "0": "bis 31.12.2010",
+              "1": "ab 01.01.2011"
+            }
+          },
+          "title": "Berechnung für Durchschnitts-Pauschalsteuersatz",
+          "total": "Total und Durchschnittssatz",
+          "warning": "Wollen Sie alle Einträge löschen?"
+        },
+        "header": {
+          "declarationMethod": "Abrechnungsmethode",
+          "declarationPeriod": "Abrechnungsperiode",
+          "declaration_method": "Abrechnungsmethode",
+          "declaration_period": "Abrechnungsperiode",
+          "formOfReporting": "Abrechnungsart",
+          "submissionDate": "Einreichefrist",
+          "title": "Informationen zur Abrechnung und Fristen",
+          "tooltip": "Dies ist die ordentliche Einreichefrist. Fristverlängerungen werden hier nicht angezeigt.",
+          "valuta": "Valuta (Verzugszins ab)",
+          "vereinbart": "vereinbart",
+          "vereinnahmt": "vereinnahmt"
+        },
+        "info": {
+          "annualDeclaration": "Jahresabstimmung",
+          "annualDeclarationTitle": "Jahresabstimmung ausfüllen",
+          "annualDeclarationTxt": "<p>Dieses Formular dient zur Korrektur von festgestellten Mängeln innerhalb der vergangenen Steuerperiode. <b>Es sind daher nur die Differenzen zu den eingereichten Abrechnungen zu deklarieren.</b> Wurden keine Mängel festgestellt, ist das Formular nicht einzureichen. Die Einreichungsfrist endet 240 Tage nach Ablauf der Steuerperiode.</p>",
+          "annualDeclarationTxt2EFF": "<p>Bitte füllen Sie das Jahresabstimmungsformular (Berichtigungsabrechnung nach Art. 72 MWSTG) vollständig aus und reichen Sie es online ein. Informationen zum Ausfüllen finden Sie in der <a href='https://www.gate.estv.admin.ch/mwst-webpublikationen/public/pages/taxInfos/tableOfContent.xhtml?publicationId=1013189&lang=de' target='_blank' title='Öffnet den Link in einem neuen Fenster oder Tab'>MWST-Info 15.</a></p>",
+          "annualDeclarationTxt2PSS": "<p>Bitte füllen Sie das Jahresabstimmungsformular (Berichtigungsabrechnung nach Art. 72 MWSTG) vollständig aus und reichen Sie es online ein. Informationen zum Ausfüllen finden Sie in der <a href='https://www.gate.estv.admin.ch/mwst-webpublikationen/public/pages/taxInfos/tableOfContent.xhtml?publicationId=1010429&lang=de' target='_blank' title='Öffnet den Link in einem neuen Fenster oder Tab'>MWST-Info 13.</a></p>",
+          "annualDeclarationTxt2SSS": "<p>Bitte füllen Sie das Jahresabstimmungsformular (Berichtigungsabrechnung nach Art. 72 MWSTG) vollständig aus und reichen Sie es online ein. Informationen zum Ausfüllen finden Sie in der <a href='https://www.gate.estv.admin.ch/mwst-webpublikationen/public/pages/taxInfos/tableOfContent.xhtml?publicationId=1004992&lang=de' target='_blank' title='Öffnet den Link in einem neuen Fenster oder Tab'>MWST-Info 12.</a></p>",
+          "auditingInProgressMessage": "Die Abrechnung wird zurzeit durch einen anderen Benutzer geprüft und kann nicht geöffnet werden.",
+          "auditingInProgressTitle": "Abrechnung in Prüfung",
+          "creditPayment": "Die Auszahlung von Guthaben erfolgt erst nach Verarbeitung des eingereichten Formulars.",
+          "currencyHint": "Alle Beträge werden als Franken und Rappen akzeptiert.",
+          "description": "Informationen zum Ausfüllen finden Sie in der <a href='https://www.gate.estv.admin.ch/mwst-webpublikationen/public/pages/taxInfos/tableOfContent.xhtml?publicationId=1013189' target='_blank' title='Öffnet den Link in einem neuen Fenster oder Tab'>MWST-Info 15</a>",
+          "description_pauschal": "Informationen zum Ausfüllen finden Sie in der <a href='https://www.gate.estv.admin.ch/mwst-webpublikationen/public/pages/taxInfos/tableOfContent.xhtml?publicationId=1010429&lang=de' target='_blank' title='Öffnet den Link in einem neuen Fenster oder Tab'>MWST-Info 13</a>",
+          "description_saldo": "Informationen zum Ausfüllen finden Sie in der <a href='https://www.gate.estv.admin.ch/mwst-webpublikationen/public/pages/taxInfos/tableOfContent.xhtml?publicationId=1004992&lang=de' target='_blank' title='Öffnet den Link in einem neuen Fenster oder Tab' >MWST-Info 12</a>",
+          "editingInProgressMessage": "Die Abrechnung wird zurzeit durch einen anderen Benutzer bearbeitet und kann nicht geöffnet werden.",
+          "editingInProgressTitle": "Abrechnung in Arbeit",
+          "fillDeclaration": "Abrechnung ausfüllen",
+          "finalDeclarationTitle": "Schlussabrechnung ausfüllen",
+          "finalDeclarationTxt": "<p>Befinden sich weiterhin Gegenstände oder Dienstleistungen, für welche der Vorsteuerabzug geltend gemacht wurde bei Ihnen? Deklarieren Sie den Eigenverbrauch in der Ziffer 415: Zur Ermittlung des Zeitwertes reduzieren Sie den geltend gemachten Vorsteuerbetrag linear für jedes abgelaufene Jahr</p><ul><li>bei beweglichen Gegenständen bzw. Dienstleistungen um 20%</li><li>bei unbeweglichen Gegenständen um 5 %</li></ul> <p>Weitere Informationen finden Sie in der <a href='https://www.gate.estv.admin.ch/mwst-webpublikationen/public/pages/taxInfos/tableOfContent.xhtml?publicationId=1022896' target='_blank' title='Öffnet den Link in einem neuen Fenster oder Tab'>MWST-Info 10</a></p><p>Bitte beachten: Falls Positionen bereits in den ordentlichen Abrechnungen deklariert wurden, sind diese in der Schlussabrechnung nicht mehr zu deklarieren.</p>",
+          "hint": "Hinweis:",
+          "mwst_12_info": "MWST-Info 12",
+          "mwst_15_info": "MWST-Info 15",
+          "saldo": "Alle Umsatzangaben sind <b>brutto inkl. MWST</b> einzusetzen",
+          "sapNotAvailable": "Leider kann die Auszahladresse momentan nicht elektronisch übermittelt werden. Die ESTV wird Ihnen ein Formular zur Meldung der Auszahladresse per Post zustellen. Wir bitten Sie uns dies ausgefüllt zu retournieren. Für die Unannehmlichkeiten entschuldigen wir uns."
+        },
+        "landingPage": {
+          "info": "Benötigen Sie eine Abrechnungs- und/oder eine Zahlungsfrist? Beantragen Sie diese bequem online: <a href='https://www.moa.estv.admin.ch/moa/frist.html' target='_blank' title='Öffnet den Link in einem neuen Fenster oder Tab'>MWST-Fristverlängerung</a>",
+          "overview": "<p>Die Abrechnung des {{periodName}} mit dem Abrechnungscode {{vattoken}} wurde am {{submittedDate}} durch {{firstName}} {{lastName}}{{company}} für die Einreichung mit Deklarationsfreigabe bereitgestellt.</p><p>Bitte leiten Sie die Deklarationsfreigabe an die Person weiter, welche für die Freigabe zuständig ist. Die unterzeichnete Deklarationsfreigabe ist per Post an die folgende Adresse zu senden:</p><p>Eidgenössische Steuerverwaltung <br>Hauptabteilung MWST<br>Schwarztorstrasse 50<br>3024 Bern</p><p>Wichtig: Die Abrechnung gilt erst dann als eingereicht, wenn die Deklarationsfreigabe per Post bei der ESTV eintrifft.</p><p>Möchten Sie die freizugebende Abrechnung korrigieren? Mit dem Abrechnungscode haben Sie die Möglichkeit, an der Abrechnung Korrekturen vorzunehmen und eine neue Version der Abrechnung zu erstellen. Diese Funktion steht Ihnen bis zum Eintreffen der Deklarationsfreigabe bei der ESTV zur Verfügung.</p><p>Die Zahlungsinformationen, der Abrechnungscode für die nächste Abrechnung und weitere Informationen finden Sie im PDF-Zusammenfassung Ihrer Abrechnung.</p>"
+        },
+        "method": {
+          "effektiv": "Effektiv",
+          "pauschal": "Pauschalsteuersatz",
+          "saldo": "Saldosteuersatz"
+        },
+        "net_gross": {
+          "gross": "Brutto (inkl. MWST)",
+          "net": "Netto (exkl. MWST)",
+          "selection_description": "Alle Umsatzangaben sind",
+          "tooltip": "<p>Werden in Ziffer 200 die Entgelte ohne MWST (Nettoumsätze) deklariert, wird die MWST mit dem entsprechenden gesetzlichen Steuersatz von 7.7%, 2.5% und 3.7% berechnet. </p> <p>Werden in Ziffer 200 die Entgelte brutto (inkl. MWST) deklariert, entspricht das Entgelt einer Berechnungsbasis von 107,7%, 102,5% und 103,7%. Die MWST wird diesfalls mit Hilfe des entsprechenden Multiplikators (7,7%= 7,1495%, 2,5% = 2,4390% und 3,7% = 3,5680%) berechnet.</p> <p>Die Entgeltsart (netto bzw. brutto) ist über die gesamte Steuerperiode beizubehalten. Sie wird bei der Steuerberechnung (Ziffern 301 - 342 des Formulars) automatisch berücksichtigt. </p>"
+        },
+        "other_cash_flow_section": {
+          "900_description": "Subventionen, durch Kurvereine eingenommene Tourismusabgaben, Entsorgungs- und Wasserwerkbeiträge (Bst. a-c)",
+          "910_description": "Spenden, Dividenden, Schadenersatz usw. (Bst. d-l)",
+          "title": "III. Andere Mittelflüsse (Art. 18 Abs. 2)"
+        },
+        "stepper": {
+          "bankDetails": "Bankverbindung",
+          "captureData": "Daten erfassen",
+          "contactData": "Kontaktangaben der ausfüllenden Person",
+          "pickSubmissionVariant": "Einreichevariante auswählen",
+          "remindertNextDeclaration": "Abrechnungscode und Erinnerung: nächste Abrechnung",
+          "verifyAndSubmitDeclaration": "Abrechnung überprüfen und einreichen",
+          "verify_declaration": "Abrechnung überprüfen"
+        },
+        "subform": {
+          "0": "SSS 1",
+          "1": "SSS 2",
+          "2": "SSS 1 vor 2018",
+          "3": "SSS 2 vor 2018"
+        },
+        "submitted": {
+          "deadline": "Diese Informationen stehen Ihnen bis am {{deadline}} online zur Verfügung. Speichern Sie die Unterlagen zur Sicherheit auch lokal ab.",
+          "declaration": "Abrechnung",
+          "declarationRelease": "Deklarationsfreigabe",
+          "overview": "Die Abrechnung des {{periodName}} mit dem Abrechnungscode {{vattoken}} wurde {{submittedDate}} durch {{firstName}} {{lastName}}{{company}} eingereicht.",
+          "overviewFinal": "Die {{periodName}} mit dem Abrechnungscode {{vattoken}} wurde am {{submittedDate}} durch {{firstName}} {{lastName}}{{company}} eingereicht.",
+          "summaryDeclaration": "Zusammenfassung Abrechnung"
+        },
+        "table": {
+          "th_amount": "Betrag CHF",
+          "th_bezugtax": "Bezugsteuer",
+          "th_bezugtax_old": "Bezugsteuer (Steuersätze bis 31.12.2017)",
+          "th_bezugtax_old_prior2018": "Bezugsteuer (Steuersätze bis 31.12.2010)",
+          "th_charges": "Entgelte",
+          "th_credit": "Steueranrechnung",
+          "th_digit": "Ziffer",
+          "th_discount": "Abzüge",
+          "th_pretax": "Vorsteuer",
+          "th_rate": "Satz",
+          "th_rate_old": "Satz (Steuersätze bis 31.12.2017)",
+          "th_rate_old_prior2018": "Satz (Steuersätze bis 31.12.2010)",
+          "th_sales": "Leistungen CHF",
+          "th_tax": "Steuer CHF",
+          "th_turnover": "Umsatz CHF"
+        },
+        "tax_calculation_section": {
+          "302_description": "Leistungen zum Normalsatz",
+          "312_description": "Leistungen zum reduzierten Satz",
+          "321_description": "Leistungen (1. Satz)",
+          "322_description": "Leistungen (1. Satz)",
+          "331_description": "Leistungen (2. Satz)",
+          "332_description": "Leistungen (2. Satz)",
+          "342_description": "Leistungen zum Beherbergungssatz",
+          "380_help": "Bitte erfassen Sie hier die Leistungen für die Bezugsteuer. Der Leistungsbezug ist in der Regel zum Normalsatz zu versteuern. Das Entgelt versteht sich ohne MWST (Entgelt entspricht 100%). Nach dem 31.12.2010 bezogene Leistungen sind unter Ziffer 381 zu deklarieren. Zusätzliche Informationen finden Sie in der <a href='https://www.gate.estv.admin.ch/mwst-webpublikationen/public/pages/taxInfos/tableOfContent.xhtml?publicationId=1001238&lang=de' target='_blank' title='Öffnet den Link in einem neuen Fenster oder Tab'>MWST Info 14 Bezugsteuer</a>.",
+          "381_help": "Bitte erfassen Sie hier die Leistungen für die Bezugsteuer. Der Leistungsbezug ist in der Regel zum Normalsatz zu versteuern. Das Entgelt versteht sich ohne MWST (Entgelt entspricht 100%). Nach dem 31.12.2017 bezogene Leistungen sind unter Ziffer 382 zu deklarieren. Zusätzliche Informationen finden Sie in der <a href='https://www.gate.estv.admin.ch/mwst-webpublikationen/public/pages/taxInfos/tableOfContent.xhtml?publicationId=1001238&lang=de' target='_blank' title='Öffnet den Link in einem neuen Fenster oder Tab' >MWST Info 14 Bezugsteuer</a>.",
+          "381_help_prior2018": "Bitte erfassen Sie hier die Leistungen für die Bezugsteuer. Der Leistungsbezug ist in der Regel zum Normalsatz zu versteuern. Das Entgelt versteht sich ohne MWST (Entgelt entspricht 100%). Vor dem 1.1.2011 bezogene Leistungen sind unter Ziffer 380 zu deklarieren. Zusätzliche Informationen finden Sie in der <a href='https://www.gate.estv.admin.ch/mwst-webpublikationen/public/pages/taxInfos/tableOfContent.xhtml?publicationId=1001238&lang=de' target='_blank' title='Öffnet den Link in einem neuen Fenster oder Tab'>MWST Info 14 Bezugsteuer</a>.",
+          "382_description": "Bezugsteuer (netto, exkl. MWST)",
+          "382_help": "Bitte erfassen Sie hier die Leistungen für die Bezugsteuer. Der Leistungsbezug ist in der Regel zum Normalsatz zu versteuern. Das Entgelt versteht sich ohne MWST (Entgelt entspricht 100%). Vor dem 1.1.2018 bezogene Leistungen sind unter Ziffer 381 zu deklarieren. Zusätzliche Informationen finden Sie in der <a  href='https://www.gate.estv.admin.ch/mwst-webpublikationen/public/pages/taxInfos/tableOfContent.xhtml?publicationId=1001238&lang=de' target='_blank' title='Öffnet den Link in einem neuen Fenster oder Tab'>MWST Info 14 Bezugsteuer</a>.",
+          "399_description": "Total geschuldete Steuer",
+          "399_descriptionHint": "(Ziff. 301 bis 382)",
+          "399_sss_descriptionHint": "(Ziff. 321 bis 382)",
+          "400_description": "Vorsteuer auf Material- und Dienstleistungsaufwand",
+          "405_description": "Vorsteuer auf Investitionen und übrigem Betriebsaufwand",
+          "410_description": "Einlageentsteuerung (Art. 32, bitte detaillierte Aufstellung einreichen)",
+          "410_help": "<p>Unter dieser Ziffer wird die Vorsteuer deklariert, die zu einem früheren Zeitpunkt nicht abgezogen werden konnte, weil die Voraussetzungen gemäss dem <a href='https://www.admin.ch/opc/de/classified-compilation/20081110/index.html#a28' target='_blank' title='Öffnet den Link in einem neuen Fenster oder Tab' >Art. 28 Abs. 1 MWSTG</a> dazu nicht gegeben waren. Der MWST-Abrechnung muss eine detaillierte Aufstellung beigelegt werden.</p><p>Die Aufstellung ist der ESTV auf dem Postweg zu senden. Als Hilfe für die Einreichung verwenden Sie das mit der Adresse der ESTV versehene Frontblatt im hinteren Teil der Abrechnungskopie, welche auf der Abschlussseite zu finden ist. Weitere Einzelheiten finden Sie in der <a href='https://www.gate.estv.admin.ch/mwst-webpublikationen/public/pages/taxInfos/tableOfContent.xhtml?publicationId=1022896&lang=de' target='_blank' title='Öffnet den Link in einem neuen Fenster oder Tab' >MWST-Info 10 Nutzungsänderung</a>.</p>",
+          "415_description": "Vorsteuerkorrekturen: gemischte Verwendung (Art. 30), Eigenverbrauch (Art. 31)",
+          "415_description_final": "Korrekturen bei unbeweglichen Gegenständen (Art. 82 Abs. 2 und Art. 93 MWSTV)",
+          "415_help": "<p>In diesem Feld können sowohl positive wie auch negative Beträge eingegeben werden. Beachten Sie bitte, dass gemäss Berechnungsschema der Betrag abgezogen wird. Aus minus minus wird dann plus.</p><p>Das Resultat ist in Ziffer 479 ersichtlich. Weitere Einzelheiten finden Sie in der <a href='https://www.gate.estv.admin.ch/mwst-webpublikationen/public/pages/taxInfos/tableOfContent.xhtml?publicationId=1014743&lang=de' target='_blank' title='Öffnet den Link in einem neuen Fenster oder Tab' >MWST-Info 09 Vorsteuerabzug und Vorsteuerkorrekturen</a>.</p>",
+          "420_description": "Vorsteuerkürzungen: Nicht-Entgelte wie Subventionen, Tourismusabgaben usw. (Art. 33 Abs. 2)",
+          "420_help": "<p>In diesem Feld können sowohl positive wie auch negative Beträge eingegeben werden. Beachten Sie bitte, dass gemäss Berechnungsschema der Betrag abgezogen wird. Aus minus minus wird dann plus. </p><p>Das Resultat ist in Ziffer 479 ersichtlich. Weitere Einzelheiten finden Sie in der <a href='https://www.gate.estv.admin.ch/mwst-webpublikationen/public/pages/taxInfos/tableOfContent.xhtml?publicationId=1014743&lang=de' target='_blank' title='Öffnet den Link in einem neuen Fenster oder Tab' >MWST-Info 09 Vorsteuerabzug und Vorsteuerkorrekturen</a>.</p>",
+          "470_description": "Steueranrechnung gemäss Formular Nr. 1050",
+          "471_description": "Steueranrechnung gemäss Formular Nr. 1055, 1056",
+          "471_description_prior2018": "Steueranrechnung gemäss Formular Nr. 1055",
+          "500_description": "Zu bezahlender Betrag:",
+          "510_description": "Guthaben der steuerpflichtigen Person:",
+          "collapsable_info_1": "Haben Sie noch Umsätze zu den alten Steuersätzen (bis am 31.12.2017) zu deklarieren?",
+          "collapsable_info_1_prior2018": "Haben Sie noch Umsätze zu den alten Steuersätzen (vor 01.01.2011) zu deklarieren?",
+          "collapsable_info_2": "Haben Sie noch Bezugsteuer zu den alten Steuersätzen (bis am 31.12.2017) zu deklarieren?",
+          "collapsable_info_2_prior2018": "Haben Sie noch Bezugsteuer zu den alten Steuersätzen (vor 01.01.2011) zu deklarieren?",
+          "round": "Runden",
+          "title": "II. Steuerberechnung",
+          "total_400_420": "Total Ziff. 400 bis 420",
+          "total_470": "Total Ziff. 470 bis 471",
+          "total_turnover": "Steuerbarer Gesamtumsatz",
+          "total_turnover_hint": "(wie Ziff. 299):"
+        },
+        "title": "MWST-Abrechnung",
+        "turnover_section": {
+          "200_description": "Total der vereinbarten bzw. vereinnahmten Entgelte, inkl. optierte Leistungen, Entgelte aus Übertragungen im Meldeverfahren sowie aus Leistungen im Ausland (weltweiter Umsatz)",
+          "205_description": "In Ziffer 200 enthaltene Entgelte aus von der Steuer ausgenommenen Leistungen (Art. 21), für welche nach Art. 22 optiert wird",
+          "220_description": "Von der Steuer befreite Leistungen (u.a. Exporte, Art. 23), von der Steuer befreite Leistungen an begünstigte Einrichtungen und Personen (Art. 107 Abs. 1 Bst. a)",
+          "220_help_pss": "<p>Bei Abrechnung mit der Pauschalsteuersatz-Methode ist es zulässig, die in der Ziffer 200 deklarierten Exportumsätze unter Ziffer 220 wieder in Abzug zu bringen.</p></p><strong>Mit diesem Vorgehen wird allerdings auf eine Abgeltung der Vorsteuer mit dem Formular Nr. 1050 verzichtet. Eine Steueranrechnung unter Ziffer 470 des Abrechnungsformulars ist in diesem Fall nicht möglich.</strong></p><p>Detaillierte Informationen entnehmen Sie der <a href='https://www.gate.estv.admin.ch/mwst-webpublikationen/public/MI/13' target='_blank' title='Öffnet den Link in einem neuen Fenster oder Tab'>MWST-Info 13</a>.</p>",
+          "220_help_sss": "<p>Bei Abrechnung mit der Saldosteuersatz-Methode ist es zulässig, die in der Ziffer 200 deklarierten Exportumsätze unter Ziffer 220 wieder in Abzug zu bringen.</p></p><strong>Mit diesem Vorgehen wird allerdings auf eine Abgeltung der Vorsteuer mit dem Formular Nr. 1050 verzichtet. Eine Steueranrechnung unter Ziffer 470 des Abrechnungsformulars ist in diesem Fall nicht möglich.</strong></p><p>Detaillierte Informationen entnehmen Sie der <a href='https://www.gate.estv.admin.ch/mwst-webpublikationen/public/MI/12' target='_blank' title='Öffnet den Link in einem neuen Fenster oder Tab'>MWST-Info 12</a>.</p>",
+          "221_description": "Leistungen im Ausland (Ort der Leistung im Ausland)",
+          "225_description": "Übertragungen im Meldeverfahren (Art. 38, bitte zusätzlich <a href='https://www.estv.admin.ch/dam/estv/de/dokumente/mwst/formulare/verschiedene/0764_01.pdf.download.pdf/dm_0764_01.pdf' target='_blank' title='Lädt das PDF Dokument herunter'>Form. 764</a> einreichen)",
+          "225_help": "<p><a href='https://www.admin.ch/opc/de/classified-compilation/20081110/index.html#a38' target='_blank' title='Öffnet den Link in einem neuen Fenster oder Tab' >Art. 38 Abs. 3 MWSTG</a> sieht vor, dass die Übertragungen im Meldeverfahren (Umstrukturierung nach Fusionsgesetz oder Übertragungen von Gesamt- oder Teilvermögen) im Rahmen der ordentlichen MWST-Abrechnung zu deklarieren sind.</p> <p>Die unter dieser Ziffer abgezogenen Entgelte sind auch unter Ziffer 200 zu deklarieren. Das Formular Nr. 764 (Meldeverfahren) ist der ESTV auf dem Postweg zu senden. Als Hilfe für die Einreichung verwenden Sie das mit der Adresse der ESTV versehene Frontblatt im hinteren Teil der Abrechnungskopie, welche auf der Abschlussseite zu finden ist.</p> <p>Zusätzliche Infos siehe <a href='https://www.gate.estv.admin.ch/mwst-webpublikationen/public/pages/taxInfos/tableOfContent.xhtml?publicationId=1002742&lang=de' target='_blank' title='Öffnet den Link in einem neuen Fenster oder Tab' >MWST Info 11 Meldeverfahren.</a></p>",
+          "230_description": "Von der Steuer ausgenommene Inlandleistungen (Art. 21), für die nicht nach Art. 22 optiert wird",
+          "235_description": "Entgeltsminderungen wie Skonti, Rabatte usw.",
+          "280_description": "Diverses (z.B. Wert des Bodens)",
+          "280_help": "Falls unter dieser Ziffer ein Abzug vorgenommen wird, ist unter „Diverses“ anzugeben, um was es sich hierbei handelt (<a href='https://www.gate.estv.admin.ch/mwst-webpublikationen/public/pages/taxInfos/tableOfContent.xhtml?publicationId=1013189&lang=de' target='_blank' title='Öffnet den Link in einem neuen Fenster oder Tab' >MWST-Info 15, Kapitel 1.3</a>).",
+          "299_help": "Dies ist ein Hilfsfeld zur Plausibilitätsprüfung, d.h. der berechnete steuerbare Gesamtumsatz muss mit dem steuerbaren Gesamtumsatz in Ziffer 299 identisch sein.",
+          "299_total_turnover": "Steuerbarer Gesamtumsatz",
+          "299_total_turnover_hint": "(Ziff. 200 abzüglich Ziff.289):",
+          "title": "I. Umsatz",
+          "title_annual": "I. Umsätze, welche nicht in den ordentlichen Abrechnungen deklariert wurden"
+        }
+      },
+      "error": {
+        "buttons": {
+          "to_portal_login": "Zum Portal-Login"
+        },
+        "meta_title_401": "Nicht berechtigt",
+        "meta_title_404": "Nicht gefunden",
+        "meta_title_405": "Serverfehler",
+        "title": "Ein Fehler ist aufgetreten",
+        "wrongPhoneNumber": "Das Einreichen einer MWST-Abrechnung mit Abrechnungscode ist mit einer ausländischen Mobiltelefonnummer nicht möglich. Bitte melden Sie sich mit einer schweizerischen Mobiltelefonnummer an."
+      },
+      "external_link": {
+        "eportal": "Alle Services"
+      },
+      "landingPage": {
+        "easy": {
+          "banner1": {
+            "ctaLink1": "http://admin.ch",
+            "ctaLink2": "http://admin.ch",
+            "ctaLink3": "https://www.admin.ch/gov/de/start/rechtliches.html",
+            "ctaName1": "Brancheninfos",
+            "ctaName2": "MWST Praxistipps",
+            "ctaName3": "Gesetzliche Grundlagen",
+            "title": "Web-Publi 2.0",
+            "txt": "Alle MWST-Informationen finden Sie in den Praxispublikationen."
+          },
+          "banner2": {
+            "ctaLink1": "http://admin.ch",
+            "ctaName1": "Brancheninfos",
+            "title": "Fragen und Antworten",
+            "txt": "Haben Sie Fragen zu MWST-Abrechnung easy? Hier finden Sie die Antworten zu den häufigsten Fragen. "
+          },
+          "card1": {
+            "cta": "Fristen verlängern",
+            "link": " https://www.moa.estv.admin.ch/moa/#/home",
+            "title": "Fristen verlängern",
+            "txt": "Die Abrechnungs- und Zahlungsfrist lässt sich schnell und einfach online verlängern."
+          },
+          "card2": {
+            "cta": "Bescheinigungen bestellen",
+            "link": "popup",
+            "title": "Bescheinigungen",
+            "txt": "Benötigen Sie eine MWST- Eintragunsgbescheinigung oder eine Unternehmerbescheinigung?"
+          },
+          "card3": {
+            "cta": "Zahlungsplan beantragen",
+            "link": "https://www.estv.admin.ch/estv/de/home/die-estv/kontaktformulare/kontakt-inkasso2.html ",
+            "title": "Ratenzahlungen",
+            "txt": "Um die MWST in Raten zu begleichen, können Sie online einen Zahlungsplan beantragen."
+          },
+          "card4": {
+            "cta": "MWST anmelden",
+            "link": "http://admin.ch",
+            "title": "MWST-Anmeldung",
+            "txt": "Ist Ihr Unternehmen MWST-pflichtig und Sie müssen sich der MWST unterstellen?"
+          },
+          "guestLogin": "Als Gast anmelden",
+          "info": "Zugang nur mit Mobiltelefon und CH-Nummer möglich.",
+          "mobileWarning": "Zugang nur mit Mobiltelefon und CH-Nummer möglich.",
+          "title": "Abrechnungscode einlösen",
+          "txt": "Haben Sie einen Abrechnungscode per Post oder in der Zusammenfassung der letzten eingereichten Abrechnung erhalten, melden Sie sich als Gast an und rechnen Sie Ihre Mehrwertsteuer schnell und einfach ab."
+        },
+        "pro": {
+          "card1": {
+            "cta": "Fristen verlängern",
+            "link": " https://www.moa.estv.admin.ch/moa/#/home",
+            "title": "Web-Publi 2.0",
+            "txt": "Alle MWST-Informationen finden Sie in den Praxispublikationen."
+          },
+          "cardMwst": {
+            "cta": "MWST anmelden",
+            "title": "MWST-Anmeldung",
+            "txt": "Ist Ihr Unternehmen MWST-pflichtig und Sie müssen sich der MWST unterstellen?"
+          },
+          "cardRegistrationComp": {
+            "cta1": "Unternehmen/Person registrieren",
+            "cta2": "Registrationscode einlösen",
+            "link1": "...",
+            "link2": "...",
+            "title": "Unternehmen/Person registrieren",
+            "txt": "Haben Sie noch keine Unternehmen für die MWST-Abrechnung registriert? Melden Sie Ihr Unternhemen an, damit wir Ihnen einen Registrationscode per Post zusenden können. Danach können Sie Ihre Abrechnungen schnell und einfach erledigen."
+          },
+          "cardSuissetax": {
+            "cta": "Daten übernehmen",
+            "title": "Aus SuisseTax übernehmen",
+            "txt": "Haben Sie Ihre MWST früher in «Suisse Tax» abgerechnet? Übernehmen Sie ganz einfach Ihre Daten und Berechtigungen."
+          },
+          "ctaLogin": "Anmelden",
+          "ctaNewAccount": "Jetzt Benutzerkonto erstellen",
+          "myDeclarations": "Meine Abrechnungen",
+          "title": "Schnell und übersichtlich abrechnen",
+          "txt": "Wollen Sie bei der Abrechnung auch Korrekturabrechnungen, Jahresabstimmungen, Fristenverlängerungen und weitere Funktionalitäten verwenden? Einfach Benutzerkonto erstellen und kostenlos MWST-Abrechnung pro nutzen.",
+          "warning": "Haben Sie die MWST bereits früher in SuisseTax abgerechnet, können Sie Ihre Berechtigungen nach der Registration einfach übernhemen.",
+          "widgetInfo": "Um MWST-Abrechnung pro nutzen zu können, müssen Sie erst ein Unternehmen freischalten.",
+          "widgetTitle": "Meine MWST-Abrechnungen"
+        }
+      },
+      "login": {
+        "button": "Login",
+        "content": "Um diesen Service verwenden zu können, müssen Sie sich mindestens als Gast anmelden. Aus Sicherheitsgründen ist eine schweizerische Mobiltelefonnummer erforderlich.",
+        "title": "Im Portal anmelden"
+      },
+      "moreVATServices": {
+        "addPartner": "Unternehmen hinzufügen",
+        "maintainPermission": "Berechtigungen verwalten",
+        "metaTitle": "Weitere MWST-Services",
+        "publication": "Praxispublikationen",
+        "qAndA": "Fragen & Antworten",
+        "registerVAT": "MWST-Anmelden",
+        "requestCertificates": "Bescheinigungen anfordern",
+        "requestPayment": "Ratenzahlung beantragen"
+      },
+      "reminderDeclaration": {
+        "nextVatToken": {
+          "hintCode_1": "Bitte notieren Sie sich den Abrechnungscode für die nächste Abrechnung. Sie finden ihn auch in der PDF-Zusammenfassung am Ende des Abrechnungsprozesses.",
+          "hintCode_2": "Sie benötigen diesen Code zwingend für die nächste Abrechnungsperiode.",
+          "title": "Nächster Abrechnungscode",
+          "title2": "Nächster Abrechnungscode für das"
+        },
+        "reminder": {
+          "addToCalendar": "Zum Kalender hinzufügen",
+          "downloadReminder": "Erinnerung herunterladen",
+          "noReminder": "Für rückwirkende Abrechnungsperioden kann keine Erinnerung ausgewählt werden.",
+          "sendReminder": "Erinnerungsnachricht senden",
+          "title": "Automatische Erinnerung",
+          "tooltipAddToCalendar": "Der Termin für die nächste Abrechnung erscheint direkt in Ihrem Kalender. Er enthält den dazugehörigen Abrechnungscode.",
+          "tooltipSendReminder": "Sobald Ihre neue Abrechnung verfügbar ist, informieren wir Sie per E-Mail und/oder SMS. Aus Sicherheitsgründen ist der Abrechnungscode nur via SMS erhältlich."
+        },
+        "title": "Für die nächste Abrechnungsperiode"
+      },
+      "submission": {
+        "contactPerson": "Kontaktangaben für Rückfragen",
+        "dialog": {
+          "confirmHint": "Nach der Bestätigung sind keine Änderungen mehr möglich.",
+          "confirmHintElectronic": "Nach der Bestätigung sind keine Änderungen mehr möglich.",
+          "confirmHintMwstPro": "Nach der Bestätigung sind Änderungen nur noch mittels Korrekturabrechnung möglich.",
+          "confirmHintPaper": "Mit Klick auf BESTÄTIGEN kann die Abrechnung mittels Deklarationsfreigabe freigegeben werden.",
+          "confirmProvisionForAuditMessage": "Bitte bestätigen Sie, dass Sie das Abrechnungsformular {{period}} für das Unternehmen {{company}} zur Prüfung bereitstellen möchten.",
+          "confirmProvisionForAuditTitle": "Wollen Sie die Abrechnung zur Prüfung bereitstellen?",
+          "confirmRejectionMessage": "Bitte bestätigen Sie, dass Sie das Abrechnungsformular in Prüfung, {{period}}, für das Unternehmen {{company}} ablehnen möchten.",
+          "confirmRejectionTitle": "Wollen Sie die Abrechnung zur Prüfung ablehnen?",
+          "summary": "Bestätigen Sie, dass Sie die Abrechnung \"{{period}}\" des Unternehmens {{company}} einreichen möchten.",
+          "summaryAnnual": "Bestätigen Sie, dass Sie die Jahresabstimmung des Unternehmens {{company}} für das {{period}} einreichen möchten.",
+          "summaryApproval": "Sie haben eine Korrektur für das {{period}} für die Firma {{company}} vorgenommen. Die vorgängig erstellte Deklarationsfreigabe ist nicht mehr gültig.",
+          "summaryApprovalElec": "<p>Sie haben eine Korrektur für das {{period}} für die Firma {{company}} vorgenommen. Die vorgängig erstellte Deklarationsfreigabe ist nicht mehr gültig.</p>",
+          "summaryApprovalPaper": "Sie haben eine Korrektur für das {{period}} für die Firma {{company}} vorgenommen. Die vorgängig erstellte Deklarationsfreigabe ist nicht mehr gültig.</p> Wenn Sie auf BESTÄTIGEN klicken, kann die Abrechnung nur mit der neu erstellten Deklarationsfreigabe genehmigt werden.</p>",
+          "summaryRectification": "Bestätigen Sie, dass Sie die Korrekturabrechnung des Unternehmens {{company}} für das {{period}} einreichen möchten.",
+          "summarySchluss": "Bestätigen Sie, dass Sie die Schlussabrechnung des Unternehmens {{company}} einreichen möchten.",
+          "title": "Sind Ihre Angaben korrekt und vollständig?"
+        },
+        "form": {
+          "submissionVariant": "Einreichevariante"
+        },
+        "preview": "Vorschau",
+        "previewDescription": "Bitte überprüfen Sie Ihre Angaben in der Vorschau der Abrechnung im PDF-Format.",
+        "submit": "Abrechnung einreichen",
+        "submitDescription": "Reichen Sie die Abrechnung nach Überprüfung der Angaben ein. Wenn für die betreffende Unternehmung noch mindestens eine weitere Person berechtigt ist, MWST-Abrechnungen einzureichen, steht es Ihnen frei, die Abrechnung für die Einreichung durch diese bereitzustellen. Die entsprechend berechtigen Benutzer werden dadurch automatisch informiert.",
+        "titleVariant": "Einreichevariante auswählen",
+        "tooltipElectronic": "Wählen Sie diese Variante, wenn Sie die Abrechnung direkt elektronisch einreichen möchten. Eine Unterschrift oder ein Versand der Abrechnung per Post entfällt.",
+        "tooltipPaper": "Wählen Sie diese Einreichevariante, wenn Sie die Abrechnung genehmigen und unterzeichnen lassen möchten. Senden Sie uns die Deklarationsfreigabe, welche Sie im nächsten Schritt erhalten, per Post zu. <br><b>Wichtig: Die MWST-Abrechnung gilt erst dann als eingereicht, wenn die Deklarationsfreigabe unterzeichnet bei der ESTV eintrifft.</b>",
+        "variantElectronic": "Direkt einreichen",
+        "variantMissing": "Bitte wählen Sie eine Einreichevariante aus.",
+        "variantPaper": "Einreichen mit Deklarationsfreigabe per Post"
+      },
+      "support": {
+        "cta": {
+          "release": "Release"
+        },
+        "dialog": {
+          "message": "Mit Klick auf OK bestätigst du, dass die Deklarationsfreigabe bei der ESTV eingetroffen und im PDOS ersichtlich ist.",
+          "title": "Deklarationsfreigabe manuell einreichen"
+        },
+        "metaTitle": "Support",
+        "statusApproval": {
+          "0": " Offen/Open",
+          "1": "Eingegangen/Submitted",
+          "2": "Manuell eingereicht/manually submitted"
+        },
+        "statusDeclaration": {
+          "1": "Annulliert/Cancelled",
+          "2": "Offen/requested",
+          "3": "Eingereicht/Submitted",
+          "4": "Mit externem System eingereicht/externally submitted"
+        },
+        "table": {
+          "approvalCreatedAt": "Datum der Deklarationsfreigabe",
+          "declarationDate": "Abrechnungsperiode",
+          "estvID": "ESTV-ID",
+          "kommunikationsID": "Komm-ID der aktuellsten Deklrarationsfreigabe",
+          "statusApproval": "Status Deklarationsfreigabe",
+          "statusDeclaration": "Status Abrechnung",
+          "uid": "UID",
+          "version": "Version Deklarationsfreigabe"
+        }
+      },
+      "testing": {
+        "abrechnungscodeHeader": "Abrechnungsperiode",
+        "demoHint": "Diese Seite existiert nur zu Demozwecken",
+        "estvHeader": "ESTV-ID",
+        "filter": "Filter",
+        "gfHeader": "GF-ID",
+        "lastUpdate": "Letztes Update",
+        "metaTitle": "Testing",
+        "rectification": "Korrektur",
+        "statusHeader": "Status",
+        "tokenHeader": "VAT token",
+        "uHeader": "U-ID"
+      },
+      "vatToken": {
+        "cardTitleEnterToken": "Abrechnungscode eingeben",
+        "company": "Unternehmen",
+        "delayNeeded": "Benötigen Sie eine Abrechnungs- und Zahlungsfrist? Beantragen Sie diese bequem online: <a href='https://www.moa.estv.admin.ch/moa/frist.html' target='_blank' title='Öffnet den Link in einem neuen Fenster oder Tab' >Abrechnungs- und Zahlungsfrist</a>",
+        "details": "Ihre Angaben",
+        "enterVatTokenNote": "Geben Sie den Abrechnungscode ein, den Sie per Post oder in der Zusammenfassung der letzten eingereichten Abrechnung erhalten haben.",
+        "error": {
+          "api": {
+            "101": "Der Abrechnungscode ist ungültig.",
+            "102": "Die Abrechnung wurde bereits auf einem anderen Weg eingereicht. Der Abrechnungscode kann nicht mehr verwendet werden.",
+            "103": "Der Abrechnungscode ist ungültig. Bitte überprüfen Sie die Eingabe und geben Sie den Abrechnungscode erneut ein.",
+            "105": "Die Anzeigefrist ist abgelaufen."
+          }
+        },
+        "forgotten": "Abrechnungscode vergessen?",
+        "forgottenToken": "Haben Sie Ihren Abrechnungscode vergessen?",
+        "form": {
+          "acceptedTermsAndConditions": "Ich stimme den <a href='/assets/pdf/201209_nutzungsbedingungen.pdf' target='_blank' title='Öffnet den Link in einem neuen Fenster oder Tab' class='link'> Allgemeinen Geschäftsbedingungen</a> zu.",
+          "applicantDeclaredJustified": "Ich bin berechtigt, die Abrechnung für das oben genannte Unternehmen auszufüllen.",
+          "asEmail": "als E-Mail",
+          "asMessage": "als SMS",
+          "cellNumber": "CH-Mobiltelefonnummer",
+          "code": "Code",
+          "companyName": "Firmenname des Steuervertreters",
+          "email": "E-Mail",
+          "firstName": "Vorname",
+          "lastName": "Name",
+          "linkTcsPdf": "MWST_Abrechnung_easy_Nutzungsbedingungen.pdf",
+          "mobileNumber": "Mobiltelefonnummer",
+          "phoneNumber": "Telefonnummer",
+          "role": "Rolle",
+          "roles": {
+            "1": "Steuerpflichtiges Unternehmen oder Person",
+            "2": "Steuervertreter"
+          }
+        },
+        "generalTermsAndCondition": "Ich stimme den Allgemeinen Geschäftsbedingungen zu.",
+        "metaTitle": "MWST-Abrechnung easy",
+        "mwstDeclaration": "MWST-Abrechnung",
+        "permission": "Ich bin berechtigt die Abrechnung für das oben genannte Unternehmen auszufüllen und einzureichen.",
+        "personalData": "Angaben zur ausfüllenden Person",
+        "personalDataTitle": "Angaben zum Unternehmen",
+        "phoneNumberHint": "Diese Mobiltelefonnummer wird für SMS-Notifikationen verwendet.",
+        "reorder": {
+          "back": "Zurück zu 'Abrechnungscode eingeben'",
+          "che": "CHE-",
+          "enterMwstNr": "Bitte geben Sie Ihre MWST-Nr. ein. Die Abrechnungscodes sämtlicher noch offenen Abrechnungen werden Ihnen in den nächsten Tagen per Post an die bei der ESTV hinterlegte Adresse zugestellt.",
+          "error": {
+            "api": {
+              "304": "Die MWST-Nr. ist ungültig. Bitte überprüfen Sie die Eingabe und geben Sie die MWST-Nr. erneut ein."
+            }
+          },
+          "form": {
+            "mwstNr": "MWST-Nr"
+          },
+          "info": "Sie rechnen mit ESTV-Suisse Tax ab? Bitte verwenden Sie ESTV-Suisse Tax zum Einreichen Ihrer Abrechnung. Die Bestellung eines Abrechnungscodes ist nicht möglich.",
+          "link": "Abrechnungscodes für Abrechnungen vor dem Q4/2020, S2/2020 oder M12/2020 bestellen Sie bitte <a href='https://www.estv.admin.ch/estv/de/home/mehrwertsteuer/dienstleistungen/formulare-online/nachbestellung-abrechnungsformular.html' target='_blank' title='Öffnet den Link in einem neuen Fenster oder Tab'>hier</a>.",
+          "mwst": "MWST",
+          "send": "Abrechnungscodes nachbestellen",
+          "success": {
+            "noOpenDeclarationFound": "Es sind keine offenen Abrechnungen vorhanden.",
+            "openDeclarationFound": "Danke für Ihre Bestellung. Sie erhalten in den nächsten Tagen die Abrechnungscodes von sämtlichen noch offenen Abrechnungen per Post."
+          },
+          "title": "Abrechnungscodes nachbestellen?"
+        },
+        "reorderToken": "Abrechnungscode nachbestellen",
+        "title": "Abrechnung einreichen",
+        "validVatTokenNote": "Ihr Code ist für die folgende Abrechnung gültig:"
+      }
+    },
+    "tabNavigation": {
+      "moreVATServices": {
+        "message": "Um ein Unternehmen hinzuzufügen oder Berechtigungen verwalten zu können, müssen Sie ein ePortal Benutzerkonto erstellen oder sich mit Ihrem bereits registrierten Konto anmelden.",
+        "title": "Benutzerkonto erstellen"
+      }
+    },
+    "timer": {
+      "autoLogoutDueToInactivity": "Sie wurden wegen Inaktivität automatisch abgemeldet.",
+      "autoLogoutIn": "Sie werden automatisch abgemeldet in:",
+      "login": "Anmelden",
+      "stayLoggedIn": "Angemeldet bleiben",
+      "userInactivityAutoLogout": "Automatische Abmeldung wegen Benutzerinaktivität"
+    }
+  }
+}

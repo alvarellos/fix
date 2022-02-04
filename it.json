@@ -1,0 +1,1099 @@
+{
+  "i18n": {
+    "application": {
+      "code": "Replace me [App code]",
+      "description": "Replace me [App description]",
+      "shortName": "Replace me [App shortname]",
+      "title": "Conteggiare l'IVA"
+    },
+    "ax": {
+      "downloadPDF": "PDF scaricato",
+      "helpFor": "Aiuto per la cifra",
+      "helpForNetGross": "Aiuto per le cifre d'affari",
+      "showAdditionalInfo": "Mostrare/mascherare le informazioni supplementari",
+      "showOldTaxRates": "Mostrare/mascherare le vecchie aliquote d'imposta "
+    },
+    "common": {
+      "aria": {
+        "closeDialog": "Chiudere la finestra di dialogo",
+        "error": "Errore:",
+        "info": "Nota",
+        "infoCloseDescriptor": "Cliccare per chiudere la notifica",
+        "infoDescriptor": "Notifica generale",
+        "newWindow": "Apre il link in una nuova finestra o scheda",
+        "opensDialog": "Aprire la finestra di dialogo",
+        "success": "Successo:",
+        "warning": "Avvertimento:"
+      },
+      "buttonActions": {
+        "adjustDeclaration": "Correggere il rendiconto",
+        "back": "Ritorna",
+        "backStartPage": "Ritorna alla pagina principale",
+        "backToBusinessCaseOverview": "Ritorna a 'Miei rendiconti IVA'",
+        "back_code": "Ritorna a 'Immissione del codice del rendiconto'",
+        "backtoOverview": "Tornare alla panoramica",
+        "buffer": "Salvare",
+        "cancel": "Interrompere",
+        "changeReminder": "Modificare i promemoria",
+        "confirm": "Confermare",
+        "continue": "Continuare",
+        "correction": "Correggere il rendiconto",
+        "emptyForm": "Svuotare il modulo",
+        "extend": "Prolungare i termini",
+        "furtherDeclaration": "Presentare un ulteriore rendiconto",
+        "guest": "Uscire dal sistema quale ospite",
+        "logout": "Disconnettiti",
+        "logoutGuest": "Uscire dal sistema quale ospite",
+        "ok": "OK",
+        "provideDeclaration": "Presentare",
+        "refreshData": "Aggiornare i dati",
+        "rejectDeclaration": "Rifiutare",
+        "reset": "Riprestinare",
+        "save": "Salvare temporaneamente",
+        "saveAndPreview": "Anteprima",
+        "submitDeclaration": "Invio",
+        "uploadXML": "Caricare XML"
+      },
+      "errors": {
+        "errorCode": "Error (Code: {{ value }})",
+        "general": "An error has occurred. Please try again later. (Error code: {{ value }})",
+        "http": {
+          "101": "Vat token deleted",
+          "102": "vat token sumbitted externally",
+          "103": "invalid token",
+          "104": "Invalid applicant information",
+          "105": "vat token sumbitted over deadline\t",
+          "106": "invalid contact information",
+          "201": "",
+          "300": "No such declaration request exists",
+          "301": "Update of declaration request failed",
+          "302": "Storing the PDF form failed",
+          "303": "Retrieval of the declaration request form (PDF) failed",
+          "304": "Il numero IVA non è valido. Controllare i dati inseriti e ridigitare il numero IVA.",
+          "305": "",
+          "400": "Bad request",
+          "401": "Not authorized",
+          "404": "The requested resource could not be found",
+          "500": "Internal server error",
+          "501": "Not implemented",
+          "502": "Bad gateway",
+          "503": "Service unavailable",
+          "600": "not a suisse phone number",
+          "700": "The declaration cannot be currently rectified",
+          "701": "The declaration rectification cannot be currently deleted\t",
+          "800": "Declaration semaphore lock. Cannot be acquired\t",
+          "801": "Declaration semaphore lock. Cannot be released",
+          "803": "Declaration semaphore lock. Cannot be touched",
+          "900": "Failed to import XML VAT declaration due to unmarshal error\t",
+          "901": "Failed to import XML VAT declaration due to incomplete (either irregular or undefined) general information\t",
+          "902": "Failed to import XML VAT declaration. No such declaration request exists for MWST-Nr\t",
+          "903": "Failed to import XML VAT declaration due to conversation error"
+        }
+      },
+      "help": {
+        "address": "Amministrazione federale delle contribuzioni AFC<br>Servicedesk E-Government<br>3003 Berna<br>Telefono: +41 58 464 54 01",
+        "contactForm": "Modulo di contatto",
+        "contactFormInkasso": "https://www.estv.admin.ch/estv/it/home/die-estv/kontaktformulare/kontakt-mehrwertsteuer1.html",
+        "contactFormMwst": "https://www.estv.admin.ch/estv/it/home/die-estv/kontaktformulare/kontakt-inkasso1.html",
+        "email": "e-mail",
+        "help": "Supporto",
+        "phone": "Telefono",
+        "sub": "Per le domande inerenti il Rendiconto IVA easy il nostro Servicedesk è a vostra disposizione:",
+        "sub2": "Per le domande inerenti all'imposta sul valore aggiunto è a vostra disposizione:",
+        "sub3": "Per le domande inerenti all'incasso è a vostra disposizione:",
+        "title": "Contatto per il Rendiconto IVA easy",
+        "title2": "Contatto per le domande inerenti all'imposta sul valore aggiunto",
+        "title3": "Contatto per le domande inerenti all'incasso",
+        "zone": "Zona"
+      },
+      "labels": {
+        "action": "Action",
+        "actions": "Actions",
+        "cancel": "Cancel",
+        "delete": "Delete",
+        "edit": "Edit",
+        "no": "No",
+        "optional": "(facoltativo)",
+        "required": "* required field",
+        "save": "Save",
+        "saveChanges": "Save changes",
+        "select": "Please select",
+        "yes": "Yes"
+      },
+      "locales": {
+        "de": "Deutsch",
+        "en": "English",
+        "fr": "Français",
+        "it": "Italiano"
+      },
+      "misc": {
+        "none": "Nessuno"
+      },
+      "validation": {
+        "error": {
+          "commentLength": "Il commento non può comportare più di 50 caratteri",
+          "email": "Il formato inserito è sbagliato",
+          "emailFormat": "Il formato dell'email non è corretto",
+          "emailMandatory": "Il campo email è obbligatorio.",
+          "invalidMwstFormat": "Il numero IVA inserito non corrisponde al formato 'xxx.xxx.xxx'",
+          "invalideDateFormat": "Formato della data non valido",
+          "marginMissing": "Manca il margine",
+          "max": "Il numero inserito è superiore al numero massimo consentito (999'999'999'999.99).",
+          "maxEmail": "Inserire un indirizzo email con meno di 241 caratteri.",
+          "missing": "Nel modulo non tutti i campi sono stati correttamente completati. Vogliate per favore controllare i campi contrassegnati in rosso",
+          "name": "Il formato inserito è sbagliato",
+          "noValue": "Quanto immesso non è un numero.",
+          "overMaxLength": "Non sono ammessi più di {{overMaxLength}} caratteri.",
+          "phone": "Sono permessi solo numeri",
+          "phoneFormat": "Il formato del numero di telefono mobile CH non è corretto.",
+          "phoneFormatAlphanCharOrSpaces": "Utilizzare solo cifre senza spazi",
+          "phoneFormatMissingPlus": "Inserire il codice d'avviamento postale del paese",
+          "phoneFormatTooLong": "Il numero di telefono è troppo lungo",
+          "phoneFormatTooShort": "Il numero di telefono è troppo corto",
+          "phoneFormatWithZeros": "Inserire il numero di telefono nel formato +41XXXXXXXXX",
+          "phoneMandatory": "Il campo numero di telefono è obbligatorio",
+          "required": "Campo obbligatorio",
+          "salesMissing": "Cifra d'affari mancante",
+          "taxRate": "Aliquota d'imposta mancante",
+          "taxRateMissing": "Vogliate scegliere un'aliquota d'imposta",
+          "z200_205": "La cifra 200 non può essere inferiore alla cifra 205 oppure essere vuota",
+          "z280_noComment": "È necessario un commento",
+          "z280_noValue": "Manca la deduzione della cifra d'affari",
+          "z299": "Gli importi dichiarati alle cifre 299 e 379 non corrispondo. Vogliate verificare le cifre inserite sotto al Calcolo dell'imposta. ",
+          "z381_382_high": "L'importo dell'imposta è troppo elevato",
+          "z381_382_null": "L'importo dell'imposta non può essere uguale zero"
+        },
+        "formErrors": "Errore",
+        "hint": {
+          "phone": "Esempio:+41XXXXXXXXX"
+        }
+      }
+    },
+    "footer": {
+      "ci": "Dipartimento federale delle finanze",
+      "legalBasis": "Basi giuridiche",
+      "legalLink": "https://www.admin.ch/gov/it/pagina-iniziale/basi-legali.html"
+    },
+    "notification": {
+      "allFieldsRequired": "Vanno compilati tutti i campi",
+      "error": "Si è verificato un errore. Vogliate riprovare più tardi.",
+      "saved": "Memorizzato"
+    },
+    "oblique": {
+      "footer": {
+        "info": {
+          "title": "Dipartimento federale delle finanze"
+        },
+        "links": {
+          "title": "Dipartimento federale delle finanze"
+        },
+        "title": "Dipartimento federale delle finanze"
+      },
+      "header": {
+        "controls": {
+          "title": "Controls"
+        },
+        "languages": {
+          "title": "Italiano"
+        },
+        "logo": "Confederazione svizzera",
+        "navigation": {
+          "title": "Navigazione"
+        },
+        "title": "Rendiconto IVA easy"
+      },
+      "master-layout": {
+        "accesskey": {
+          "homepage": "Homepage",
+          "mainContent": "Contenuto",
+          "navigation": "Navigazione"
+        }
+      },
+      "notification": {
+        "type": {
+          "error": "Error",
+          "info": "Info",
+          "success": "Successo",
+          "warn": "Avvertimento"
+        }
+      }
+    },
+    "routes": {
+      "Copy/Replace me [routeName]": {
+        "metaTitle": "",
+        "title": ""
+      },
+      "Replace me [routeName]": {
+        "metaTitle": "",
+        "title": ""
+      },
+      "bank": {
+        "account": {
+          "favours": "Beneficiario",
+          "financialInstitution": "Istituto bancario",
+          "iban": "IBAN"
+        },
+        "bankAccountNumber": {
+          "accountNumber": "Numero di conto",
+          "accountType": "Tipo di conto",
+          "bankClearingNr": "No. clearing / IID",
+          "checkNumber": "Verificare IBAN/numero di conto",
+          "country": "Paese del conto bancario",
+          "differentAccountNumber": "Altro numero di conto",
+          "error": {
+            "invalid": "Il numero IBAN non è valido",
+            "invalidBankAccount": "Il numero di conto è errato - prestate attenzione al formato.",
+            "invalidBankclearing": "Il no. clearing /IID è errato o non esiste nel paese seleizionato",
+            "missingBankAccountSelection": "Selezionare un conto bancario prima di procedere",
+            "missingInformation": "Introduca e confermi i dati bancari prima di continuare.",
+            "qrIban": "Prestate attenzione, l'AFC attualmente non elabora rimborsi tramite QR-IBAN. Vi invitiamo quindi a trasmetterci i danti bancari con il numero IBAN finora in uso"
+          },
+          "iban": "IBAN",
+          "internationalTransfer": "Eventuali costi per pagamenti internazionali vengono computati interamente al beneficiario.",
+          "title": "Estremi bancari"
+        },
+        "description": {
+          "addNewBankAccount": "Per favore vogliate indicare gli estremi bancari per il pagamento del credito",
+          "availableBankAccounts": "I seguenti estremi bancari sono attualmente registrati presso l'AFC"
+        },
+        "header": {
+          "change": "Modificare le coordinate bancarie",
+          "check": "Verificare le coordinate bancarie",
+          "new": "Registrare delle nuove coordinate bancarie"
+        },
+        "payment": {
+          "beneficiaryPerson": "Persona beneficiaria",
+          "differentPayee": "Differente beneficiario",
+          "differentPayeeInfo": "Per motivi di sicurezza i beneficiari che non corrispondono all'impresa non possono essere modificati online. Qualora venga scelta questa opzione, l'AFC invierà automaticamente un modulo all'indirizzo societario, per comunicare le coordinate bancarie relative il beneficiario.",
+          "hint": "Osservazioni: il rimborso del credito avviene unicamente dopo l'elaborazione del modulo cartaceo.",
+          "taxableCompany": "Società contribuente",
+          "title": "Pagamento a favore di"
+        },
+        "verifyBankAccount": {
+          "bankAccountSelection": "Selezionare una delle coordinate bancarie già esistenti o inserirne una nuova:",
+          "changeBankAccount": "Desidero modificare la mia relazione bancaria",
+          "no": "No, desidero modificare le coordinate bancarie",
+          "question": "Sono corretti i seguenti dati",
+          "yes": "Si, i dati sono corretti"
+        }
+      },
+      "business": {
+        "audit": "Per verifica",
+        "date": "Oggi, il",
+        "declare": "Conteggiare",
+        "dialog": {
+          "address": "Indirizzo sede legale<br>",
+          "endDatumMWSTPflicht": "Fine dell'obbligo fiscale IVA",
+          "estvid": "AFC-ID"
+        },
+        "errorTitle": "Messaggio d'errore",
+        "errorTxt": "Purtroppo è sopraggiunto un errore voglia per favore riprovare più tardi",
+        "infoCreateAnnualMultiplePartners": "Sono state constatate lacune in un periodo fiscale? <br>Va semplicemente inviata una <b>riconciliazione annuale</b> tramite il tasto azione <i class='info-icon fa fa-ellipsis-h icon-plus' aria-hidden='true'></i> sull'ultimo rendiconto inviato per il rispettivo periodo fiscale.",
+        "infoCreateAnnualSinglePartnerPart1": "Sono state constatate lacune nel periodo fiscale {{ year }}? In modo rapido e semplice va inviata una riconciliazione annuale.",
+        "infoCreateAnnualSinglePartnerPart2": "in modo facile e veloce",
+        "infoCreateRectification": "Utilizzando il tasto azione <i class='info-icon fa fa-ellipsis-h icon-plus' aria-hidden='true'></i> è possibile inviare <b>rendiconti di correzione</b> per un rendiconto già inviato.",
+        "isFinal": "Rendiconto finale",
+        "labelAnnual": "Riconciliazione annuale",
+        "metaTitle": "Rendiconto IVA pro",
+        "noOpenDeclaration": "Nessun rendiconto IVA aperto",
+        "noOpenDeclarationInfo": "Un avviso seguirà non appena un rendiconto sarà disponibile",
+        "noSubmittedDeclaration": "Nessun rendiconto IVA è stato inviato. ",
+        "pageTitle": "Rendiconto IVA pro",
+        "popup": "<ul><li>Il termine d'inoltro del rendiconto e il termine per il pagamento sono stati prorogati.</li><li>Conformemente all'art. 87 cpv.1 LIVA <b> un interesse moratorio</b> è dovuto a partire dalla data di scadenza.</li><li>Con l'invio di questo modulo la proroga è da considerarsi accettata. Non ricevete nessuna conferma.</li></ul>",
+        "popupTitle": "Prolungare i termini",
+        "table": {
+          "MONAT": "Mese",
+          "QUARTAL": "Trimestre",
+          "SEMESTER": "Semestre",
+          "company": "Impresa / N° IVA",
+          "correctedDate": "Corretto",
+          "estimateDate": "Trasmesso dopo la valutazione",
+          "estimateDateWarning": "IVA valutata",
+          "outdated": "Termine scaduto",
+          "periodName": "Rendiconto",
+          "status": "Status",
+          "submissionDate": "Termine d'inoltro",
+          "submittedDate": "Trasmesso",
+          "submittedOnPaper": "Trasmesso in forma cartacea",
+          "valuta": "Valuta (interessi moratori a decorre dal)",
+          "year": "Riconciliazione annuale"
+        },
+        "widget": {
+          "declarations": "Rendiconti",
+          "open": "Aperto",
+          "selected": "Presentare",
+          "submitted": "Inoltrati"
+        },
+        "xmlUpload": {
+          "dialogIntro": "Se il programma di contabilità permette di esportare i dati da <a href='https://www.ech.ch/de/dokument/c1c91d58-22be-4410-af40-d9baf7c8b3ae' target='_blank' title='Apre il link in una nuova finestra o scheda'><i class='fas fa-external-link-alt'></i> eCH-0217-Standard (eMWST)</a>,  è possibile trasferire i dati contabili IVA direttamente dalla contabilità finanziaria. <br>",
+          "dialogIntroMore": "A tale scopo, esporti il periodo di rendiconto desiderato come documento XML eCH-2017 nel suo programma di contabilità. Poi selezioni il documento eCH-0217 XML esportato per il caricamento dei dati nel rendiconto-IVA pro. Dopo l'importazione, i dati devono essere verificati e se necessario completati. Il rendiconto può quindi essere inviato normalmente.",
+          "dialogMore": "Più",
+          "dialogTitle": "Importare i dati dal rendiconto",
+          "dialogXmlInfo": "L'impresa dichiarante e il periodo fiscale interessato sono riconosciuti in modo automatico nel corso del processo di importazione dei dati.",
+          "error": {
+            "declarationMethodEffective": "Effettivo",
+            "declarationMethodLabel": "Metodo di rendiconto",
+            "declarationMethodPauschal": "Aliquota forfettaria",
+            "declarationMethodSaldo": "Aliquota saldo",
+            "importFailedContent": "Il file non può essere letto. Verificare se si tratta di un documento XML valido secondo i requisiti del eCH-0217-Standard.",
+            "messageAnnualRectification": "Con i seguenti dati non è possibile trovare una riconciliazione annuale per il contribuente con il {{ vatNumber }} <br>",
+            "messageOriginalDecl": "Con i seguenti dati non è possibile trovare un primo invio per il contribuente con il {{ vatNumber }} ",
+            "messageRectification": "Con i seguenti dati non è possibile trovare un rendiconto di correzione per il contribuente con il {{ vatNumber }}",
+            "periodFromToString": "{{periodFrom}} fino al {{periodTo}}",
+            "periodLabel": "Periodo",
+            "title": "Errore nel caricamento dei dati"
+          },
+          "fileCancelLabel": "Rimuovere il file selezionato",
+          "fileFormatHint": "Formato: XML (eIVA)",
+          "fileSelectButtonHint": "Formato: XML (eIVA)",
+          "fileSelectButtonLabel": "Aggiungere file",
+          "fileSelectTitle": "Selezionare il file XML per il caricamento dei dati ",
+          "importSuccessContent": "I dati del file XML sono stati trasferiti nel formulario",
+          "importSuccessTitle": "Dati importati",
+          "noFileSelectedText": "Nessun file è stato ancora selezionato"
+        }
+      },
+      "confirmation": {
+        "addressESTV": "Amministrazione federale delle contribuzioni<br>Divisione principale dell'imposta sul valore aggiunto<br>Schwarztorstrasse 50<br>3024 Berna",
+        "adjustDeclarationViaCode": "Volete correggere il rendiconto prima dell'invio? Con il codice di rendiconto avete la possibilità di apportare delle correzioni al rendiconto e di creare una nuova versione del rendiconto.",
+        "copyDeclaration": "Copia del vostro rendiconto {{period}}",
+        "copyDeclarationAnnualRectification": "Copia della riconciliazione annuale",
+        "copyDeclarationRectification": "Copia del vostro rendiconto di correzione {{period}}",
+        "copyFinalDeclaration": "Copia del rendiconto finale",
+        "corrections": "Avete delle correzioni? Vogliate utilizzare il rendiconto di correzione sul nostro",
+        "deadlineExtension": "Richiesta di proroga per l'IVA",
+        "deadlineExtensionInfo": "Avete bisogno di una proroga per l'inoltro del rendiconto o per il pagamento? Richiedeteli comodamente online:",
+        "declarationApproval": "Convalida del rendiconto {{period}}",
+        "draftDeclaration": "Anteprima del rendiconto {{period}}",
+        "infoProvisionForAudit": "Gli utenti autorizzati all'invio sono stati automaticamente informati della messa a disposizione del rendiconto.",
+        "infoRejection": " L'utente che ha presentato il rendiconto per la verifica è stato automaticamente informato del rifiuto del rendiconto.",
+        "information": "Le informazioni sul pagamento, il codice di rendiconto per il prossimo rendiconto e altre informazioni si trovano nel riepilogo PDF del vostro rendiconto",
+        "infosInPDF": "Le informazioni sul pagamento, il codice di rendiconto per il prossimo rendiconto e altre informazioni si trovano nel riepilogo PDF del vostro rendiconto",
+        "mwstProDescription": "Per i vostri atti qui sotto potete scaricare una copia del vostro rendiconto. In ogni momento potete comunque visualizzare e/o scaricare il vostro rendiconto dal repertorio rendiconti IVA inoltrati.",
+        "mwstProDescriptionRectification": "Qui sotto potete scaricare una copia del rendiconto di correzione per l'archiviazione. Potete inoltre visualizzare e scaricare il vostro rendiconto di correzione in qualsiasi momento sotto i vostri rendiconti IVA inviati.",
+        "payment": "Desiderate un piano di pagamento o di pagamenti rateali? Richiedeteli comodamente online:",
+        "paymentDeadline": "Termine di pagamento",
+        "paymentDeadlineDescription": "Desiderate una proroga di pagamento? Richiedetela comodamente online:",
+        "paymentInstallment": "Pagamenti rateali",
+        "paymentInstallmentDescription": "Desiderate beneficiare di un pagamento rateale? Indicateci una proposta di piano di pagamento:",
+        "providedForAudit": "Grazie mille. Il rendiconto è ora disponibile per la verifica",
+        "rejected": "Il rendiconto è stato rifiutato",
+        "sendDeclarationApproval": "Vi invitiamo ad inoltrare la liberatoria per il rilascio del rendiconto alla persona responsabile. La liberatoria firmata deve essere inviata per posta al seguente indirizzo:",
+        "submitted": "Grazie. Il vostro rendiconto è stato inoltrato.",
+        "submittedForDeclarationApproval": "Grazie, la convalida del rendiconto è pronta per essere firmata",
+        "submittedRectification": "Grazie. Avete trasmesso il vostro rendiconto di correzione.",
+        "submittingViaPostHint": "<b>Importante: il rendiconto è considerato inoltrato solo quando l'AFC riceve la convalida per il rendiconto per posta</b>",
+        "summary": "Riepilogo del vostro rendiconto {{period}}",
+        "summaryPDF": "Riepiloghi PDF",
+        "summaryPDFFinalDeclaration": "Riepilogo del rendiconto finale al {{ finalDate }}",
+        "title": "Conferma",
+        "waitForPDF": "Un momento di pazienza per favore, il PDF è in fase di preparazione",
+        "website": "Sito Internet"
+      },
+      "declaration": {
+        "correction": {
+          "confirmAbortionContent": "Vogliate confermare che desiderate eliminare la correzione. Tutte le modifiche saranno irrevocabilmente cancellate.",
+          "continueCurrentCorrection": "Continuare la correzione attualmente in corso",
+          "continueInYearlyCorrection": "Continuare la riconciliazione per l'anno in corso ",
+          "correctDeclaration": "Correggere il rendiconto",
+          "correction": "Correzione",
+          "correctionConfirmationInfo": "Questo rendiconto è stato trasmesso il {{ submissionDate }} da {{ submittingUserName }}. Cosa desidera fare?",
+          "discardCorrection": "Eliminare le correzioni",
+          "displayPdfCopy": "Visualizzare la copia del rendiconto",
+          "errorOnCreate": "Errore durante l'allestimento della versione corretta. Vogliate riprovare più tardi.",
+          "errorOnDelete": "Errore durante l'eliminazione della versione corretta. Vogliate riprovare più tardi.",
+          "fillInCorrectionInfo": "Questo rendiconto di correzione annulla e sostituisce il rendiconto inizialmente trasmesso. Il rendiconto di correzione contiene gli ultimi importi trasmessi. Nella pagina successiva è possibile inviare il rendiconto di correzione all'Amministrazione Federale delle Contribuzioni o rimandarlo alla persona che l'ha compilato per le correzioni.",
+          "fillInCorrectionInfoLink": "Sul link <a href='https://www.gate.estv.admin.ch/mwst-webpublikationen/public/pages/taxInfos/tableOfContent.xhtml?publicationId=1013189' target='_blank' title='Apre il link in una nuova finestra o scheda'>MWST-Info 15</a> sono disponibili le informazioni per la compilazione. ",
+          "fillInCorrectionInfoUserDate": "Per questo rendiconto è stato allestito un rendiconto di correzione il  {{ correctionCreationDate }} da{{ correctionCreateUserName }} ma non è ancora stato trasmesso.",
+          "fillInCorrectionTitle": "Compilare il rendiconto di correzione",
+          "handInCorrection": "Trasmettere il rendiconto di correzione",
+          "handInYearlyCorrection": "Trasmettere la riconciliazione annuale",
+          "submittedByExternalSystem": "Trasmesso all'esterno"
+        },
+        "dialog": {
+          "description": "Desiderate cancellare tutte le voci?",
+          "title": "Svuotare il modulo"
+        },
+        "error": {
+          "api": {
+            "400": "La convalida per il rendiconto non è ancora disponibile. Vogliate riprovare più tardi.",
+            "401": "La convalida del rendiconto non è stata trovata."
+          }
+        },
+        "form": {
+          "z200": "Cifra 200",
+          "z205": "Cifra 205",
+          "z220": "Cifra 220",
+          "z221": "Cifra 221",
+          "z225": "Cifra 225",
+          "z230": "Cifra 230",
+          "z235": "Cifra 235",
+          "z280": "Cifra 280",
+          "z289": "Cifra 289",
+          "z299": "Cifra 299",
+          "z301": "Cifra 301",
+          "z302": "Cifra 302",
+          "z311": "Cifra 311",
+          "z312": "Cifra 312",
+          "z321": "Cifra 321",
+          "z322": "Cifra 322",
+          "z331": "Cifra 331",
+          "z332": "Cifra 332",
+          "z341": "Cifra 341",
+          "z342": "Cifra 342",
+          "z381": "Cifra 381",
+          "z382": "Cifra 382",
+          "z399": "Cifra 399",
+          "z400": "Cifra 400",
+          "z405": "Cifra 405",
+          "z410": "Cifra 410",
+          "z415": "Cifra 415",
+          "z420": "Cifra 420",
+          "z470": "Cifra 470",
+          "z471": "Cifra 471",
+          "z479": "Cifra 479",
+          "z500": "Cifra 500",
+          "z510": "Cifra 510",
+          "z900": "Cifra 900",
+          "z910": "Cifra 910"
+        },
+        "form1050": {
+          "ExpandLink": "Mostrare delle informazioni complementari",
+          "ExpandList1": {
+            "line1": {
+              "pauschal": "le controprestazioni elencate qui di seguito sono state dichiarate nel corrispondente rendiconto IVA alle cifre 321/322 rispettivamente 331/332 e imposte all'aliquota forfettaria accordata",
+              "prior2018": {
+                "pauschal": "le controprestazioni elencate qui di seguito sono state dichiarate nel corrispondente rendiconto IVA alle cifre 320/330 rispettivamente 321/331 e imposte all'aliquota forfettaria accordata",
+                "saldo": "le controprestazioni elencate qui di seguito sono state dichiarate nel corrispondente rendiconto IVA alle cifre 320/330 rispettivamente 321/331 e imposte all'aliquota saldo accordata"
+              },
+              "saldo": "le controprestazioni elencate qui di seguito sono state dichiarate nel corrispondente rendiconto IVA alle cifre 321/322 rispettivamente 331/332 e imposte all'aliquota saldo accordata"
+            },
+            "line2": {
+              "pauschal": "di poter in ogni momento esibiere su richiesta le prove e i giustificativi corrispondenti",
+              "saldo": "di poter in ogni momento esibiere su richiesta le prove e i giustificativi corrispondenti"
+            },
+            "line3": {
+              "pauschal": "di aver proceduto in caso di fatture in valuta estera secondo <a href='http://www.admin.ch/opc/it/classified-compilation/20091866/index.html#a45' target='_blank' title='Apre il link in una nuova finestra o scheda'>l'articolo 45 OIVA</a>",
+              "saldo": "di aver proceduto in caso di fatture in valuta estera secondo <a href='http://www.admin.ch/opc/it/classified-compilation/20091866/index.html#a45' target='_blank' title='Apre il link in una nuova finestra o scheda'>l'articolo 45 OIVA</a>"
+            }
+          },
+          "ExpandList2": {
+            "line1": {
+              "pauschal": "Forniture all'estero (ad es. Parigi-Berlino) e prestazioni di servizi effettuate all'estero (il luogo della prestazione di servizi si trova all'estero) devono essere dichiarate nel rendiconto alla cifra 200 e dedotte alla cifra 221. Pertanto queste cifre d'affari <b>non possono essere</b> inserite in questo modulo",
+              "saldo": "Forniture all'estero (ad es. Parigi-Berlino) e prestazioni di servizi effettuate all'estero (il luogo della prestazione di servizi si trova all'estero) devono essere dichiarate nel rendiconto alla cifra 200 e dedotte alla cifra 221. Pertanto queste cifre d'affari <b>non possono essere</b> inserite in questo modulo"
+            },
+            "line2": {
+              "pauschal": "Le riduzioni dell'IVA in seguito a una diminuzione dell'importo fatturato (ad esempio tramite ribassi, sconti e storni concessi successivamente) vanno trattate nel modo seguente:<br>a) se la relativa fattura è riportata nella presente distinta, vanno iscritti gli importi ridotti;<br>b) se la relativa fattura è riportata nella distinta di una precedente richiesta di computo la rispettiva riduzione va effettuata - facendo riferimento alla fattura corrispondente - alla fine della distinta.",
+              "saldo": "Le riduzioni dell'IVA in seguito a una diminuzione dell'importo fatturato (ad esempio tramite ribassi, sconti e storni concessi successivamente) vanno trattate nel modo seguente:<br>a) se la relativa fattura è riportata nella presente distinta, vanno iscritti gli importi ridotti;<br>b) se la relativa fattura è riportata nella distinta di una precedente richiesta di computo la rispettiva riduzione va effettuata - facendo riferimento alla fattura corrispondente - alla fine della distinta."
+            },
+            "line3": {
+              "pauschal": "Per le prestazioni nel settore alberghiero (aliquota fino al 31.12.2017: 3.8%;  dal 1.1.2018: 3.7%) il computo dell'imposta è possibile solo nei casi in cui sono state eseguite prestazioni a beneficiari istituzionali e persone beneficiarie secondo <a href='https://www.admin.ch/opc/it/classified-compilation/20091866/index.html#a143' target=_'blank'>l'articolo 143 OIVA</a>",
+              "prior2018": {
+                "pauschal": "Per le prestazioni nel settore alberghiero (aliquota fino al 31.12.2010: 3.6%;  dal 1.1.2011: 3.8%) il computo dell'imposta è possibile solo nei casi in cui sono state eseguite prestazioni a beneficiari istituzionali e persone beneficiarie secondo <a href='https://www.admin.ch/opc/it/classified-compilation/20091866/index.html#a143' target=_'blank'>l'articolo 143 OIVA</a>",
+                "saldo": "Per le prestazioni nel settore alberghiero (aliquota fino al 31.12.2010: 3.6%;  dal 1.1.2011: 3.8%) il computo dell'imposta è possibile solo nei casi in cui sono state eseguite prestazioni a beneficiari istituzionali e persone beneficiarie secondo <a href='https://www.admin.ch/opc/it/classified-compilation/20091866/index.html#a143' target=_'blank'>l'articolo 143 OIVA</a>"
+              },
+              "saldo": "Per le prestazioni nel settore alberghiero (aliquota fino al 31.12.2017: 3.8%;  dal 1.1.2018: 3.7%) il computo dell'imposta è possibile solo nei casi in cui sono state eseguite prestazioni a beneficiari istituzionali e persone beneficiarie secondo <a href='https://www.admin.ch/opc/it/classified-compilation/20091866/index.html#a143' target=_'blank'>l'articolo 143 OIVA</a>"
+            }
+          },
+          "ExpandTitle1": "Con l'inoltro elettronico del complemento di conferma:",
+          "ExpandTitle2": "Vogliate osservare",
+          "content": {
+            "pauschal": "Il computo dell'IVA dichiarata è effettuato sulle esportazioni di beni (cfr. ch. cifra 10 dell'<a href='https://www.gate.estv.admin.ch/mwst-webpublikationen/public/MI/12' target='_blank' title='Apre il link in una nuova finestra o scheda'>Info IVA 12 Aliquote saldo</a> ) e sulle prestazioni eseguite sul territorio svizzero a beneficiari istituzionali e persone beneficiarie secondo  <a href='https://www.admin.ch/opc/it/classified-compilation/20091866/index.html#a143' target='_blank' title='Apre il link in una nuova finestra o scheda'>l'articolo 143 OIVA</a>, purché venga utilizzato il modulo ufficiale. L'importo totale dell'imposta è infine ripreso nel rendiconto (cifra 470). Potete cancellare tutti i dati immessi resettando il modulo.",
+            "saldo": "Il computo dell'IVA dichiarata è effettuato sulle esportazioni di beni (cfr. ch. cifra 10 dell'<a href='https://www.gate.estv.admin.ch/mwst-webpublikationen/public/MI/12' target='_blank' title='Apre il link in una nuova finestra o scheda'>Info IVA 12 Aliquote saldo</a> ) e sulle prestazioni eseguite sul territorio svizzero a beneficiari istituzionali e persone beneficiarie secondo  <a href='https://www.admin.ch/opc/it/classified-compilation/20091866/index.html#a143' target='_blank' title='Apre il link in una nuova finestra o scheda'>l'articolo 143 OIVA</a>, purché venga utilizzato il modulo ufficiale. L'importo totale dell'imposta è infine ripreso nel rendiconto (cifra 470). Potete cancellare tutti i dati immessi resettando il modulo."
+          },
+          "cta": {
+            "addForm": "Aggiungere una fattura",
+            "backToForm": "Resettare il modulo",
+            "cancel": "Interrompere",
+            "validate": "Riprendere il calcolo"
+          },
+          "hideExpandLink": "Nascondere le informazioni supplementari",
+          "label": {
+            "date": "Data",
+            "kind": "Genere di beni / prestazioni di servizio",
+            "number": "No.",
+            "sales": "Controprestazione in CHF",
+            "tax": "Imposta in CHF",
+            "taxRate": "Aliquote d'imposta",
+            "taxRatePeriod": "Aliquote fiscali",
+            "total": "Importo totale dell'imposta sulle fatture clienti:"
+          },
+          "subContent": "Non sono state immesse delle fatture clienti. Per immettere una nuova fattura clienti vogliate scegliere 'Aggiungere una fattura'.",
+          "subTitle": "Fatture clienti",
+          "taxRatePeriod": {
+            "1": "fino al 31.12.2017",
+            "2": "a partire dal 01.01.2018",
+            "prior2018": {
+              "0": "fino al 31.12.2010",
+              "1": "dal 01.01.2011"
+            }
+          },
+          "title": "Allegato per le esportazioni (modulo 1050)",
+          "warning": "Volete cancellare tutti i dati inseriti?"
+        },
+        "form1055": {
+          "content1055": {
+            "pauschal": "Per ogni vendita di un bene usato che avete acquistato a tale scopo, potete decidere se conteggiare la cifra d'affari con l'aliquota forfettaria autorizzata oppure il margine con l'aliquota forfettaria fissa del 6,5% (risp. 6,7% fino al 31.12.2017). Al riguardo allestite un elenco separato e riportate nel seguente modulo la somma delle cifre d'affari o dei margini (cifra 12.2 <a href='https://www.gate.estv.admin.ch/mwst-webpublikationen/public/MI/12' target='_blank' title='Apre il link in una nuova finestra o scheda'>dell'Info IVA 12 Aliquote saldo</a>). La differenza totale va portata in deduzione nel rendiconto IVA (cifra 471). Potete cancellare tutti i dati immessi, resettando il modulo.",
+            "prior2018": {
+              "pauschal": "Per ogni vendita di un bene usato che avete acquistato a tale scopo, potete decidere se conteggiare la cifra d'affari con l'aliquota forfettaria autorizzata oppure il margine con l'aliquota forfettaria fissa del 6,7% (risp. 6,4% fino al 31.12.2010). Al riguardo allestite un elenco separato e riportate nel seguente modulo la somma delle cifre d'affari o dei margini (cifra 12.2 <a href='https://www.gate.estv.admin.ch/mwst-webpublikationen/public/MI/12' target='_blank' title='Apre il link in una nuova finestra o scheda'>dell'Info IVA 12 Aliquote saldo</a>). La differenza totale va portata in deduzione nel rendiconto IVA (cifra 471). Potete cancellare tutti i dati immessi, resettando il modulo.",
+              "saldo": "Per ogni vendita di un bene usato che avete acquistato a tale scopo, potete decidere se conteggiare la cifra d'affari con l'aliquota saldo autorizzata oppure il margine con l'aliquota saldo fissa del 6,7% (risp. 6,4% fino al 31.12.2010). Al riguardo allestite un elenco separato e riportate nel seguente modulo la somma delle cifre d'affari o dei margini (cifra 12.2 <a href='https://www.gate.estv.admin.ch/mwst-webpublikationen/public/MI/12' target='_blank' title='Apre il link in una nuova finestra o scheda'>dell'Info IVA 12 Aliquote saldo</a>). La differenza totale va portata in deduzione nel rendiconto IVA (cifra 471). Potete cancellare tutti i dati immessi, resettando il modulo."
+            },
+            "saldo": "Per ogni vendita di un bene usato che avete acquistato a tale scopo, potete decidere se conteggiare la cifra d'affari con l'aliquota saldo autorizzata oppure il margine con l'aliquota saldo fissa del 6,5% (risp. 6,7% fino al 31.12.2017). Al riguardo allestite un elenco separato e riportate nel seguente modulo la somma delle cifre d'affari o dei margini (cifra 12.2 <a href='https://www.gate.estv.admin.ch/mwst-webpublikationen/public/MI/12' target='_blank' title='Apre il link in una nuova finestra o scheda'>dell'Info IVA 12 Aliquote saldo</a>). La differenza totale va portata in deduzione nel rendiconto IVA (cifra 471). Potete cancellare tutti i dati immessi, resettando il modulo."
+          },
+          "cta": {
+            "addForm": "Aggiungere una fattura",
+            "backToForm": "Resettare il modulo",
+            "cancel": "Interrompere",
+            "emptyTax": "Resettare l'mposta precedente fittizia",
+            "validate": "Riprendere il calcolo"
+          },
+          "expandContent1": {
+            "pauschal": "Questa regolamentazione per i beni usati non si applica agli autoveicoli fino a un peso totale di 3,5 tonnellate e nemmeno ai casi in cui, conformemente <a href='https://www.admin.ch/opc/it/classified-compilation/20081110/index.html#a28' target='_blank' title='Apre il link in una nuova finestra o scheda'>all'articolo 28a LIVA</a> in combinato disposto con  <a hef='https://www.admin.ch/opc/de/classified-compilation/20091866/index.html#a90' target='_blank' title='Apre il link in una nuova finestra o scheda' >l'articolo 90 cpv. 2 OIVA</a> , la deduzione dell'imposta precedente fittizia è esclusa in virtù del metodo di rendiconto effettivo. Tutti i beni rivenduti per i quali intendete far valere il computo dell'imposta precedente fittizia, devono essere riportati singolarmente in un elenco separato (cifra <a href='https://www.gate.estv.admin.ch/mwst-webpublikationen/public/pages/taxInfos/tableOfContent.xhtml?publicationId=1004992' target='_blank' title='Apre il link in una nuova finestra o scheda' > 12.2 dell'Info IVA 12 Aliquote saldo</a>). Dovete inoltrare questo elenco all'AFC <b>solo su richiesta</b>. La totalità del ricavo della vendita deve essere dichiarata alla cifra 200 del rendiconto e conteggiata con l'aliquota forfettaria autorizzata alle cifre 321/322 e 331/332",
+            "prior2018": {
+              "pauschal": "Questa regolamentazione per i beni usati non si applica agli autoveicoli fino a un peso totale di 3,5 tonnellate e nemmeno ai casi in cui, conformemente <a href='https://www.admin.ch/opc/it/classified-compilation/20081110/index.html#a28' target='_blank' title='Apre il link in una nuova finestra o scheda'>all'articolo 28a LIVA</a> in combinato disposto con  <a hef='https://www.admin.ch/opc/de/classified-compilation/20091866/index.html#a90' target='_blank' title='Apre il link in una nuova finestra o scheda' >l'articolo 90 cpv. 2 OIVA</a> , la deduzione dell'imposta precedente fittizia è esclusa in virtù del metodo di rendiconto effettivo. Tutti i beni rivenduti per i quali intendete far valere il computo dell'imposta precedente fittizia, devono essere riportati singolarmente in un elenco separato (cifra <a href='https://www.gate.estv.admin.ch/mwst-webpublikationen/public/pages/taxInfos/tableOfContent.xhtml?publicationId=1004992' target='_blank' title='Apre il link in una nuova finestra o scheda' > 12.2 dell'Info IVA 12 Aliquote saldo</a>). Dovete inoltrare questo elenco all'AFC <b>solo su richiesta</b>. La totalità del ricavo della vendita deve essere dichiarata alla cifra 200 del rendiconto e conteggiata con l'aliquota forfettaria autorizzata alla cifra 320 risp. 321.",
+              "saldo": "Questa regolamentazione per i beni usati non si applica agli autoveicoli fino ad un peso totale di 3,5 tonnellate e nemmeno ai casi in cui, conformemente <a href='https://www.admin.ch/opc/it/classified-compilation/20081110/index.html#a28' target='_blank' title='Apre il link in una nuova finestra o scheda' >all'articolo 28a LIVA</a> in combinato disposto con <a hef='https://www.admin.ch/opc/de/classified-compilation/20091866/index.html#a90' target='_blank' title='Apre il link in una nuova finestra o scheda' >l'articolo 90 cpv. 2 OIVA</a> , la deduzione dell'imposta precedente fittizia è esclusa in virtù del metodo di rendiconto effettivo. Tutti i beni rivenduti per i quali intendete far valere il computo dell'imposta precedente fittizia, devono essere riportati singolarmente in un elenco separato (cifra <a href='https://www.gate.estv.admin.ch/mwst-webpublikationen/public/pages/taxInfos/tableOfContent.xhtml?publicationId=1004992' target='_blank' title='Apre il link in una nuova finestra o scheda' > 12.2 dell'Info IVA 12 Aliquote saldo</a>). Dovete inoltrare questo elenco all'AFC <b>solo su richiesta</b>. La totalità del ricavo della vendita deve essere dichiarata alla cifra 200 del modulo di rendiconto e conteggiata con l'aliquota saldo autorizzata alla cifra 320 risp. 321."
+            },
+            "saldo": "Questa regolamentazione per i beni usati non si applica agli autoveicoli fino ad un peso totale di 3,5 tonnellate e nemmeno ai casi in cui, conformemente <a href='https://www.admin.ch/opc/it/classified-compilation/20081110/index.html#a28' target='_blank' title='Apre il link in una nuova finestra o scheda' >all'articolo 28a LIVA</a> in combinato disposto con <a hef='https://www.admin.ch/opc/de/classified-compilation/20091866/index.html#a90' target='_blank' title='Apre il link in una nuova finestra o scheda' >l'articolo 90 cpv. 2 OIVA</a> , la deduzione dell'imposta precedente fittizia è esclusa in virtù del metodo di rendiconto effettivo. Tutti i beni rivenduti per i quali intendete far valere il computo dell'imposta precedente fittizia, devono essere riportati singolarmente in un elenco separato (cifra <a href='https://www.gate.estv.admin.ch/mwst-webpublikationen/public/pages/taxInfos/tableOfContent.xhtml?publicationId=1004992' target='_blank' title='Apre il link in una nuova finestra o scheda'> 12.2 dell'Info IVA 12 Aliquote saldo</a>). Dovete inoltrare questo elenco all'AFC <b>solo su richiesta</b>. La totalità del ricavo della vendita deve essere dichiarata alla cifra 200 del modulo di rendiconto e conteggiata con l'aliquota saldo autorizzata alle cifre 321/322 e 331/332  "
+          },
+          "expandContent2": "Il modulo é applicabile anche ai beni acquistati a un prezzo golobale e rivenduti esclusivamente sul territorio svizzero. Per il relativo modo di procedere rivolgetevi <a href='https://www.estv.admin.ch/estv/it/home.html' target='_blank' title='Apre il link in una nuova finestra o scheda' >all'Amministrazione federeale delle contribuzioni, Divisione principale IVA</a>.",
+          "expandOldTaxLink": "Desiderate imputare l'imposta fittizia alle vecchie aliquote d'imposta (prima del 1.1.2018)?",
+          "hideExpandLink": "Nascondere le informazioni supplementari",
+          "label": {
+            "difference": "Differenza in CHF",
+            "margin": "Margine in CHF",
+            "sales": "Cifra d'affari in CHF",
+            "tax": "Imposta in CHF",
+            "taxRate": "Aliquota",
+            "totalDifference": "Totale differenza (accredito)"
+          },
+          "prior2018expandOldTaxLink": "Desidera dedurre l'imposta precedente fittizzia alle vecchie aliquote (prima del 01.01.2011)?",
+          "prior2018titleDifference": "Differenza totale",
+          "showExpandLink": "Mostrare le informazioni complementari",
+          "subContent": "Non è stata inserita nessuna fattura clienti. Per inserire una nuova fattura clienti vogliate scegliere 'Aggiungere una fattura'.",
+          "subTitle": "Fatture clienti",
+          "tab1055": "Imposta precedente fittizia (modulo 1055)",
+          "title": "Allegati ai moduli 1055 e 1056",
+          "title1055": "Allegato formulario 1055",
+          "titleDifference": "Differenza totale dei moduli 1055 e 1056"
+        },
+        "form1056": {
+          "content1056": {
+            "pauschal": "Avete acquistato beni di collezione, opere d'arte, beni d'antiquariato o simili , potete quindi applicare l'imposizione sui margini in base all' <a href='https://www.admin.ch/opc/it/classified-compilation/20081110/index.html#a24a' target='_blank' title='Apre il link in una nuova finestra o scheda'>art 24a LIVA</a>. Dovete riportare singolarmente in un'apposita lista tutti i beni di collezione, indicando la totalità della cifra d'affari e il totale del margine conseguiti, tramite formilario 1056 (cfr. in maniera analoga a quanto previsto per l'imposta precedente fittizia, vedi  <a href='https://www.gate.estv.admin.ch/mwst-webpublikationen/public/MI/12' target='_blank' title='Apre il link in una nuova finestra o scheda'> cifra 12.2 dell'Info IVA 12 Aliquote saldo</a> ). Qualora il prezzo d'acquisto dei beni di collezione dovesse essere superiore al prezzo di vendita degli stessi, bisognerà indicare quale margine la perdita. La differenza totale va portata in deduzione nel rendiconto IVA (cifra 471). Potete cancellare tutti i dati immessi, resettando il modulo.",
+            "saldo": "Avete acquistato beni di collezione, opere d'arte, beni d'antiquariato o simili , potete quindi applicare l'imposizione sui margini in base all' <a href='https://www.admin.ch/opc/it/classified-compilation/20081110/index.html#a24a' target='_blank' title='Apre il link in una nuova finestra o scheda'>art 24a LIVA</a>. Dovete riportare singolarmente in un'apposita lista tutti i beni di collezione, indicando la totalità della cifra d'affari e il totale del margine conseguiti, tramite formilario 1056 (cfr. in maniera analoga a quanto previsto per l'imposta precedente fittizia, vedi  <a href='https://www.gate.estv.admin.ch/mwst-webpublikationen/public/MI/12' target='_blank' title='Apre il link in una nuova finestra o scheda'> cifra 12.2 dell'Info IVA 12 Aliquote saldo</a> ). Qualora il prezzo d'acquisto dei beni di collezione dovesse essere superiore al prezzo di vendita degli stessi, bisognerà indicare quale margine la perdita. La differenza totale va portata in deduzione nel rendiconto IVA (cifra 471). Potete cancellare tutti i dati immessi, resettando il modulo."
+          },
+          "cta": {
+            "addForm": "Aggiungere una fattura",
+            "backToForm": "Resettare il modulo",
+            "cancel": "Interrompere",
+            "emptyTax": "Cancellare l'imposta precedente fittizia",
+            "validate": "Riprendere il calcolo"
+          },
+          "expandContent": {
+            "pauschal": "Se desiderate applicare l'imposizione dei margini sui beni di collezione secondo  <a href='https://www.admin.ch/opc/it/classified-compilation/20091866/index.html#a48' target='_blank' title='Apre il link in una nuova finestra o scheda'>l'art. 48b OIVA</a> che avete acquistato in vista della rivendita, non potete indicare sulla fattura una menzione dell'IVA. Tutti i beni rivenduti per i quali intendete far valere l'imposizione dei margini, devono essere riportati singolarmente in un elenco separato (<a href='https://www.gate.estv.admin.ch/mwst-webpublikationen/public/MI/12' target='_blank' title='Apre il link in una nuova finestra o scheda'>cifra 12.2 dell'Info IVA 12 Aliquote saldo</a> ). Dovete inoltrare questo elenco all'AFC <b>solo su richiesta</b>. La totalità del ricavo della vendita deve essere dichiarata alla cifra 200 del rendiconto e conteggiata con l'aliquota forfettaria autorizzata alle cifre 321/322. Se siete autorizzati ad utilizzare due aliquote saldo, dovrete fare la suddivisione tenendo conto di entrambe le aliquote forfettarie attribuite. Il modulo è applicabile anche ai beni acquistati a un prezzo globale e rivenduti esclusivamente sul territorio svizzero. Per il relativo modo di procedere rivolgetevi all' <a href='https://www.estv.admin.ch/estv/it/home.html' target='_blank' title='Apre il link in una nuova finestra o scheda'>Amministrazione federale delle contribuzioni</a>.",
+            "saldo": "Se desiderate applicare l'imposizione dei margini sui beni di collezione secondo l'<a href='https://www.admin.ch/opc/it/classified-compilation/20091866/index.html#a48' target='_blank' title='Apre il link in una nuova finestra o scheda'>art. 48b OIVA</a> che avete acquistato in vista della rivendita, non avete diritto di menzionare l'IVA sulla fattura. Tutti i beni rivenduti per i quali intendete far valere l'imposizione dei margini, devono essere riportati singolarmente in un elenco separato (analogamente all'imposta fittizia <a href='https://www.gate.estv.admin.ch/mwst-webpublikationen/public/pages/taxInfos/tableOfContent.xhtml?publicationId=1004992&lang=de' target='_blank' title='Apre il link in una nuova finestra o scheda'>cifra 12.2 dell'Info IVA 12 Aliquote saldo</a>). Dovete inoltrare questo elenco all'AFC <b>solo su richiesta</b>. La totalità del ricavo della vendita deve essere dichiarata alla cifra 200 del rendiconto e conteggiata con l'aliquota saldo autorizzata alle cifre 321/322. Se siete autorizzati ad utilizzare due aliquote saldo, dovrete fare la suddivisione tenendo conto di entrambe le aliquote saldo attribuite. Il modulo è applicabile anche ai beni acquistati a un prezzo globale e rivenduti esclusivamente sul territorio svizzero. Per il relativo modo di procedere rivolgetevi all'<a href='https://www.estv.admin.ch/estv/it/home.html' target='_blank' title='Apre il link in una nuova finestra o scheda' >Amministrazione federale delle contribuzioni</a>."
+          },
+          "hideExpandLink": "Nascondere le informazioni supplementari",
+          "label": {
+            "difference": "Differenza in CHF",
+            "margin": "Margine in CHF",
+            "sales": "Cifra d'affari in CHF",
+            "tax": "Imposta in CHF",
+            "taxRate": "Aliquota",
+            "totalDifference": "Totale differenza (accredito)"
+          },
+          "showExpandLink": "Mostrare le informazioni supplementari",
+          "subContent": "Non è stata inserita nessuna fattura clienti. Per inserire una nuova fattura clienti vogliate scegliere 'Aggiungere una fattura'.",
+          "subTitle": "Fatture clienti",
+          "tab1056": "Imposizione dei margini (modulo 1056)",
+          "title": "Allegati moduli 1055 e 1056",
+          "titleDifference": "Differenza totale dei moduli 1055 e 1056"
+        },
+        "form10Common": {
+          "pss": "Aliquota forfettaria",
+          "sss": "Aliquota saldo",
+          "title1": "Imputazione alla 1a",
+          "title2": "Imputazione alla 2a"
+        },
+        "form3xx": {
+          "content": "Vi invitiamo ad inserire l'attività del contribuente con le cifre d'affari corrispondenti. Qualora fosse stata accordata al contribuente più di un'aliquota forfettaria, dovrà essere determinata l'aliquota media sulla base dei dati di tutte le attività svolte. Il totale della cifra d'affari così come l'importo dell'imposta saranno quindi riportati nel rendiconto (nelle cifre 321 e 322). Potete cancellare tutti i dati inseriti per resettare il modulo.",
+          "cta": {
+            "addForm": "Aggiungere attività",
+            "backToForm": "Resettare il modulo",
+            "cancel": "Interrompere",
+            "validate": "Riprendere il calcolo"
+          },
+          "label": {
+            "activity": "Attività",
+            "date": "Data",
+            "kind": "Tipo di beni / prestazioni di servizio",
+            "sales": "Controprestazione in CHF",
+            "tax": "Imposta in CHF",
+            "taxRate": "Aliquote d'imposta",
+            "taxRatePeriod": "Periodo dell'aliquota d'imposta",
+            "total": "Importo totale dell'imposta sulle fatture clienti:"
+          },
+          "prior2018content": "Vi invitiamo ad inserire l'attività del contribuente con le cifre d'affari corrispondenti. Qualora fosse stata accordata al contribuente più di un'aliquota forfettaria, dovrà essere determinata l'aliquota media sulla base dei dati di tutte le attività svolte. Il totale della cifra d'affari così come l'importo dell'imposta saranno quindi riportati nel rendiconto (nelle cifre 321 e 320). Potete cancellare tutti i dati inseriti resettando il modulo.",
+          "taxRatePeriod": {
+            "1": "fino al 31.12.2017",
+            "2": "a partire dal 01.01.2018",
+            "prior2018": {
+              "0": "fino al 31.12.2010",
+              "1": "dal 01.01.2011"
+            }
+          },
+          "title": "Calcolo dell'aliquota forfettaria media",
+          "total": "Totale dell'aliquota media",
+          "warning": "Volete cancellare tutte le iscrizioni?"
+        },
+        "header": {
+          "declarationMethod": "Metodo di rendiconto",
+          "declarationPeriod": "Periodo di rendiconto",
+          "declaration_method": "Metodo di rendiconto",
+          "declaration_period": "Periodo di rendiconto",
+          "formOfReporting": "Metodo di rendiconto",
+          "submissionDate": "Data dell'inoltro",
+          "title": "Informazioni sul rendiconto e scadenze",
+          "tooltip": "Questo è il normale termine per l'inoltro del rendiconto. Le proroghe dei termini d'inoltro non sono indicate qui.",
+          "valuta": "Valuta (interesse moratorio dal)",
+          "vereinbart": "convenute ",
+          "vereinnahmt": "ricevute"
+        },
+        "info": {
+          "annualDeclaration": "Riconciliazione annuale",
+          "annualDeclarationTitle": "Compilare la riconciliazione annuale",
+          "annualDeclarationTxt": "<p>Questo modulo serve a correggere le lacune riscontrate nel periodo fiscale precedente. <b>Quindi, solo le differenze riscontrate nei rendiconti presentati devono essere dichiarate.</b> Se non sono state riscontrate lacune, il modulo non deve essere presentato. Il termine per la presentazione è di 240 giorni dopo la fine del periodo fiscale.</p>",
+          "annualDeclarationTxt2EFF": "<p>Compilare il rendiconto di riconciliazione annuale (rendiconto di correzione secondo l'art. 72 LIVA) integralmente e trasmetterlo online. Informazioni per la compilazione sono disponibili nell'<a href='https://www.gate.estv.admin.ch/mwst-webpublikationen/public/pages/taxInfos/tableOfContent.xhtml?publicationId=1013189&lang=de' target='_blank' title='Apre il link in una nuova finestra o scheda'>info IVA 15.</a></p>",
+          "annualDeclarationTxt2PSS": "<p>Compilare il rendiconto di riconciliazione annuale (rendiconto di correzione secondo l'art. 72 LIVA) integralmente e trasmetterlo online. Informazioni per la compilazione sono disponibili nell'<a href='https://www.gate.estv.admin.ch/mwst-webpublikationen/public/pages/taxInfos/tableOfContent.xhtml?publicationId=1013189&lang=de' target='_blank' title='Apre il link in una nuova finestra o scheda'>info IVA 13.</a></p>",
+          "annualDeclarationTxt2SSS": "<p>Compilare il rendiconto di riconciliazione annuale (rendiconto di correzione secondo l'art. 72 LIVA) integralmente e trasmetterlo online. Informazioni per la compilazione sono disponibili nell'<a href='https://www.gate.estv.admin.ch/mwst-webpublikationen/public/pages/taxInfos/tableOfContent.xhtml?publicationId=1013189&lang=de' target='_blank' title='Apre il link in una nuova finestra o scheda'>info IVA 12.</a></p>",
+          "auditingInProgressMessage": "Il rendiconto è attualmente in controllo da un altro utente e non può essere aperto.",
+          "auditingInProgressTitle": "Rendiconto in fase di revisione",
+          "creditPayment": "Il saldo a vostro favore sarà rimborsato unicamente dopo la verifica del rendiconto trasmesso",
+          "currencyHint": "Tutti gli importi sono accettati come franchi e centesimi",
+          "description": "Le informazioni su come completarlo si trovano nella <a href='https://www.gate.estv.admin.ch/mwst-webpublikationen/public/pages/taxInfos/tableOfContent.xhtml?publicationId=1013189&lang=it' target='_blank' title='Apre il link in una nuova finestra o scheda'>Info IVA 15</a>",
+          "description_pauschal": "Le informazioni su come completarlo si trovano nella <a href='https://www.gate.estv.admin.ch/mwst-webpublikationen/public/pages/taxInfos/tableOfContent.xhtml?publicationId=1010429&lang=it' target='_blank' title='Apre il link in una nuova finestra o scheda' >Info IVA 13</a>",
+          "description_saldo": "Le informazioni su come completarlo si trovano nella <a href='https://www.gate.estv.admin.ch/mwst-webpublikationen/public/pages/taxInfos/tableOfContent.xhtml?publicationId=1004992&lang=it' target='_blank' title='Apre il link in una nuova finestra o scheda' >Info IVA 12</a>",
+          "editingInProgressMessage": "Il rendiconto è attualmente elaborato da un altro utente e non può essere aperto.",
+          "editingInProgressTitle": "Rendiconto in elaborazione",
+          "fillDeclaration": "Completare il rendiconto",
+          "finalDeclarationTitle": "Compilare il rendiconto finale",
+          "finalDeclarationTxt": "<p>Siete ancora in possesso di beni o prestazioni di servizi per i quali avete fatto valere la deduzione dell'imposta precedente? Vogliate dichiarare il consumo proprio alla cifra 415: per determinare il valore attuale, ridurre in modo lineare per ogni anno trascorso l'importo dell'imposta precedente fatto valere a suo tempo </p><ul> <li>del 20% per i beni mobili e le prestazioni di servizio</li><li>del 5% per i beni immobiliari</li></ul> <p>Maggiori informazioni sono disponibili nell'opuscolo <a href='https://www.gate.estv.admin.ch/mwst-webpublikationen/public/pages/taxInfos/tableOfContent.xhtml?publicationId=1022896' target='_blank' title='Apre il link in una nuova finestra o scheda'>Info IVA 10</a></p><p>Nota: qualora alcuni dei dati fossero già stati dichiarati nei rendiconti ordinari, gli stessi non vanno pù dichiarati nel rendiconto finale.</p>",
+          "hint": "Segnalazione:",
+          "mwst_12_info": "Info IVA 12",
+          "mwst_15_info": "Info IVA 15",
+          "saldo": "Tutti i dati inerenti alla cifra d'affari sono da inserire al<b> lordo IVA inclusa</b>",
+          "sapNotAvailable": "Attualmente l'indirizzo di pagamento purtroppo non può essere elaborato elettronicamente. L'AFC vi invierà per posta un modulo per comunicare l'indirizzo di pagamento. Vi invitiamo a volerlo compilare e ritornare. Ci scusiamo per l'inconveniente causato."
+        },
+        "landingPage": {
+          "info": "Desiderate una proroga per l'inoltro del rendiconto e/o un piano di pagamento? Richiedeteli comodamente online: <a href='https://www.moa.estv.admin.ch/moa/frist.html' target='_blank' title='Apre il link in una nuova finestra o scheda' >AFC-Domanda di proroga online</a>",
+          "overview": "<p>Il rendiconto del {{periodName}} con il codice di rendiconto  {{vattoken}} è stato messo a disposizione {{submittedDate}} di {{firstName}} {{lastName}}{{company}} per l'inoltro con la convalida del rendiconto.</p><p>Voglia trasmettere la convalida del rendiconto alla persona competente per l'inoltro. La convalida del rendiconto firmata deve essere inviata tramite posta al seguente indirizzo:</p><p>Amministrazione federale delle contribuzioni<br>Divisione principale dell'IVA<br>Schwarztorstrasse 50<br>3024 Berna</p><p>Importante: il rendiconto è considerato inoltrato allorquando la convalida del rendiconto perviene tramite posta all'AFC.</p><p>Desidera correggere il rendiconto inoltrato? Con il codice del rendiconto ha la possibilità di apportare delle correzioni al rendiconto e di allestirne una nuova versione. Questa funzione è a sua disposizione fino a quanto la convalida del rendiconto giunge all'AFCD.</p><p>Le informazioni inerenti ai pagamenti, il codice di rendiconto per il prossimo rendiconto e altre informazioni sono contenute nel riassunto PDF del vostro rendiconto.</p>"
+        },
+        "method": {
+          "effektiv": "Effettivo",
+          "pauschal": "Imposta forfetaria",
+          "saldo": "Aliquota saldo"
+        },
+        "net_gross": {
+          "gross": "Lordo (incl. IVA)",
+          "net": "Netto (escl. IVA)",
+          "selection_description": "Tutti i dati inerenti alla cifra d'affari sono",
+          "tooltip": "<p>Se le controprestazioni dichiarate alla cifra 200 sono senza IVA (cifra d'affari al netto), l'IVA sarà calcolata con le aliquote d'imposta legali di 7.7%, 2.5% e 3.7%. </p> <p>Se le controprestazioni dichiarate alla cifra 200 sono al lordo (ossia IVA inclusa) la base di calcolo della controprestazione corrisponde 107,7%, 102,5% e 103,7%. In questo caso l'IVA è da calcolare con l'ausilio dei moltiplicatori corrispondenti (7,7%= 7,1495%, 2,5% = 2,4390% e 3,7% = 3,5680%).</p><p>Il tipo di controprestazione (al netto, risp. al lordo) deve essere conservato durante l'intero periodo fiscale e sarà automaticamente presa in considerazione al momento del calcolo dell'imposta (cifre 301 - 342 del modulo). </p>"
+        },
+        "other_cash_flow_section": {
+          "900_description": "Sussidi, tasse turistiche incassate da uffici turistici, contributi per lo smaltimento dei rifiuti e le aziende fornitrici d'acqua (lett. a-c)",
+          "910_description": "Doni, dividendi, risarcimenti dei danni ecc. (lett. d-l)",
+          "title": "III. Altri flussi di mezzi finanziari (art. 18 cpv.2)"
+        },
+        "stepper": {
+          "bankDetails": "Coordinate bancarie",
+          "captureData": "Inserire i dati",
+          "contactData": "Dati di contatto della persona che compila il modulo",
+          "pickSubmissionVariant": "Scegliete la variante di presentazione",
+          "remindertNextDeclaration": "Codice rendiconto IVA e richiamo: prossimo rendiconto",
+          "verifyAndSubmitDeclaration": "Verificare e inoltrare il rendiconto",
+          "verify_declaration": "Controllare il rendiconto"
+        },
+        "subform": {
+          "0": "1a aliquota saldo",
+          "1": "2a aliquota saldo",
+          "2": "1a aliquota saldo prima del 1.1.2018",
+          "3": "2a aliquota saldo prima del 1.1.2018"
+        },
+        "submitted": {
+          "deadline": "Queste informazioni restano a vostra disposizione sino al {{deadline}} . Vi consigliamo di salvale i documenti localmente.",
+          "declaration": "Rendiconto",
+          "declarationRelease": "Convalida del rendiconto",
+          "overview": "Il rendiconto del {{periodName}} con il codice di rendiconto {{vattoken}} è stato inoltrato il {{submittedDate}} da {{firstName}} {{lastName}}{{company}}.",
+          "overviewFinal": "Il {{periodName}} con il codice di rendiconto {{vattoken}} è stato inviato il {{submittedDate}} da {{firstName}} {{lastName}}{{company}}.",
+          "summaryDeclaration": "Riepilogo del rendiconto"
+        },
+        "table": {
+          "th_amount": "Importo CHF",
+          "th_bezugtax": "Imposta sull'acquisto",
+          "th_bezugtax_old": "Imposta sull'acquisto (aliquote d'imposta sino al 31.12.2017)",
+          "th_bezugtax_old_prior2018": "Imposta sull'acquisto (Aliquota fino al 31.12.2010)",
+          "th_charges": "Controprestazione",
+          "th_credit": "Computo dell'imposta",
+          "th_digit": "Cifra",
+          "th_discount": "Deduzioni",
+          "th_pretax": "Imposta precedente",
+          "th_rate": "Aliquota",
+          "th_rate_old": "Aliquota (aliquote d'imposta sino al 31.12.2017)",
+          "th_rate_old_prior2018": "Aliquote (aliquote d'imposta fino al 31.12.2010)",
+          "th_sales": "Prestazioni in CHF",
+          "th_tax": "Imposta in CHF",
+          "th_turnover": "Cifra d'affari in CHF"
+        },
+        "tax_calculation_section": {
+          "302_description": "Prestazioni con l'aliquota normale",
+          "312_description": "Prestazioni con l'aliquota ridotta",
+          "321_description": "Prestazioni (1a aliquota)",
+          "322_description": "Prestazioni (1a aliquota)",
+          "331_description": "Prestazioni (2a aliquota)",
+          "332_description": "Prestazioni (2a aliquota)",
+          "342_description": "Prestazioni con l'aliquota speciale per l'alloggio",
+          "380_help": "Inserite qui le prestazioni che soggiacciono all'imposta sull'acquisto. Di principio l'ottenimento di prestazioni deve essere imposto al tasso normale. La controprestazione è da intendersi al netto dell'IVA (ossia essa corrisponde al 100 %). Le prestazioni ottenute dopo il 31.12.2010 vanno dichiarate alla cifra 381. Ulteriori più ampie informazioni sono disponibili nell'<a href='https://www.gate.estv.admin.ch/mwst-webpublikationen/public/pages/taxInfos/tableOfContent.xhtml?publicationId=1001238&lang=it' target='_blank' title='Apre il link in una nuova finestra o scheda'>Info IVA 14 Imposta sull'acquisto</a>.<br>",
+          "381_help": "Inserite qui le prestazioni che soggiacciono all'imposta sull'acquisto. Di principio, l'ottenimento delle prestazioni è imponibile all'aliquota normale. La controprestazione è da intendersi al netto dell'IVA (ossia essa corrisponde al 100%). Le prestazioni ottenute dopo il 31.12.2017 vanno dichiarate alla cifra 382. Ulteriori più ampie informazioni sono disponibili nell '<a href='https://www.gate.estv.admin.ch/mwst-webpublikationen/public/pages/taxInfos/tableOfContent.xhtml?publicationId=1001238&lang=it' target='_blank' title='Apre il link in una nuova finestra o scheda'>Info IVA 14 Imposta sull'acquisto</a>.",
+          "381_help_prior2018": "Inserite qui le prestazioni che soggiacciono all'imposta sull'acquisto. Di principio, l'ottenimento delle prestazioni è imponibile all'aliquota normale. La controprestazione è da intendersi al netto dell'IVA (ossia essa corrisponde al 100%). Le prestazioni ottenute prima del 01.01.2011 vanno dichiarate alla cifra 380. Ulteriori più ampie informazioni sono disponibili nell'<a href='https://www.gate.estv.admin.ch/mwst-webpublikationen/public/pages/taxInfos/tableOfContent.xhtml?publicationId=1001238&lang=it' target='_blank' title='Apre il link in una nuova finestra o scheda'>Info IVA 14 Imposta sull'acquisto</a>.",
+          "382_description": "Imposta sull'acquisto (al netto, senza IVA)",
+          "382_help": "Inserite qui le prestazioni che soggiacciono all'imposta sull'acquisto. Di principio, l'ottenimento della prestazione è imponibile all'aliquota normale. La controprestazione è da intendersi al netto dell'IVA (ossia essa corrisponde al 100%). Le prestazioni ottenute prima del 1.1.2018 vanno dichiarate alla cifra 381. Ulteriori più ampie informazioni sono disponibili nell'<a href='https://www.gate.estv.admin.ch/mwst-webpublikationen/public/pages/taxInfos/tableOfContent.xhtml?publicationId=1001238&lang=it' target='_blank' title='Apre il link in una nuova finestra o scheda'>Info IVA 14 Imposta sull'acquisto</a>.",
+          "399_description": "Totale dell'imposta dovuta",
+          "399_descriptionHint": "(cifra 301 a 382)",
+          "399_sss_descriptionHint": "(cifra 321 a 382)",
+          "400_description": "Imposta precedente su costi del materiale e prestazioni di servizi",
+          "405_description": "Imposta precedente su investimenti e altri costi d'esercizio",
+          "410_description": "Sgravio fiscale successivo (art. 32, vogliate inoltrare la documentazione dettagliata per favore)",
+          "410_help": "<p> A questa cifra va dichiarata l'imposta precedente che non poteva essere dedotta precedentemente, poiché le condizioni secondo <a href='https://www.admin.ch/opc/it/classified-compilation/20081110/index.html#a28' target='_blank' title='Apre il link in una nuova finestra o scheda' >l'art. 20 cpv. 1 LIVA</a> non erano realizzate. Al rendiconto IVA dovrà essere allegata una lista dettagliata.</p><p>La quale dovrà essere inviata all'AFC per posta. Come aiuto per l'inoltro della documentazione vogliate utilizzare la prima pagina con l'indirizzo dell'AFC sul retro della copia del rendiconto, che si trova nella pagina di chiusura. Per ulteriori dettagli, si prega di fare riferimento all'<a href='https://www.gate.estv.admin.ch/mwst-webpublikationen/public/pages/taxInfos/tableOfContent.xhtml?publicationId=1022896&lang=it' target='_blank' title='Apre il link in una nuova finestra o scheda' >Info IVA 10 Modifiche d'utilizzazione</a>.</p>",
+          "415_description": "Correzioni dell'imposta precedente: doppia utilizzazione (art. 30), consumo proprio (art. 31)",
+          "415_description_final": "Rettifiche relative ai beni immobiliari (art. 82 cpv. 2 e art. 93 OIVA)",
+          "415_help": "<p>In questa rubrica possono essere inseriti sia valori positivi che valori negativi. Vogliate osservare che secondo lo schema di calcolo  l'importo sia dedotto e che da un doppio valore negativo scaturirà un valore positivo.</p><p> Il risultato sarà visibile alla 479. Troverete delle altri dettagli in merito nell' <a href='https://www.gate.estv.admin.ch/mwst-webpublikationen/public/pages/taxInfos/tableOfContent.xhtml?publicationId=1014743&lang=it' target='_blank' title='Apre il link in una nuova finestra o scheda' >Info IVA 09 Deduzione dell'imposta precedente e correzioni della deduzione dell'imposta precedente</a>.</p>",
+          "420_description": "Riduzioni della deduzione dell'imposta precedente: non controprestazioni come sussidi, tasse turistiche (art. 33 cpv.2)",
+          "420_help": "In questa rubrica possono essere inseriti sia valori positivi che valori negativi. Vogliate osservare che secondo lo schema di calcolo  l'importo sia dedotto e che da un doppio valore negativo scaturirà un valore positivo.</p><p> Il risultato sarà visibile alla 479. Troverete delle altre particolarità in merito nell' <a href='https://www.gate.estv.admin.ch/mwst-webpublikationen/public/pages/taxInfos/tableOfContent.xhtml?publicationId=1014743&lang=it' target='_blank' title='Apre il link in una nuova finestra o scheda'>Info IVA 09 Deduzione dell'imposta precedente e correzioni della deduzione dell'imposta precedente</a>.</p>",
+          "470_description": "Computo dell'imposta secondo il modulo n. 1050",
+          "471_description": "Computo dell'imposta secondo il modulo n. 1055, 1056",
+          "471_description_prior2018": "Computo dell'imposta secondo il modulo n. 1055",
+          "500_description": "Importo da versare",
+          "510_description": "Credito del contribuente",
+          "collapsable_info_1": "Avete ancora delle cifre d'affari da dichiarare con le vecchie aliquote d'imposta (fino al 31.12.2017)?",
+          "collapsable_info_1_prior2018": "Avete ancora cifre d'affari da dichiarare alle vecchie aliquote (prima del 01.01.2011)?",
+          "collapsable_info_2": "Avete ancora dell'imposta sull'acquisto da dichiarare con le vecchie aliquote d'imposta (fino al 31.12.2017)?",
+          "collapsable_info_2_prior2018": "Avete ancora imposta sull'acquisto da dichiarare alle vecchie aliquote (prima del 01.01.2011)?",
+          "round": "Arrotondare",
+          "title": "II. Calcolo dell'imposta",
+          "total_400_420": "Totale cifre 400-420",
+          "total_470": "Totale cifre 470-471",
+          "total_turnover": "Cifra d'affari imponibile complessiva",
+          "total_turnover_hint": "(come cifra 299):"
+        },
+        "title": "Rendiconto IVA",
+        "turnover_section": {
+          "200_description": "Totale delle controprestazioni convenute o ricevute, incluse quelle inerenti a prestazioni optate, a trasferimenti mediante procedura di notifica e a prestazioni all'estero (cifra d'affari mondiale)",
+          "205_description": "Controprestazioni contenute nella cifra 200 conseguite con prestazioni escluse dall'imposta (art.21) per la cui imposizione si è optato in virtù dell'art. 22",
+          "220_description": "Prestazioni esenti dall'imposta (p.es. esportazioni; art. 23), prestazioni esenti a beneficiari istituzionali e persone beneficiarie (art. 107 cpv.1 lett. a)",
+          "220_help_pss": "<p>Quando si conteggia secondo il metodo delle aliquote forfettarie è consentito dal totale della cifra d'affari dichiarata alla cifra 200 dedurre alla cifra 220 le controprestazioni relative alle esportazioni.</p></p><strong>Con questa procedura, tuttavia, si rinuncia alla deduzione dell'imposta precedente risultante dal modulo n. 1050. Una deduzione dell'imposta precedente alla cifra 470 del rendiconto non è quindi più possibile.</strong></p><p>Informazioni dettagliate sono disponibili nell'<a href='https://www.gate.estv.admin.ch/mwst-webpublikationen/public/MI/13' target='_blank' title='Apre il link in una nuova finestra o scheda'>Info IVA 13</a> </p>",
+          "220_help_sss": "<p>Quando si conteggia secondo il metodo delle aliquote a saldo è consentito dal totale della cifra d'affari dichiarata alla cifra 200 dedurre alla cifra 220 le controprestazioni relative alle esportazioni.</p></p><strong>Con questa procedura, tuttavia, si rinuncia alla deduzione dell'imposta precedente risultante dal modulo n. 1050. Una deduzione dell'imposta precedente alla cifra 470 del rendiconto non è quindi più possibile.</strong></p><p>Informazioni dettagliate sono disponibili nell'<a href='https://www.gate.estv.admin.ch/mwst-webpublikationen/public/MI/13' target='_blank' title='Apre il link in una nuova finestra o scheda'>Info IVA 13</a> </p>",
+          "221_description": "Prestazioni all'estero (luogo della prestazione all'estero)",
+          "225_description": "Trasferimenti mediante procedura di notifica (art. 38, vogliate p.f. inoltrare anche il  <a href='https://www.estv.admin.ch/dam/estv/it/dokumente/mwst/formulare/verschiedene/0764_01.pdf.download.pdf/im_0764_01.pdf' target='_blank' title='Scarica il documento PDF'>modulo n. 764</a>)",
+          "225_help": "<p><a href='https://www.admin.ch/opc/it/classified-compilation/20081110/index.html#a38' target='_blank' title='Apre il link in una nuova finestra o scheda' >L'art. 38 cpv. 3 LIVA</a> sancisce che i trasferimenti tramite procedura di notifica (ristrutturazioni ai sensi della legge sulle fusioni o trasferimenti di attivi totali o parziali) devono essere dichiarati nel rendiconto IVA ordinario.</p> <p>Le controprestazioni detratte da questa voce devono essere dichiarate anche alla cifra 200 del rendiconto. Il modulo n. 764 (procedura di notifica) deve essere inviato all'AFC per posta. Come aiuto per l'inoltro della documentazione vogliate utilizzare la prima pagina con l'indirizzo dell'AFC sul retro della copia del rendiconto, che si trova nella pagina di chiusura.</p> <p>Troverete delle informazioni complementari in merito nell'<a href='https://www.gate.estv.admin.ch/mwst-webpublikationen/public/pages/taxInfos/tableOfContent.xhtml?publicationId=1002742&lang=it' target='_blank' title='Apre il link in una nuova finestra o scheda'>Info IVA 11</a> Procedura di notifica.</p>",
+          "230_description": "Prestazioni escluse dall'imposta (art. 21) effettuate in territorio svizzero per la cui imposizione non si è optato in virtù dell'art. 22",
+          "235_description": "Diminuzioni della controprestazione quali sconti, ribassi, ecc.",
+          "280_description": "Diversi (ad es. valore del terreno, prezzo d'acquisto in caso d'imposizione dei margini)",
+          "280_help": "Se viene effettuata una deduzione a questa cifra, si prega di indicare alla voce 'Diversi' di cosa si tratta (<a href='https://www.gate.estv.admin.ch/mwst-webpublikationen/public/pages/taxInfos/tableOfContent.xhtml?publicationId=1013189&lang=it' target='_blank' title='Apre il link in una nuova finestra o scheda' >Info IVA 15, capitolo 1.3</a>).",
+          "299_help": "Si tratta di un campo ausiliario per i controlli di plausibilità, vale a dire che la cifra d'affari totale imponibile calcolata deve essere identica alla cifra d'affari totale imponibile che figura alla cifra 299",
+          "299_total_turnover": "Cifra d'affari imponibile complessiva",
+          "299_total_turnover_hint": "(cifra 200 dedotta la cifra 289):",
+          "title": "I. Cifra d'affari",
+          "title_annual": "I. Importi di cifra d'affari non dichiarati nei rendiconti ordinari."
+        }
+      },
+      "error": {
+        "buttons": {
+          "to_portal_login": "Per effettuare il login nel portale"
+        },
+        "meta_title_401": "Non autorizzato",
+        "meta_title_404": "Non trovato",
+        "meta_title_405": "Errore nel server",
+        "title": "Apparizione di un errore",
+        "wrongPhoneNumber": "L'inoltro di un rendiconto IVA con codice di rendiconto con un numero di telefono mobile estero non è possibile. Per favore annunciatevi con un numero di telefono mobile svizzero."
+      },
+      "external_link": {
+        "eportal": "Tutti i servizi"
+      },
+      "landingPage": {
+        "easy": {
+          "banner1": {
+            "ctaLink1": "http://admin.ch",
+            "ctaLink2": "http://admin.ch",
+            "ctaLink3": "https://www.admin.ch/gov/it/pagina-iniziale/basi-legali.html",
+            "ctaName1": "Info IVA concernenti i settori",
+            "ctaName2": "Consigli pratici IVA",
+            "ctaName3": "Base legale",
+            "title": "Web-Publi 2.0",
+            "txt": "Tutte le informazioni concernenti l'IVA sono disponibili nelle pubblicazioni concernenti la prassi."
+          },
+          "banner2": {
+            "ctaLink1": "http://admin.ch",
+            "ctaName1": "Info IVA concernenti i settori",
+            "title": "Domande e risposte",
+            "txt": "Avete delle domande sul rendiconto IVA easy? Qui di seguito trovate le risposte alle domande più frequenti."
+          },
+          "card1": {
+            "cta": "Proroga dei termini",
+            "link": "https://www.moa.estv.admin.ch/moa/#/home",
+            "title": "Proroga dei termini",
+            "txt": "Le proroghe sia per l'inoltro e per il pagamento possono essere elaborate in modo facile e rapido online."
+          },
+          "card2": {
+            "cta": "Ordinazione delle attestazioni",
+            "link": "popup",
+            "title": "Attestazioni",
+            "txt": "Necessita di un attestato d'iscrizione o di una attestazione quale impresa iscritta nel registro IVA?"
+          },
+          "card3": {
+            "cta": "Richiesta di un piano di pagamento",
+            "link": "https://www.estv.admin.ch/estv/it/home/die-estv/kontaktformulare/kontakt-inkasso2.html",
+            "title": "Pagamenti rateali",
+            "txt": "Se desidera pagare l'IVA a rate richieda direttamente online un piano di pagamento."
+          },
+          "card4": {
+            "cta": "Iscriversi all'IVA",
+            "link": "http://admin.ch",
+            "title": "Iscrizione all'IVA",
+            "txt": "La vostra impresa adempie alle condizioni d'assoggettamento all'IVA e deve iscriversi?"
+          },
+          "guestLogin": "Iscriversi quale ospite",
+          "info": "L'accesso è possibile unicamente con un cellulare con numero svizzero.",
+          "mobileWarning": " L'accesso è possibile unicamente con un cellulare con numero svizzero.",
+          "title": "Inserire il codice di rendiconto",
+          "txt": "Per connettersi quale ospite e compilare il rendiconto in modo semplice e rapido ha ricevuto il codice di rendiconto o per posta o figura sul riepilogo dell'ultimo rendiconto inviato. "
+        },
+        "pro": {
+          "card1": {
+            "cta": "Prorogare i termini",
+            "link": "https://www.moa.estv.admin.ch/moa/#/home",
+            "title": "Web-Publi 2.0",
+            "txt": "Tutte le informazioni concernenti l'IVA sono disponibili nelle pubblicazioni concernenti la prassi."
+          },
+          "cardMwst": {
+            "cta": "Iscriversi all'IVA",
+            "title": "Iscrizione all'IVA",
+            "txt": "La vostra impresa adempie alle condizioni d'assoggettamento all'IVA e deve iscriversi?"
+          },
+          "cardRegistrationComp": {
+            "cta1": "Registrare l'impresa/la persona",
+            "cta2": "Inserire il codice di registrazione",
+            "link1": "...",
+            "link2": "...",
+            "title": "Registrare l'impresa/la persona",
+            "txt": "Non ha ancora registrato nessuna impresa per il rendiconto IVA? Provveda alla registrazione dell'impresa, successivamente riceverà per posta il codice di registrazione che le permetterà di elaborare in modo semplice e veloce i rendiconti."
+          },
+          "cardSuissetax": {
+            "cta": "Riprendere i dati",
+            "title": "Riprendere da Suisse Tax",
+            "txt": "Se ha già conteggiato l'IVA con SuisseTax può facilmente riprendere i dati e le autorizzazioni."
+          },
+          "ctaLogin": "Registrarsi",
+          "ctaNewAccount": "Creare ora un conto utente",
+          "myDeclarations": "I miei rendiconti",
+          "title": "Conteggiare in modo rapido e chiaro<br>",
+          "txt": "Se desiderate poter elaborare oltre al rendiconto IVA anche i rendiconti di correzione, le riconciliazioni annuali, le proroghe e altre funzionalità; è sufficiente creare un account utente e utilizzare rendiconto-IVA pro, il servizio è gratuito, basta creare un account utente e utilizzare il rendiconto IVA pro.",
+          "warning": "Se in precedenza ha già conteggiato l'IVA con SuisseTax, può semplicemente trasferire le sue autorizzazioni dopo la registrazione.",
+          "widgetInfo": "Per poter accedere a Rendiconto IVA pro bisogna innanzitutto attivare un'impresa.",
+          "widgetTitle": "I miei rendiconti IVA"
+        }
+      },
+      "login": {
+        "button": "Login",
+        "content": "Per poter utilizzare questo servizio dovete annunciarvi almeno come ospiti. Per l'annuncio come ospiti si necessita obbligatoriamente di un numero di telefono mobile svizzero.",
+        "title": "Annunciarsi al portale"
+      },
+      "moreVATServices": {
+        "addPartner": "Aggiungere un'impresa",
+        "maintainPermission": "Gestire le autorizzazioni",
+        "metaTitle": "Altri servizi IVA",
+        "publication": "Pubblicazioni della prassi",
+        "qAndA": "Domande e risposte",
+        "registerVAT": "Iscrizione all'IVA",
+        "requestCertificates": "Comanda delle attestazioni",
+        "requestPayment": "Richiesta di un piano di pagamento"
+      },
+      "reminderDeclaration": {
+        "nextVatToken": {
+          "hintCode_1": "Si prega di annotare il codice di rendiconto di cui sopra per il prossimo rendiconto. Il codice di rendiconto è indicato anche nel PDF del riepilogo.",
+          "hintCode_2": "Avete obbligatoriamente bisogno di questo codice per la dichiarazione dell'IVA del prossimo periodo di rendiconto",
+          "title": "Prossimo codice di rendiconto",
+          "title2": "Prossimo codice di rendiconto per il"
+        },
+        "reminder": {
+          "addToCalendar": "Aggiungere al calendario",
+          "downloadReminder": "Scaricare il richiamo",
+          "noReminder": "Per rendiconti retroattivi non è possibile scegliere un promemoria.",
+          "sendReminder": "Inviare la notifica di richiamo",
+          "title": "Richiamo automatico",
+          "tooltipAddToCalendar": "Aggiungete al vostro calendario un promemoria per la data prevista per l'invio del prossimo rendiconto. Il codice per il prossimo rendiconto è incluso.",
+          "tooltipSendReminder": "Sarete informati via e-mail e/o SMS non appena il nuovo rendiconto sarà disponibile per l'invio. Per motivi di sicurezza, il codice del rendiconto sarà incluso solo nella versione SMS."
+        },
+        "title": "Per il prossimo periodo di rendiconto"
+      },
+      "submission": {
+        "contactPerson": "Dati di contatto in caso di richieste di chiarimento",
+        "dialog": {
+          "confirmHint": "Cliccando su CONFERMARE il rendiconto è considerato inoltrato e non può più essere modificato.",
+          "confirmHintElectronic": "Cliccando su CONFERMARE il rendiconto è considerato come inoltrato e non può più essere modificato.",
+          "confirmHintMwstPro": "Dopo la conferma eventuali modifiche sono possibili unicamente tramite un rendiconto di correzione.",
+          "confirmHintPaper": "Cliccando su CONFERMARE il rendiconto può essere liberato per mezzo della convalida del rendiconto.",
+          "confirmProvisionForAuditMessage": "Confermare che si desidera mettere a disposizione il rendiconto {{period}} per la {{company}} per la verifica.",
+          "confirmProvisionForAuditTitle": "Desidera rendere il rendiconto disponibile per la verifica?",
+          "confirmRejectionMessage": "Confermare il rifiuto del rendiconto in esame, {{period}}, per {{company}}.",
+          "confirmRejectionTitle": "Desidera rifiutare il rendiconto da verificare?",
+          "summary": "Vogliate confermare di aver allestito il rendiconto del {{period}} per l'impresa {{company}}",
+          "summaryAnnual": "Confermare che si desidera inviare la riconciliazione annuale per {{company}} relativa al {{period}} .",
+          "summaryApproval": "È stata eseguita una correzione per il {{period}} per {{company}}. La convalida precedentemente generata non è più valida.",
+          "summaryApprovalElec": "<p>Avete effettuato una correzione per il {{period}}, per la società {{company}}. La convalida del rendiconto precedentemente inviata non è più valida. </p>",
+          "summaryApprovalPaper": "È stata eseguita una correzione per il {{periodo}} per {{azienda}}. La convalida precedentemente generata non è più valida.</p> Se clicca su CONFERMARE, il rendiconto potrà essere approvato solo con la convalida appena creata.</p>",
+          "summaryRectification": "Confermi l'intenzione di voler inoltrare il rendiconto di correzione dell'impresa {{company}} per il {{period}}.",
+          "summarySchluss": "Confermare l'intenzione di voler inoltrare il rendiconto finale dell'impresa {{company}}.",
+          "title": "Dichiarazione inoltrata?"
+        },
+        "form": {
+          "submissionVariant": "Variante di presentazione"
+        },
+        "preview": "Anteprima",
+        "previewDescription": "Vogliate verificare i vostri dati nell'anteprima del rendiconto in formato PDF",
+        "submit": "Trasmettere il rendiconto ",
+        "submitDescription": "Trasmettere il rendiconto dopo aver verificato i dati. Avete la possibilità di trasmettere e mettere a disposizione il rendiconto IVA ad una terza persona qualora essa fosse autorizzata ad inoltrarcelo. A questo punto le persone autorizzate ne saranno automaticamente informate.",
+        "titleVariant": "Scegliete la variante di presentazione",
+        "tooltipElectronic": "Scegliete questa variante se desiderate inoltrare direttamente il rendiconto. Non è necessario firmare o inviare la dichiarazione per posta.",
+        "tooltipPaper": "Se desidera che il rendiconto venga approvato e/o firmato da diverse persone, la invitiamo ad inviarci per posta la convalida del rendiconto firmata.<br><b>Importante: il rendiconto IVA si considera inoltrato solo quando l'AFC riceve la convalida del rendiconto firmata.</b>",
+        "variantElectronic": "Invio diretto",
+        "variantMissing": "Per favore scegliete la variante di invio",
+        "variantPaper": "Invio con la convalida del rendiconto tramite posta"
+      },
+      "support": {
+        "cta": {
+          "release": "Release"
+        },
+        "dialog": {
+          "message": "Con un click su OK si conferma che la convalida del rendiconto è arrivata all'AFC ed è visibile in PDOS.",
+          "title": "Trasmettere manualmente una convalida del rendiconto "
+        },
+        "metaTitle": "Supporto",
+        "statusApproval": {
+          "0": "Aprire",
+          "1": "Ricevuto/Trasmesso",
+          "2": "Trasmesso manualmente"
+        },
+        "statusDeclaration": {
+          "1": "Annullato",
+          "2": "Aperto",
+          "3": "Trasmesso",
+          "4": "Trasmesso da un sistema esterno"
+        },
+        "table": {
+          "approvalCreatedAt": "Data della convalida del rendiconto",
+          "declarationDate": "Periodo di rendiconto",
+          "estvID": "Identificativo AFC",
+          "kommunikationsID": "Identificativo dell'invio della convalida del rendiconto",
+          "statusApproval": "Stato della convalida del rendiconto",
+          "statusDeclaration": "Stato del rendiconto",
+          "uid": "IDI",
+          "version": "Versione della convalida del rendiconto"
+        }
+      },
+      "testing": {
+        "abrechnungscodeHeader": "Periodo di rendiconto",
+        "demoHint": "Questa pagina esiste solo a scopo di dimostrazione",
+        "estvHeader": "AFC-ID",
+        "filter": "Filtro",
+        "gfHeader": "ID-operazione",
+        "lastUpdate": "Ultimo aggiornamento",
+        "metaTitle": "Test",
+        "rectification": "Correzione",
+        "statusHeader": "Stato",
+        "tokenHeader": "Codice IVA",
+        "uHeader": "U-ID"
+      },
+      "vatToken": {
+        "cardTitleEnterToken": "Inserire il codice del rendiconto",
+        "company": "Impresa",
+        "delayNeeded": "Avete bisogno di una proroga per l'inoltro o per il pagamento del rendiconto? Fatene comodamente richiesta online: <a href='https://www.moa.estv.admin.ch/moa/frist.html' target='_blank' title='Apre il link in una nuova finestra o scheda'>rendiconto proroga di inoltro e pagamento</a>",
+        "details": "Vostri dati",
+        "enterVatTokenNote": "Vogliate indicare il codice di rendiconto che avete ricevuto per posta o indicato nel riepilogo dell’ultimo rendiconto inoltrato.",
+        "error": {
+          "api": {
+            "101": "Il codice di rendiconto non è valido.",
+            "102": "Il rendiconto è già stato presentato attraverso un altro canale. Il codice di rendiconto non può più essere utilizzato. ",
+            "103": "Il codice di rendiconto non è valido. Vogliate controllare l'immissione dei dati e riprovare ad inserire il codice di rendiconto.",
+            "105": "Il termine di visualizzazione è scaduto"
+          }
+        },
+        "forgotten": "Codice di rendiconto dimenticato?",
+        "forgottenToken": "Avete dimenticato il vostro codice di rendiconto?",
+        "form": {
+          "acceptedTermsAndConditions": "Accetto le, <a href='/assets/pdf/201209_condizione_d_utilizzo.pdf' target='_blank' title='Apre il link in una nuova finestra o scheda' class='link'>condizioni generali </a>.",
+          "applicantDeclaredJustified": "Sono autorizzato, a compilare il rendiconto per l'impresa summenzionata.",
+          "asEmail": "per e-mail",
+          "asMessage": "per SMS",
+          "cellNumber": "Numero di telefono mobile svizzero",
+          "code": "Codice",
+          "companyName": "Nome del rappresentante fiscale",
+          "email": "e-mail",
+          "firstName": "Nome",
+          "lastName": "Cognome",
+          "linkTcsPdf": "IVA_Rendiconto_easy_Condizioni d'uso.pdf",
+          "mobileNumber": "Numero di telefono mobile",
+          "phoneNumber": "Numero di telefono",
+          "role": "Ruolo",
+          "roles": {
+            "1": "Società o persona contribuente",
+            "2": "Rappresentante fiscale"
+          }
+        },
+        "generalTermsAndCondition": "Riferimenti giuridici, condizioni generali di contratto /ecc.",
+        "metaTitle": "Rendiconto IVA easy",
+        "mwstDeclaration": "Rendiconto IVA",
+        "permission": "Sono autorizzato a compilare e a inoltrare il rendiconto per l'impresa summenzionata.",
+        "personalData": "Dati concernenti la persona che ha compilato",
+        "personalDataTitle": "Dati concernenti la società",
+        "phoneNumberHint": "Questo numero di telefono mobile è utilizzato per avvisi SMS.",
+        "reorder": {
+          "back": "Ritorna a 'Immissione del codice del rendiconto'",
+          "che": "CHE-",
+          "enterMwstNr": "Per favore indicare il numero IVA. I codici dei rendiconti mancanti verranno spediti, per posta, dall'AFC nei prossimi giorni.",
+          "error": {
+            "api": {
+              "304": "Il numero IVA non è valido. Vogliate verificare l'immissione e inserire nuovamente il numero IVA"
+            }
+          },
+          "form": {
+            "mwstNr": "Numero IVA"
+          },
+          "info": "Redige i rendiconti tramite il portale AFC SuisseTax? Utilizzi AFC SuisseTax per l'invio del rendiconto. Non è possibile ordinare un codice di rendiconto.",
+          "link": "Codici di rendiconto prima del Q4/2020, S2/2020 o M12/2020 sono da ordinare <a href='https://www.estv.admin.ch/estv/it/home/mehrwertsteuer/dienstleistungen/formulare-online/nachbestellung-abrechnungsformular.html' target='_blank' title='Apre il link in una nuova finestra o scheda' >qui</a>.",
+          "mwst": "IVA",
+          "send": "Ordinare nuovamente un codice del rendiconto",
+          "success": {
+            "noOpenDeclarationFound": "Non vi sono periodi di rendiconto aperti",
+            "openDeclarationFound": "Grazie per il vostro ordine. Nei prossimi giorni riceverete per posta, i codici dei rendiconti mancanti."
+          },
+          "title": "Richiedere i codici di rendiconto?"
+        },
+        "reorderToken": "Richiedere nuovamente un codice del rendiconto",
+        "title": "Inoltrare il rendiconto",
+        "validVatTokenNote": "Il codice immesso è valido ed è rilasciato per il seguente rendiconto:"
+      }
+    },
+    "tabNavigation": {
+      "moreVATServices": {
+        "message": "Per aggiungere un'impresa o gestire le autorizzazioni, deve creare un account utente ePortal o accedere con il suo account già registrato.",
+        "title": "Creare un account utente"
+      }
+    },
+    "timer": {
+      "autoLogoutDueToInactivity": "Siete stati disconnessi automaticamente per inattività.",
+      "autoLogoutIn": "Verrete automaticamente disconnesso:",
+      "login": "Connessione",
+      "stayLoggedIn": "Rimanere connesso",
+      "userInactivityAutoLogout": "Scollegamento automatico dovuto all'inattività dell'utente"
+    }
+  }
+}

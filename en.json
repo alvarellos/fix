@@ -1,0 +1,1099 @@
+{
+  "i18n": {
+    "application": {
+      "code": "Replace me [App code]",
+      "description": "Replace me [App description]",
+      "shortName": "Replace me [App shortname]",
+      "title": "VAT-declaration"
+    },
+    "ax": {
+      "downloadPDF": "PDF downloaded",
+      "helpFor": "Help to Ref.",
+      "helpForNetGross": "Help to turnover",
+      "showAdditionalInfo": "Show/hide additional information",
+      "showOldTaxRates": "Show/hide old tax rates"
+    },
+    "common": {
+      "aria": {
+        "closeDialog": "Close dialog window",
+        "error": "Error:",
+        "info": "Tip:",
+        "infoCloseDescriptor": "Click to close the notification",
+        "infoDescriptor": "General notification",
+        "newWindow": "Opens the link a new windows or tab",
+        "opensDialog": "Open dialog window",
+        "success": "Success:",
+        "warning": "Warning:"
+      },
+      "buttonActions": {
+        "adjustDeclaration": "Correct the declaration",
+        "back": "Back",
+        "backStartPage": "Back to start page",
+        "backToBusinessCaseOverview": "Back to 'My VAT declaration reports'",
+        "back_code": "Return to 'input VAT token'",
+        "backtoOverview": "Back to overview",
+        "buffer": "Save",
+        "cancel": "Cancel",
+        "changeReminder": "Change reminders",
+        "confirm": "Confirm",
+        "continue": "Continue",
+        "correction": "Correct the declaration",
+        "emptyForm": "Reset form",
+        "extend": "Extending deadlines",
+        "furtherDeclaration": "Submit another declaration",
+        "guest": "Log out",
+        "logout": "Logout",
+        "logoutGuest": "Log out",
+        "ok": "OK",
+        "provideDeclaration": "Provide for verification",
+        "refreshData": "Refresh Data",
+        "rejectDeclaration": "Reject",
+        "reset": "Reset",
+        "save": "Save temporarily",
+        "saveAndPreview": "Preview",
+        "submitDeclaration": "Submit",
+        "uploadXML": "XML upload"
+      },
+      "errors": {
+        "errorCode": "Error (Code: {{ value }})",
+        "general": "An error has occurred. Please try again later. (Error code: {{ value }})",
+        "http": {
+          "101": "Vat token deleted",
+          "102": "vat token sumbitted externally",
+          "103": "invalid token",
+          "104": "Invalid applicant information",
+          "105": "vat token sumbitted over deadline\t",
+          "106": "invalid contact information",
+          "201": "",
+          "300": "No such declaration request exists",
+          "301": "Update of declaration request failed",
+          "302": "Storing the PDF form failed",
+          "303": "Retrieval of the declaration request form (PDF) failed",
+          "304": "The VAT no. is invalid. Please check the entry and enter the VAT no. again",
+          "305": "",
+          "400": "Bad request",
+          "401": "Not authorized",
+          "404": "The requested page could not be found",
+          "500": "Internal server error",
+          "501": "Not implemented",
+          "502": "Bad gateway",
+          "503": "Service unavailable",
+          "600": "not a suisse phone number",
+          "700": "The declaration cannot be currently rectified",
+          "701": "The declaration rectification cannot be currently deleted\t",
+          "800": "Declaration semaphore lock. Cannot be acquired\t",
+          "801": "Declaration semaphore lock. Cannot be released",
+          "803": "Declaration semaphore lock. Cannot be touched",
+          "900": "Failed to import XML VAT declaration due to unmarshal error\t",
+          "901": "Failed to import XML VAT declaration due to incomplete (either irregular or undefined) general information\t",
+          "902": "Failed to import XML VAT declaration. No such declaration request exists for MWST-Nr\t",
+          "903": "Failed to import XML VAT declaration due to conversation error\t"
+        }
+      },
+      "help": {
+        "address": "Eidg. Steuerverwaltung ESTV<br>Servicedesk E-Government<br>3003 Bern<br>Telefon: +41 58 464 54 01",
+        "contactForm": "Contact form",
+        "contactFormInkasso": "https://www.estv.admin.ch/estv/en/home/die-estv/kontaktformulare/kontakt-mehrwertsteuer1.html",
+        "contactFormMwst": "https://www.estv.admin.ch/estv/de/home/die-estv/kontaktformulare/kontakt-inkasso1.html",
+        "email": "Email",
+        "help": "Support",
+        "phone": "Phone",
+        "sub": "If you have any questions about your VAT-Declaration, our service desk will be able to assist you:",
+        "sub2": "If you have any questions about VAT, please contact:",
+        "sub3": "If you have any questions about collection, please contact:",
+        "title": "Contact for VAT-Declaration easy",
+        "title2": "Contact for VAT",
+        "title3": "Contact for collection",
+        "zone": "Zone"
+      },
+      "labels": {
+        "action": "Action",
+        "actions": "Actions",
+        "cancel": "Cancel",
+        "delete": "Delete",
+        "edit": "Edit",
+        "no": "No",
+        "optional": "(optional)",
+        "required": "* required field",
+        "save": "Save",
+        "saveChanges": "Save changes",
+        "select": "Please select",
+        "yes": "Yes"
+      },
+      "locales": {
+        "de": "Deutsch",
+        "en": "English",
+        "fr": "Français",
+        "it": "Italiano"
+      },
+      "misc": {
+        "none": "None"
+      },
+      "validation": {
+        "error": {
+          "commentLength": "The comment may not contain more than 50 characters.",
+          "email": "The entered format is wrong.",
+          "emailFormat": "Email format is incorrect.",
+          "emailMandatory": "Email is mandatory field",
+          "invalidMwstFormat": "The entered VAT number does not correspond to the format 'xxx.xxx.xxx'",
+          "invalideDateFormat": "Invalid date format",
+          "marginMissing": "Margin is missing",
+          "max": "The number entered is greater than the maximum allowed (999'999'999'999.99).",
+          "maxEmail": "Please enter an e-mail address with less than 241 characters.\t",
+          "missing": "Not all boxes in the declaration form were filled out correctly. Please check the red marked fields.",
+          "name": "The entered format is wrong.",
+          "noValue": "This is not a number.",
+          "overMaxLength": "No more than {{overMaxLength}} characters allowed",
+          "phone": "Only numbers allowed",
+          "phoneFormat": "CH cell phone number format is incorrect.",
+          "phoneFormatAlphanCharOrSpaces": "Please use only numbers without spaces",
+          "phoneFormatMissingPlus": "Please enter the country code",
+          "phoneFormatTooLong": "The phone number is too long",
+          "phoneFormatTooShort": "The phone number is too short",
+          "phoneFormatWithZeros": "Please enter phone number in the format +41XXXXXXXXX",
+          "phoneMandatory": "Phone number is a mandatory field",
+          "required": "Mandatory field",
+          "salesMissing": "Turnover is missing",
+          "taxRate": "Tax rate is missing",
+          "taxRateMissing": "Please select a tax rate",
+          "z200_205": "Ref. 200 must not be less than Ref. 205 or empty.",
+          "z280_noComment": "Comment is required",
+          "z280_noValue": "Turnover deduction is missing",
+          "z299": "The sum of ref. 299 and 379 are not the same; please check your details under the tax calculation.",
+          "z381_382_high": "The tax amount is too high.",
+          "z381_382_null": "The tax amount must not be zero."
+        },
+        "formErrors": "Error",
+        "hint": {
+          "phone": "Example: +41XXXXXXX"
+        }
+      }
+    },
+    "footer": {
+      "ci": "Federal Department of Finance",
+      "legalBasis": "Legal framework",
+      "legalLink": "https://www.admin.ch/gov/en/start/terms-and-conditions.html"
+    },
+    "notification": {
+      "allFieldsRequired": "All fields need to be filled out!",
+      "error": "An error has occurred. Please try again later",
+      "saved": "Saved"
+    },
+    "oblique": {
+      "footer": {
+        "info": {
+          "title": "Federal Department of Finance"
+        },
+        "links": {
+          "title": "Federal Department of Finance"
+        },
+        "title": "Federal Department of Finance"
+      },
+      "header": {
+        "controls": {
+          "title": "Controls"
+        },
+        "languages": {
+          "title": "English"
+        },
+        "logo": "Swiss confederation",
+        "navigation": {
+          "title": "Navigation"
+        },
+        "title": "VAT-Declaration easy"
+      },
+      "master-layout": {
+        "accesskey": {
+          "homepage": "Homepage",
+          "mainContent": "Content",
+          "navigation": "Navigation"
+        }
+      },
+      "notification": {
+        "type": {
+          "error": "Error",
+          "info": "Info",
+          "success": "Success",
+          "warn": "Warn"
+        }
+      }
+    },
+    "routes": {
+      "Copy/Replace me [routeName]": {
+        "metaTitle": "",
+        "title": ""
+      },
+      "Replace me [routeName]": {
+        "metaTitle": "",
+        "title": ""
+      },
+      "bank": {
+        "account": {
+          "favours": "Beneficiary",
+          "financialInstitution": "Financial institution",
+          "iban": "IBAN"
+        },
+        "bankAccountNumber": {
+          "accountNumber": "Account No.",
+          "accountType": "Account type",
+          "bankClearingNr": "Bankclearing no. / IID",
+          "checkNumber": "Check IBAN/account No.",
+          "country": "Country",
+          "differentAccountNumber": "Other account no.",
+          "error": {
+            "invalid": "IBAN is invalid.",
+            "invalidBankAccount": "The account no. is invalid - check format.",
+            "invalidBankclearing": "The bank clearing number / IID is wrong or does not exist in the selected country.",
+            "missingBankAccountSelection": "Please select a bank account before proceeding.",
+            "missingInformation": "Enter and validate bank details before you continue.",
+            "qrIban": "Please note that the FTA does not currently process payouts via QR-IBAN. Please enter a regular IBAN no."
+          },
+          "iban": "IBAN",
+          "internationalTransfer": "Any costs for international payments must be paid in full by the beneficiary.",
+          "title": "Bank details"
+        },
+        "description": {
+          "addNewBankAccount": "Please enter your bank details for the credit payment",
+          "availableBankAccounts": "The following bank details are currently registered with the FTA"
+        },
+        "header": {
+          "change": "Change bank details",
+          "check": "Check bank details",
+          "new": "Enter new bank details"
+        },
+        "payment": {
+          "beneficiaryPerson": "Beneficiary",
+          "differentPayee": "Other beneficiary",
+          "differentPayeeInfo": "For security reasons, the beneficiary corresponding to the taxable company cannot be changed online. If a change in beneficiary is required, select this option and the FTA will send a form to the taxable company to report another beneficiary.",
+          "hint": "Note: Credits will be paid out after the submitted form has been processed.",
+          "taxableCompany": "Taxable company or person",
+          "title": "Payment in favor of"
+        },
+        "verifyBankAccount": {
+          "bankAccountSelection": "Please select one of the available bank details or enter a new one:",
+          "changeBankAccount": "I would like to change the bank details",
+          "no": "No, I want to change the bank details",
+          "question": "Are the bank details correct?",
+          "yes": "Yes, the bank details are correct"
+        }
+      },
+      "business": {
+        "audit": "For review",
+        "date": "Today is the",
+        "declare": "Report",
+        "dialog": {
+          "address": "Registered office",
+          "endDatumMWSTPflicht": "End of VAT liability",
+          "estvid": "FTA-ID"
+        },
+        "errorTitle": "Error message",
+        "errorTxt": "Unfortunately an error has occurred, please try again later.",
+        "infoCreateAnnualMultiplePartners": "Have you identified deficiencies in a tax period?<br>Simply submit an <b>annual rectification</b> using the action button <i class='info-icon fa fa-ellipsis-h icon-plus' aria-hidden='true'></i> on the last submitted declaration report for the respective tax period.",
+        "infoCreateAnnualSinglePartnerPart1": "Have you found deficiencies in the tax period {{ year }}? Submit an ",
+        "infoCreateAnnualSinglePartnerPart2": "quickly and easily.",
+        "infoCreateRectification": "You can submit a <b>correction report</b> by <i class='info-icon fa fa-ellipsis-h icon-plus' aria-hidden='true'></i> using the action button on a regular declaration report that has already been submitted.",
+        "isFinal": "Final declaration",
+        "labelAnnual": "Annual rectification",
+        "metaTitle": "VAT-declaration pro",
+        "noOpenDeclaration": "You do not have an open VAT declaration report",
+        "noOpenDeclarationInfo": "You will be notified as soon as a declaration report is available.",
+        "noSubmittedDeclaration": "You do not have a submitted VAT declaration report yet.",
+        "pageTitle": "VAT-declaration pro",
+        "popup": "<ul><li>Both the declaration deadline and the payment deadline are extended,</li><li>According to Art. 87 para. 1 VAT Act, <b>interest on late payment</b> is owed from due date.</li><li>The deadline is considered approved when you submit this form. You will not receive any confirmation.</li></ul>",
+        "popupTitle": "Extending deadlines",
+        "table": {
+          "MONAT": "Month",
+          "QUARTAL": "Trimester",
+          "SEMESTER": "Semester",
+          "company": "Companie / VAT no.",
+          "correctedDate": "Corrected",
+          "estimateDate": "Submitted after estimation",
+          "estimateDateWarning": "VAT estimated",
+          "outdated": "Deadline expired",
+          "periodName": "Declaration report",
+          "status": "Status",
+          "submissionDate": "Submission Deadline",
+          "submittedDate": "Submitted",
+          "submittedOnPaper": "Submitted on paper",
+          "valuta": "Value date (interest on late payment from)",
+          "year": "Annual rectification"
+        },
+        "widget": {
+          "declarations": "Declaration reports",
+          "open": "Open",
+          "selected": "Display",
+          "submitted": "Submitted"
+        },
+        "xmlUpload": {
+          "dialogIntro": "If your accounting program is capable of exporting data in the <a href='https://www.ech.ch/de/dokument/c1c91d58-22be-4410-af40-d9baf7c8b3ae' target='_blank' title='Opens the link a new windows or tab'><i class='fas fa-external-link-alt'></i> eCH-0217-Standard (eVAT)</a> , you can transfer the VAT declaration data directly from your financial accounting program.",
+          "dialogIntroMore": "Export the reporting period as an eCH-2017 XML document in your accounting program. Then select the exported eCH-0217 XML document in VAT-declaration pro for the data import. After the import, the data must be checked and supplemented if necessary. Subsequently, the declaration report can be submitted normally.",
+          "dialogMore": "More",
+          "dialogTitle": "Import VAT declaration data",
+          "dialogXmlInfo": "The company as well as the tax period concerned are automatically recognized during import.",
+          "error": {
+            "declarationMethodEffective": "Effective",
+            "declarationMethodLabel": "Reporting method",
+            "declarationMethodPauschal": "Flat tax rate",
+            "declarationMethodSaldo": "Net tax rate",
+            "importFailedContent": "The file could not be read. Please check if it is a valid XML document according to the eCH-0217 standard.",
+            "messageAnnualRectification": "No annual rectification could be found for the taxpayer with the {{ vatNumber }} with the following information",
+            "messageOriginalDecl": "No previously submitted declaration report could  be found for the taxpayer with the {{ VAT number }} with the following details",
+            "messageRectification": "No correction report could be found for the taxpayer with VAT number {{ vatNumber }} with the following information",
+            "periodFromToString": "{{periodFrom}} to {{periodTo}}",
+            "periodLabel": "Period",
+            "title": "Error during data import"
+          },
+          "fileCancelLabel": "Remove selected file",
+          "fileFormatHint": "Format: XML (eVAT)",
+          "fileSelectButtonHint": "Format: XML (eVAT)",
+          "fileSelectButtonLabel": "Add file",
+          "fileSelectTitle": "Select XML file for data import",
+          "importSuccessContent": "The data from the XML file was transferred to the declaration report",
+          "importSuccessTitle": "Data imported",
+          "noFileSelectedText": "No file selected yet"
+        }
+      },
+      "confirmation": {
+        "addressESTV": "Eidgenössische Steuerverwaltung<br>Hauptabteilung MWST<br>Schwarztorstrasse 50<br>3024 Bern",
+        "adjustDeclarationViaCode": "Do you want to correct the declaration? The VAT token allows you to make corrections and create a new version of the declaration.",
+        "copyDeclaration": "Copy of your declaration {{period}}",
+        "copyDeclarationAnnualRectification": "Copy of your annual rectification",
+        "copyDeclarationRectification": "Copy of your correction report {{period}}",
+        "copyFinalDeclaration": "Copy of your final declaration",
+        "corrections": "Do you have any corrections? Please use the correction report on our",
+        "deadlineExtension": "VAT deadline extension",
+        "deadlineExtensionInfo": "Do you need an extension of declaration and/or payment? You can apply online:",
+        "declarationApproval": "Approval of declaration {{period}}",
+        "draftDeclaration": "Draft of your declaration {{period}}",
+        "infoProvisionForAudit": "Authorized users are automatically notified, that the declaration is ready for verification and submission.",
+        "infoRejection": "The user who provided the declaration report for review is automatically informed about the rejection.",
+        "information": "The Payment information, the VAT token for the next reporting period and further information can be found in the PDF summary of your declaration.",
+        "infosInPDF": "The Payment information and the VAT token for the next reporting period can be found in the PDF summary of your declaration.",
+        "mwstProDescription": "You can download the PDF of your declaration report below. You can also view and download your declaration reports at any time under your submitted VAT declaration reports.",
+        "mwstProDescriptionRectification": "You can download the PDF of your correction report below. You can also view and download your correction reports at any time under your submitted VAT declaration reports.",
+        "payment": "Do you need an extension of declaration and/or payment? You can apply online:",
+        "paymentDeadline": "Payment deadline",
+        "paymentDeadlineDescription": "Would you like to extend the payment period? Apply conveniently online:",
+        "paymentInstallment": "Instalments",
+        "paymentInstallmentDescription": "Do you need installments? Submit a proposal for a payment plan:",
+        "providedForAudit": "Thank you. The declaration report was provided for verification.",
+        "rejected": "The declaration report was rejected",
+        "sendDeclarationApproval": "Please forward the approval of declaration to the person responsible for the approval. The signed approval of declaration must be sent in hard copy by mail to the following address:",
+        "submitted": "Thank you very much. You have submitted your declaration.",
+        "submittedForDeclarationApproval": "Thank you very much. Your declaration is ready for declaration approval",
+        "submittedRectification": "Thank you very much. You have submitted your correction report.",
+        "submittingViaPostHint": "<b>Important: The declaration is not considered as submitted until the approval of declaration has been received by the FTA by mail.</b>",
+        "summary": "Declaration summary {{period}}",
+        "summaryPDF": "PDF summaries",
+        "summaryPDFFinalDeclaration": "Summary final declaration per {{ finalDate }}",
+        "title": "Confirmation",
+        "waitForPDF": "Please be patient, the PDF is being created.",
+        "website": "website"
+      },
+      "declaration": {
+        "correction": {
+          "confirmAbortionContent": "Please confirm that you want to discard the created correction report. All changes made will be irrevocably deleted.",
+          "continueCurrentCorrection": "Continue current correction report",
+          "continueInYearlyCorrection": "Continue current Annual rectification",
+          "correctDeclaration": "Correct the declaration",
+          "correction": "Correction",
+          "correctionConfirmationInfo": "This declaration was submitted on {{ submissionDate }} by {{ submittingUserName }}. What would you like to do?",
+          "discardCorrection": "Discard correction report",
+          "displayPdfCopy": "Show copy of the declaration",
+          "errorOnCreate": "Error while creating the correction version. Try again later.",
+          "errorOnDelete": "Error while deleting the correction version. Try again later.",
+          "fillInCorrectionInfo": "This correction report replaces the declaration report that has already been submitted. The correction report contains the values from the last submitted declaration report. On the next page, you can either submit the correction report to the Federal Tax Administration or send it back to the filler for corrections. ",
+          "fillInCorrectionInfoLink": "Information on how to fill in the form can be found in <a href='https://www.gate.estv.admin.ch/mwst-webpublikationen/public/pages/taxInfos/tableOfContent.xhtml?publicationId=1013189' target='_blank' title='Opens the link a new windows or tab'>VAT Info 15",
+          "fillInCorrectionInfoUserDate": "A correction report was created for this declaration report on {{ correctionCreationDate }} by {{ correctionCreateUserName }} but has not been submitted yet. ",
+          "fillInCorrectionTitle": "Fill correction report",
+          "handInCorrection": "Submit correction report",
+          "handInYearlyCorrection": "Submit annual rectification",
+          "submittedByExternalSystem": "Submitted externally"
+        },
+        "dialog": {
+          "description": "Do you want to delete all entries?",
+          "title": "Reset form"
+        },
+        "error": {
+          "api": {
+            "400": "The Approval of declaration is not ready yet. Please try again in a few minutes.",
+            "401": "The Approval of declaration could not be found."
+          }
+        },
+        "form": {
+          "z200": "Ref. 200",
+          "z205": "Ref. 205",
+          "z220": "Ref. 220",
+          "z221": "Ref. 221",
+          "z225": "Ref. 225",
+          "z230": "Ref. 230",
+          "z235": "Ref. 235",
+          "z280": "Ref. 280",
+          "z289": "Ref. 289",
+          "z299": "Ref. 299",
+          "z301": "Ref. 301",
+          "z302": "Ref. 302",
+          "z311": "Ref. 311",
+          "z312": "Ref. 312",
+          "z321": "Ref. 321",
+          "z322": "Ref. 322",
+          "z331": "Ref. 331",
+          "z332": "Ref. 332",
+          "z341": "Ref. 341",
+          "z342": "Ref. 342",
+          "z381": "Ref. 381",
+          "z382": "Ref. 382",
+          "z399": "Ref. 399",
+          "z400": "Ref. 400",
+          "z405": "Ref. 405",
+          "z410": "Ref. 410",
+          "z415": "Ref. 415",
+          "z420": "Ref. 420",
+          "z470": "Ref. 470",
+          "z471": "Ref. 471",
+          "z479": "Ref. 479",
+          "z500": "Ref. 500",
+          "z510": "Ref. 510",
+          "z900": "Ref. 900",
+          "z910": "Ref. 910"
+        },
+        "form1050": {
+          "ExpandLink": "Display additional informations",
+          "ExpandList1": {
+            "line1": {
+              "pauschal": "the considerations listed below in the declaration, Ref. 321/322, Ref. 331/332 is declared at the applicable and approved flat tax rate,",
+              "prior2018": {
+                "pauschal": "the turnover listed below have been declared in the corresponding VAT report under Ref. 320/330 resp. 321/331 at the applicable approved flat tax rate,",
+                "saldo": "the turnover listed below have been declared in the corresponding VAT report under Ref. 320/330 resp. 321/331 at the applicable approved balance tax rate,"
+              },
+              "saldo": "the considerations listed below in the declaration, Ref. 321/322, Ref. 331/332 is declared at the applicable and approved flat tax rate,"
+            },
+            "line2": {
+              "pauschal": "evidence and supporting documents can be provided upon request at any time",
+              "saldo": "evidence and supporting documents can be provided upon request at any time"
+            },
+            "line3": {
+              "pauschal": "for invoices in foreign currency under <a href='http://www.admin.ch/opc/en/classified-compilation/20091866/index.html#a45' target='_blank' title='Opens the link a new windows or tab'>Article 45 VAT Ordinance</a>",
+              "saldo": "for invoices in foreign currency under <a href='http://www.admin.ch/opc/en/classified-compilation/20091866/index.html#a45' target='_blank' title='Opens the link a new windows or tab'>Article 45 VAT Ordinance</a>"
+            }
+          },
+          "ExpandList2": {
+            "line1": {
+              "pauschal": "Supplies provided abroad (for example, Paris-Berlin, place of supply is abroad) must be declared in Ref. 200 and deducted in Ref. 221. Such supplies may therefore <b>not</b> be listed in this form.",
+              "saldo": "Supplies provided abroad (for example, Paris-Berlin, place of supply is abroad) must be declared in Ref. 200 and deducted in Ref. 221. Such supplies may therefore <b>not</b> be listed in this form."
+            },
+            "line2": {
+              "pauschal": "Reduction of consideration (discounts, rebates, etc.) are to be taken into account as follows:<br>a) If the invoice in question is included in this form, the reduced amount has to be entered;<br>b) If the invoice in question was included previously, the deduction - including the relevant invoice information - must be declared.",
+              "saldo": "VAT reductions resulting from a reduction of the invoice amount (for example, through subsequent discounts, discounts and cancellations) shall be taken into account as follows:<br>a) If the invoice in question is included in this statement, the reduced amounts shall be entered;<br>b) If the invoice in question was included in a previous invoice application, the corresponding deduction - including the underlying invoice - shall be made at the end of the statement."
+            },
+            "line3": {
+              "pauschal": "In the case of accommodation services (tax rate until 31.12.2017: 3.8%; from 1.1.2018: 3.7%), the tax credit is only possible if the accommodation services to after <a href='https://www.admin.ch/opc/en/classified-compilation/20091866/index.html#a143' target=_'blank'>Article 143 VAT Ordinance</a> beneficiary institutions and persons are provided.",
+              "prior2018": {
+                "pauschal": "In the case of accommodation services (tax rate until 31.12.2010: 3.6%; from 1.1.2011: 3.8%), the tax credit is only possible if the accommodation services are provided to beneficiary institutions and persons according to <a href='https://www.admin.ch/opc/en/classified-compilation/20091866/index.html#a143' target=_'blank'>Article 143 VAT Ordinance</a>.",
+                "saldo": "In the case of accommodation services (tax rate until 31.12.2010: 3.6%; from 1.1.2011: 3.8%), the tax credit is only possible if the accommodation services are provided to beneficiary institutions and persons according to <a href='https://www.admin.ch/opc/en/classified-compilation/20091866/index.html#a143' target=_'blank'>Article 143 VAT Ordinance</a>."
+              },
+              "saldo": "For accommodation services (tax rate until 31.12.2017: 3.8%; from 1.1.2018: 3.7%), tax credit only applies if the accommodation services are provided to beneficiary institutions and persons as details in <a href='https://www.admin.ch/opc/en/classified-compilation/20091866/index.html#a143' target=_'blank'>Article 143 VAT Ordinance</a>."
+            }
+          },
+          "ExpandTitle1": "the electronic submission of this form confirms that",
+          "ExpandTitle2": "Please note:",
+          "content": {
+            "pauschal": "The declared VAT is credited to export deliveries of items (see point 10 of the <a href='https://www.gate.estv.admin.ch/mwst-webpublikationen/public/MI/12' target='_blank' title='Opens the link a new windows or tab'>VAT-Info 12 Net tax rates</a>) as well as domestic supplies to beneficiary institutions and persons as detailed in <a href='https://www.admin.ch/opc/en/classified-compilation/20091866/index.html#a143' target='_blank' title='Opens the link a new windows or tab'>Article 143 VAT Ordinance</a> if the official form is used. The total amount of tax must be declared in Ref. 470. You can delete all entries by resetting the form.",
+            "saldo": "The declared VAT is credited to export deliveries of items (see point 10 of the <a href='https://www.gate.estv.admin.ch/mwst-webpublikationen/public/MI/12' target='_blank' title='Opens the link a new windows or tab'>VAT-Info 12 Net tax rates</a>) as well as domestic supplies to beneficiary institutions and persons as detailed in <a href='https://www.admin.ch/opc/en/classified-compilation/20091866/index.html#a143' target='_blank' title='Opens the link a new windows or tab'>Article 143 VAT Ordinance</a> if the official form is used. The total amount of tax must be declared in Ref. 470. You can delete all entries by resetting the form."
+          },
+          "cta": {
+            "addForm": "Add invoice",
+            "backToForm": "Reset form",
+            "cancel": "Quit",
+            "validate": "Transfer calculation"
+          },
+          "hideExpandLink": "Hide additional information",
+          "label": {
+            "date": "Date",
+            "kind": "Type of goods/services",
+            "number": "No.",
+            "sales": "Consideration CHF",
+            "tax": "Tax CHF",
+            "taxRate": "Tax rates",
+            "taxRatePeriod": "Tax rate period",
+            "total": "Total taxable amount from customer invoices:"
+          },
+          "subContent": "There are no customer invoices recorded. To register a new customer invoice, select 'Add invoice'.",
+          "subTitle": "Customer invoices",
+          "taxRatePeriod": {
+            "1": "until 31.12.2017",
+            "2": "from 01.01.2018",
+            "prior2018": {
+              "0": "until 31.12.2010",
+              "1": "from 01.01.2011"
+            }
+          },
+          "title": "Export (Form 1050)",
+          "warning": "Do you want to delete all entries?"
+        },
+        "form1055": {
+          "content1055": {
+            "pauschal": "For each sale of an individualisable movable good that you have purchased for this purpose, you can choose either the approved flat-rate tax on the consideration, or the the fixed flat-rate tax of 6.5% (or 6.7% until 31.12.2017) on the margin. To use the second option, create a separate list and carry the accumulated sales resp. and margins in the following form (see paragraph 12.2 of the <a href='https://www.gate.estv.admin.ch/mwst-webpublikationen/public/MI/12' target='_blank' title='Opens the link a new windows or tab'>MWST-Info 12 Net Tax Rates</a>). The difference will be transferred to the declaration, Ref. 471. You can delete all entries, by resetting the form.",
+            "prior2018": {
+              "pauschal": "For each sale of an individualisable movable good that you have purchased for this purpose, you can choose either the approved flat-rate tax on the consideration, or the the fixed flat-rate tax of 6.7% (or 6.4% until 31.12.2010) on the margin. To use the second option, create a separate list and carry the accumulated sales resp. and margins in the following form (see paragraph 12.2 of the <a href='https://www.gate.estv.admin.ch/mwst-webpublikationen/public/MI/12' target='_blank' title='Opens the link a new windows or tab'>MWST-Info 12 Net Tax Rates</a>). The total difference will be transferred to the declaration report, Ref. 471. You can delete all entries, by resetting the form.",
+              "saldo": "For each sale of an individualisable movable good that you have purchased for this purpose, you can choose either the approved flat-rate tax on the consideration, or the the fixed flat-rate tax of 6.7% (or 6.4% until 31.12.2010) on the margin. To use the second option, create a separate list and carry the accumulated sales resp. and margins in the following form (see paragraph 12.2 of the <a href='https://www.gate.estv.admin.ch/mwst-webpublikationen/public/MI/12' target='_blank' title='Opens the link a new windows or tab'>MWST-Info 12 Net Tax Rates</a>). The total difference will be transferred to the declaration report, Ref. 471. You can delete all entries, by resetting the form."
+            },
+            "saldo": "For each sale of an individualisable movable good that you have purchased for this purpose, you can choose either the approved flat-rate tax on the consideration, or the the fixed flat-rate tax of 6.5% (or 6.7% until 31.12.2017) on the margin. To use the second option, create a separate list and carry the accumulated sales resp. and margins in the following form (see paragraph 12.2 of the <a href='https://www.gate.estv.admin.ch/mwst-webpublikationen/public/MI/12' target='_blank' title='Opens the link a new windows or tab'>MWST-Info 12 Net Tax Rates</a>). The difference will be transferred to the declaration, Ref. 471. You can delete all entries, by resetting the form."
+          },
+          "cta": {
+            "addForm": "Add invoice",
+            "backToForm": "Reset form",
+            "cancel": "Quit",
+            "emptyTax": "Clear notional input tax",
+            "validate": "Transfer calculation "
+          },
+          "expandContent1": {
+            "pauschal": "This Regulation does not apply to automobiles up to a total weight of 3.5 tonnes and also not in all other cases where according to <a href='https://www.admin.ch/opc/en/classified-compilation/20081110/index.html#a28' target='_blank' title='Opens the link a new windows or tab'>Art. 28a MWSTG</a> i.a.w. <a href='https://www.admin.ch/opc/de/classified-compilation/20091866/index.html#a90' target='_blank' title='Opens the link a new windows or tab'>Art.90 Abs. 2 VAT</a> the deduction of the notional input tax is excluded. All items for which you wish to credit the notional input tax must be listed separately (see paragraph 12.2 of the <a href='https://www.gate.estv.admin.ch/mwst-webpublikationen/public/pages/taxInfos/tableOfContent.xhtml?publicationId=1004992' target='_blank' title='Opens the link a new windows or tab'>MWST-Info 12 Saldosteuersätze</a>). You must submit this list to the FTA <b> on request</b>. The total consideration of the sale must be listed in full under Ref. 200 of the declaration and under Ref. 322 and/or Ref. 321 with the applicable flat tax rate.",
+            "prior2018": {
+              "pauschal": "This Regulation does not apply to automobiles up to a total weight of 3.5 tonnes and also not in all other cases where according to <a href='https://www.admin.ch/opc/en/classified-compilation/20081110/index.html#a28' target='_blank' title='Opens the link a new windows or tab'>Art. 28a MWSTG</a> i.a.w. <a href='https://www.admin.ch/opc/de/classified-compilation/20091866/index.html#a90' target='_blank' title='Opens the link a new windows or tab'>Art.90 Abs. 2 VAT</a> the deduction of the notional input tax is excluded. All items for which you wish to credit the notional input tax must be listed separately (see paragraph 12.2 of the <a href='https://www.gate.estv.admin.ch/mwst-webpublikationen/public/pages/taxInfos/tableOfContent.xhtml?publicationId=1004992' target='_blank' title='Opens the link a new windows or tab'>MWST-Info 12 Saldosteuersätze</a>). You must submit this list to the FTA <b> on request</b>. The total consideration of the sale must be listed in full under Ref. 200 of the declaration and under Ref. 322 and/or Ref. 321 with the applicable flat tax rate.",
+              "saldo": "This Regulation does not apply to automobiles up to a total weight of 3.5 tonnes and also not in all other cases where according to <a href='https://www.admin.ch/opc/en/classified-compilation/20081110/index.html#a28' target='_blank' title='Opens the link a new windows or tab'>Art. 28a MWSTG</a> i.a.w. <a href='https://www.admin.ch/opc/de/classified-compilation/20091866/index.html#a90' target='_blank' title='Opens the link a new windows or tab'>Art.90 Abs. 2 VAT</a> the deduction of the notional input tax is excluded. All items for which you wish to credit the notional input tax must be listed separately (see paragraph 12.2 of the <a href='https://www.gate.estv.admin.ch/mwst-webpublikationen/public/pages/taxInfos/tableOfContent.xhtml?publicationId=1004992' target='_blank' title='Opens the link a new windows or tab'>MWST-Info 12 Saldosteuersätze</a>). You must submit this list to the FTA <b> on request</b>. The total consideration of the sale must be listed in full under Ref. 200 of the declaration and under Ref. 322 and/or Ref. 321 with the applicable flat tax rate."
+            },
+            "saldo": "This Regulation does not apply to automobiles up to a total weight of 3.5 tonnes and also not in all other cases where according to <a href='https://www.admin.ch/opc/en/classified-compilation/20081110/index.html#a28' target='_blank' title='Opens the link a new windows or tab'>Art. 28a MWSTG</a> i.a.w. <a href='https://www.admin.ch/opc/de/classified-compilation/20091866/index.html#a90' target='_blank' title='Opens the link a new windows or tab'>Art.90 Abs. 2 VAT</a> the deduction of the notional input tax is excluded. All items for which you wish to credit the notional input tax must be listed separately (see paragraph 12.2 of the <a href='https://www.gate.estv.admin.ch/mwst-webpublikationen/public/pages/taxInfos/tableOfContent.xhtml?publicationId=1004992' target='_blank' title='Opens the link a new windows or tab'>MWST-Info 12 Saldosteuersätze</a>). You must submit this list to the FTA <b> on request</b>. The total consideration of the sale must be listed in full under Ref. 200 of the declaration and under Ref. 322 and/or Ref. 321 with the applicable flat tax rate."
+          },
+          "expandContent2": "The form is also applicable to individualisable movable goods purchased and sold at a total price. To proceed in such cases, please contact the <a href='https://www.estv.admin.ch/estv/en/home.html' target='_blank' title='Opens the link a new windows or tab'>Eidg. Tax Administration Department VAT</a>.",
+          "expandOldTaxLink": "Do you want to credit notional input tax deductions at the tax rate (before 01.01.2018)?",
+          "hideExpandLink": "Hide additional information",
+          "label": {
+            "difference": "Difference CHF",
+            "margin": "Margin CHF",
+            "sales": "Turnover CHF",
+            "tax": "Tax CHF",
+            "taxRate": "Rate",
+            "totalDifference": "Total difference (credit)"
+          },
+          "prior2018expandOldTaxLink": "Do you want to credit notional input tax deductions at the tax rate (before 01.01.2011)?",
+          "prior2018titleDifference": "Total difference",
+          "showExpandLink": "display additional informations",
+          "subContent": "There are no customer invoices recorded. To register a new customer invoice, select 'Add invoice'.",
+          "subTitle": "Customer invoices",
+          "tab1055": "Notional input tax (form 1055)",
+          "title": "Forms 1055 and 1056",
+          "title1055": "Forms 1055",
+          "titleDifference": "Total difference from forms 1055 and 1056"
+        },
+        "form1056": {
+          "content1056": {
+            "pauschal": "If you have purchased a collector’s item such as art objects, antiques etc., you can control the apply margin taxation as detailed in <a href='https://www.admin.ch/opc/en/classified-compilation/20081110/index.html#a24a' target='_blank' title='Opens the link a new windows or tab'>Art. 24a VAT Act</a>  You must list all the items individually and determine the total turnover and the total margin on Form 1056 (similar to the notional deduction of input tax, see <a href='https://www.gate.estv.admin.ch/mwst-webpublikationen/public/MI/12' target='_blank' title='Opens the link a new windows or tab'>Clause 12.2 of the VAT Info Net Tax Rates</a>). If the purchase price of a collector’s item exceeds the selling price, the margin shall be the loss. The total difference is then transferred to the declaration (Ref. 471). You can delete all entries made by resetting the form.",
+            "saldo": "If you have purchased a collector’s item such as art objects, antiques etc., you can control the apply margin taxation as detailed in <a href='https://www.admin.ch/opc/en/classified-compilation/20081110/index.html#a24a' target='_blank' title='Opens the link a new windows or tab'>Art. 24a VAT Act</a>  You must list all the items individually and determine the total turnover and the total margin on Form 1056 (similar to the notional deduction of input tax, see <a href='https://www.gate.estv.admin.ch/mwst-webpublikationen/public/MI/12' target='_blank' title='Opens the link a new windows or tab'>Clause 12.2 of the VAT Info Net Tax Rates</a>). If the purchase price of a collector’s item exceeds the selling price, the margin shall be the loss. The total difference is then transferred to the declaration (Ref. 471). You can delete all entries made by resetting the form."
+          },
+          "cta": {
+            "addForm": "Add an invoice",
+            "backToForm": "Reset form",
+            "cancel": "Quit",
+            "emptyTax": "Empty notional input tax",
+            "validate": "Transfer calculation"
+          },
+          "expandContent": {
+            "pauschal": "If you want to use margin taxation as detailed in <a href='https://www.admin.ch/opc/en/classified-compilation/20091866/index.html#a48' target='_blank' title='Opens the link a new windows or tab'>Art. 48b MWSTV</a> for collector items you have purchased for resale, you may not include VAT in the invoice. All items for which you want to apply margin taxation must be listed separately (similar to the notional input tax, see <a href='https://www.gate.estv.admin.ch/mwst-webpublikationen/public/MI/12' target='_blank' title='Opens the link a new windows or tab'>Clause 12.2 of the VAT Info Net Tax Rates</a>). You must sign this list and submit only <b>on request</b>. The consideration must be listed in Ref. 200 of the declaration and taxed under Ref. 321/322 at the approved flat tax rate. If you have been granted several flat tax rates, you need to apply the appropriate flat tax rate to each item on the list. The form is also applicable to collectors items and sold at a total price. In this case, please contact the <a href='https://www.estv.admin.ch/estv/en/home.html' target='_blank' title='Opens the link a new windows or tab'>Federal Tax Administration</a>.",
+            "saldo": "If you want to use margin taxation as detailed in <a href='https://www.admin.ch/opc/en/classified-compilation/20091866/index.html#a48' target='_blank' title='Opens the link a new windows or tab'>Art. 48b MWSTV</a> for collector items you have purchased for resale, you may not include VAT in the invoice. All items for which you want to apply margin taxation must be listed separately (similar to the notional input tax, see <a href='https://www.gate.estv.admin.ch/mwst-webpublikationen/public/MI/12' target='_blank' title='Opens the link a new windows or tab'>Clause 12.2 of the VAT Info Net Tax Rates</a>). You must sign this list and submit only <b>on request</b>. The consideration must be listed in Ref. 200 of the declaration and taxed under Ref. 321/322 at the approved flat tax rate. If you have been granted several flat tax rates, you need to apply the appropriate flat tax rate to each item on the list. The form is also applicable to collectors items and sold at a total price. In this case, please contact the <a href='https://www.estv.admin.ch/estv/en/home.html' target='_blank' title='Opens the link a new windows or tab'>Federal Tax Administration</a>."
+          },
+          "hideExpandLink": "Hide additional information",
+          "label": {
+            "difference": "Difference CHF",
+            "margin": "Margin CHF",
+            "sales": "Consideration CHF",
+            "tax": "Tax CHF",
+            "taxRate": "Rate",
+            "totalDifference": "Total difference (credit)"
+          },
+          "showExpandLink": "display additional information",
+          "subContent": "There are no customer invoices recorded. To register a new customer invoice, select 'Add invoice'.",
+          "subTitle": "Customer invoices",
+          "tab1056": "Margin taxation (Form 1056)",
+          "title": "Forms 1055 and 1056",
+          "titleDifference": "Total difference from forms 1055 and 1056"
+        },
+        "form10Common": {
+          "pss": "Flat tax rate",
+          "sss": "Net tax rate",
+          "title1": "Credited to the 1st",
+          "title2": "Credited to the 2nd"
+        },
+        "form3xx": {
+          "content": "Please record the activity of the taxable person with the consideration. If more than one flat-rate tax rate has been granted to the taxable person, the average rate will be determined by entering several activities. The total consideration and the tax amount will be transferred to the declaration (Ref. 321 and 322). You can delete all entries by resetting the form.",
+          "cta": {
+            "addForm": "Add activity",
+            "backToForm": "Reset form",
+            "cancel": "Quit",
+            "validate": "Transfer calculation"
+          },
+          "label": {
+            "activity": "Activities",
+            "date": "Date",
+            "kind": "Type of goods/services",
+            "sales": "Consideration CHF",
+            "tax": "Tax CHF",
+            "taxRate": "Tax rates",
+            "taxRatePeriod": "Tax rate period",
+            "total": "Total amount of tax from customer invoices:"
+          },
+          "prior2018content": "Please record the activity of the taxable person with the corresponding turnover. If more than one flat tax rate has been approved for the taxable person, the average rate is determined by specifying several activities. The turnover total and the tax amount are then transferred to the declaration report (Ref. 321 + 320). You can delete all entries made by resetting the form.",
+          "taxRatePeriod": {
+            "1": "until 31.12.2017",
+            "2": "from 01.01.2018",
+            "prior2018": {
+              "0": "until 31.12.2010",
+              "1": "from 01.01.2011"
+            }
+          },
+          "title": "Calculation for average flat rate",
+          "total": "Total and average rate",
+          "warning": "Do you want to delete all entries?"
+        },
+        "header": {
+          "declarationMethod": "Reporting method",
+          "declarationPeriod": "Reporting period",
+          "declaration_method": "Reporting method",
+          "declaration_period": "Reporting period",
+          "formOfReporting": "Form of reporting",
+          "submissionDate": "Submission deadline",
+          "title": "Declaration informations and deadlines",
+          "tooltip": "This is the ordinary deadline for submissions. Any extension to the deadline is not displayed here.",
+          "valuta": "Value date (interest on late payment from)",
+          "vereinbart": "agreed",
+          "vereinnahmt": "collected"
+        },
+        "info": {
+          "annualDeclaration": "Annual rectification",
+          "annualDeclarationTitle": "Fill in annual rectification",
+          "annualDeclarationTxt": "<p>This form is used to correct any deficiencies found within the previous tax period. <b>Therefore, only the differences from the submitted declarations are to be declared. </b>If no deficiencies were found, the form does not need to be submitted. The submission deadline is 240 days after the end of the tax period.</p>",
+          "annualDeclarationTxt2EFF": "<p>Please fill out the annual rectification report (correction statement according to Art. 72 VAT Act) completely and submit it online. Information on how to fill it in can be found in <a href='https://www.gate.estv.admin.ch/mwst-webpublikationen/public/pages/taxInfos/tableOfContent.xhtml?publicationId=1013189&lang=de' target='_blank' title='Opens the link a new windows or tab'>MWST-Info 15.</a></p>",
+          "annualDeclarationTxt2PSS": "<p>Please fill out the annual rectification report (correction statement according to Art. 72 VAT Act) completely and submit it online. Information on how to fill it in can be found in <a href='https://www.gate.estv.admin.ch/mwst-webpublikationen/public/pages/taxInfos/tableOfContent.xhtml?publicationId=1010429&lang=de' target='_blank' title='Opens the link a new windows or tab'>MWST-Info 13.</a></p>",
+          "annualDeclarationTxt2SSS": "<p>Please fill out the annual rectification report (correction statement according to Art. 72 VAT Act) completely and submit it online. Information on how to fill it in can be found in <a href='https://www.gate.estv.admin.ch/mwst-webpublikationen/public/pages/taxInfos/tableOfContent.xhtml?publicationId=1004992&lang=de' target='_blank' title='Opens the link a new windows or tab'>MWST-Info 12.</a></p>",
+          "auditingInProgressMessage": "The declaration report is currently being reviewed by another user and cannot be opened.",
+          "auditingInProgressTitle": "Declaration report under review",
+          "creditPayment": "Payment of credits will be made only after processing the submitted form.",
+          "currencyHint": "All numbers are accepted as francs and centimes.",
+          "description": "You will find information on how to complete the declaration in the <a href='https://www.gate.estv.admin.ch/mwst-webpublikationen/public/pages/taxInfos/tableOfContent.xhtml?publicationId=1013189' target='_blank' title='Opens the link a new windows or tab'>MWST-Info 15</a>",
+          "description_pauschal": "You will find information on how to complete the declaration in the <a href='https://www.gate.estv.admin.ch/mwst-webpublikationen/public/pages/taxInfos/tableOfContent.xhtml?publicationId=1010429&lang=de' target='_blank' title='Opens the link a new windows or tab'>MWST-Info 13</a>",
+          "description_saldo": "You will find information on how to complete the declaration in the <a href='https://www.gate.estv.admin.ch/mwst-webpublikationen/public/pages/taxInfos/tableOfContent.xhtml?publicationId=1004992&lang=de' target='_blank' title='Opens the link a new windows or tab'>MWST-Info 12</a>",
+          "editingInProgressMessage": "The declaration report is currently being processed by another user and cannot be opened.",
+          "editingInProgressTitle": "Declaration report in progress",
+          "fillDeclaration": "Complete the declaration form",
+          "finalDeclarationTitle": "Fill out the final declaration",
+          "finalDeclarationTxt": "<p>Do you still have goods or services for which the input tax deduction was claimed? Declare the own consumption in Ref. 415: To determine the current value, reduce the claimed input tax amount on a straight-line basis for each year that has elapsed</p><ul> <li>20% for movable goods or services</li><li>for immovable goods by 5%.</li></ul><p>For further information, please refer to <a href='https://www.gate.estv.admin.ch/mwst-webpublikationen/public/pages/taxInfos/tableOfContent.xhtml?publicationId=1022896' target='_blank' title='Opens the link a new windows or tab'> VAT Info 10</a></p><p>Please note: If items have already been declared in the ordinary declaration, they do not need to be declared again in the final one.</p>",
+          "hint": "Note:",
+          "mwst_12_info": "VAT Info 12",
+          "mwst_15_info": "VAT Info 15",
+          "saldo": "All declared turnover is to be entered <b>gross incl. VAT</b>.",
+          "sapNotAvailable": "Unfortunately, the bank details cannot be transmitted electronically at the moment. The FTA will send you a form to report your bank details by mail. We kindly ask you to fill it in and return it to the FTA. We apologize for the inconvenience."
+        },
+        "landingPage": {
+          "info": "Do you need an extension of declaration and/or payment? You can apply online: <a href='https://www.moa.estv.admin.ch/moa/frist.html' target='_blank' title='Opens the link a new windows or tab'>VAT extension</a>",
+          "overview": "<p>The declaration of {{periodName}} for which the VAT Token {{vattoken}} was provided on {{submittedDate}} by {{firstName}} {{lastName}}{{company}} for the Approval of Declaration. </p><p>Please forward the Approval of Declaration to the person responsible for the approval. The signed Approval of Declaration must be sent by mail to the following address:</p><p>Federal Tax Administration<br>Department MWST<br>Schwarztorstrasse<br>3024 Bern</p><p>Important: The declaration is only deemed to be submitted, if the Approval of Declaration arrives by mail at the FTA. </p><p>Do you want to correct the declaration before approval? You can make corrections to the declaration and  create a new version using the VAT Token. This function can be used up until the Approval of Declaration is received by the FTA. </p><p>Payment information, the VAT Token for the next declaration  and further information can be found in the PDF summary of your declaration. </p>"
+        },
+        "method": {
+          "effektiv": "Effective",
+          "pauschal": "Flat tax rate",
+          "saldo": "Net tax rate"
+        },
+        "net_gross": {
+          "gross": "gross (VAT incl.)",
+          "net": "net (VAT excl.)",
+          "selection_description": "All declared turnover is",
+          "tooltip": "<p> If the turnover is declared without VAT (net turnover) in box Ref. 200, VAT is calculated at the applicable tax rate of 7.7%, 2.5% and/or 3.7%. </p> <p> If the consideration type is gross (including VAT) in Ref. 200, the consideration is calculated on the basis of 107.7%, 102.5% and/or 103.7%. In this case, VAT is calculated using a multiplier (7.7% = 7.1495%, 2.5% = 2.4390% and 3.7% = 3.5680%). </p><p>The consideration type of remuneration (net or gross) must be maintained applied throughout the entire tax period. It This is automatically taken into account in the tax calculation (numbers Ref. 301 - 342 of the form).</p>"
+        },
+        "other_cash_flow_section": {
+          "900_description": "Subsidies, funds that tourist offices receive from public law tourist charges, contributions from cantonal water, sewage or waste funds (art. 18 para. 2 lit. a to c) Ref. 900",
+          "910_description": "Donations, dividends, payments of damages etc. (art. 18 para. 2 lit. d to l)",
+          "title": "Other flows (art. 18 para. 2)"
+        },
+        "stepper": {
+          "bankDetails": "Bank details",
+          "captureData": "Fill in data",
+          "contactData": "Contact details of the filling person",
+          "pickSubmissionVariant": "Select submission variant",
+          "remindertNextDeclaration": "VAT token and reminder: next reporting period",
+          "verifyAndSubmitDeclaration": "Verify and submit declaration report",
+          "verify_declaration": "Check the declaration"
+        },
+        "subform": {
+          "0": "1st Net tax rate",
+          "1": "2nd Net tax rate",
+          "2": "1st Net tax rate before 2018",
+          "3": "2nd Net tax rate before 2018"
+        },
+        "submitted": {
+          "deadline": "This information is available until {{deadline}}. We recommend you save the documents locally.",
+          "declaration": "Declaration",
+          "declarationRelease": "Approval of declaration",
+          "overview": "The declaration of the {{periodName}} with the VAT token {{vattoken}} was submitted {{submittedDate}} by {{firstName}} {{lastName}}{{company}}.",
+          "overviewFinal": "The {{periodName}} with VAT token {{vattoken}} was submitted on {{submittedDate}} by {{firstName}} {{lastName}}{{company}}.",
+          "summaryDeclaration": "Summary of the declaration"
+        },
+        "table": {
+          "th_amount": "Amount CHF",
+          "th_bezugtax": "Acquisition tax",
+          "th_bezugtax_old": "Acquisition tax (tax rates until 31.12.2017)",
+          "th_bezugtax_old_prior2018": "Tax on acquisitions (Rates until 31.12.2010)",
+          "th_charges": "Consideration",
+          "th_credit": "Tax credit",
+          "th_digit": "Ref.",
+          "th_discount": "Deductions",
+          "th_pretax": "Input tax",
+          "th_rate": "Tax rate",
+          "th_rate_old": "Tax rate (tax rates until 31.12.2017)",
+          "th_rate_old_prior2018": "Tax rate (tax rates until 31.12.2010)",
+          "th_sales": "Supplies CHF",
+          "th_tax": "Tax CHF",
+          "th_turnover": "Turnover CHF"
+        },
+        "tax_calculation_section": {
+          "302_description": "Standard rate supplies",
+          "312_description": "Reduced rate supplies",
+          "321_description": "1. Net tax rate",
+          "322_description": "1. Net tax rate",
+          "331_description": "2. Net tax rate",
+          "332_description": "2. Net tax rate",
+          "342_description": "Accommodation",
+          "380_help": "Please enter the supplies received for the acquisition tax here. The supplies received are taxed at the standard rate. The consideration is without VAT (corresponds to 100%). Supplies received after December 31, 2010 must be declared in Ref. 381. Additional information can be found in the <a href='https://www.gate.estv.admin.ch/mwst-webpublikationen/public/pages/taxInfos/tableOfContent.xhtml?publicationId=1001238&lang=de' target='_blank' title='Opens the link a new windows or tab'>VAT Info 14 Acquisition tax</a>.",
+          "381_help": "Please enter the supplies received for the acquisition tax here. As a rule, the supplies received are taxed at the standard rate. The consideration is without VAT (corresponds to 100%). Supplies received after December 31, 2017 must be declared in Ref. 382. Additional information can be found in the <a href='https://www.gate.estv.admin.ch/mwst-webpublikationen/public/pages/taxInfos/tableOfContent.xhtml?publicationId=1001238&lang=de' target='_blank' title='Opens the link a new windows or tab'>VAT Info 14 Acquisition tax</a>.",
+          "381_help_prior2018": "Please enter the supplies received for the acquisition tax here. The supplies received are taxed at the standard rate. The consideration is without VAT (corresponds to 100%). Supplies received before 1.1.2011 must be declared in Ref. 380. Additional information can be found in the <a href='https://www.gate.estv.admin.ch/mwst-webpublikationen/public/pages/taxInfos/tableOfContent.xhtml?publicationId=1001238&lang=de' target='_blank' title='Opens the link a new windows or tab'>VAT Info 14 Acquisition tax</a>.",
+          "382_description": "Acquisition tax (net, excl. VAT)",
+          "382_help": "Please enter the supplies received for the acquisition tax here. As a rule, the supplies received are taxed at the standard rate. The consideration is without VAT (corresponds to 100%). Supplies received before January 1st, 2018 must be declared in Ref. 381. Additional information can be found in the <a href='https://www.gate.estv.admin.ch/mwst-webpublikationen/public/pages/taxInfos/tableOfContent.xhtml?publicationId=1001238&lang=de' target='_blank' title='Opens the link a new windows or tab'>MWST Info 14 Acquisition tax</a>.",
+          "399_description": "Total amount of tax due",
+          "399_descriptionHint": "(Ref. 301 to 382)",
+          "399_sss_descriptionHint": "(Ref. 321 to 382)",
+          "400_description": "Input tax on cost of materials and supplies of services",
+          "405_description": "Input tax on investments and other operating costs",
+          "410_description": "De-taxation (art. 32, please enclose a detailed list)",
+          "410_help": "<p> Here, declare the input tax that could not be deducted earlier due to the conditions as detailed in <a href='https://www.admin.ch/opc/en/classified-compilation/20081110/index.html#a28' target='_blank' title='Opens the link a new windows or tab'>Art. 28 para. 1 MWSTG</a>. A detailed list must be enclosed with the declaration.</p><p>The list must be sent to the FTA by mail. The applicale form for the declaration must be enclosed with the list. Further details can be found in the <a href='https://www.gate.estv.admin.ch/mwst-webpublikationen/public/pages/taxInfos/tableOfContent.xhtml?publicationId=1022896&lang=de' target='_blank' title='Opens the link a new windows or tab'>MWST-Info 10 Nutzungsänderung</a>.</p>",
+          "415_description": "Correction of the input tax deduction: mixed use (art. 30), own use (art. 31)",
+          "415_description_final": "Corrections for immovable goods (Art. 82 para. 2 and Art. 93 VAT Ordinance)",
+          "415_help": "<p>Here, both positive and negative amounts can be entered. Please note that the calculation will automatically deduct the amount. Minus minus therefore becomes plus.</p><p>The result can be seen in Ref. 479. Further details can be found in the <a href='https://www.gate.estv.admin.ch/mwst-webpublikationen/public/pages/taxInfos/tableOfContent.xhtml?publicationId=1014743&lang=de' target='_blank' title='Opens the link a new windows or tab'>VAT Info 09 Vorsteuerabzug u. -korrekturen</a>.</p>",
+          "420_description": "Reduction of the input tax deduction: Flow of funds, which are not deemed to be consideration, such as subsidies, tourist charges (art. 33 para. 2)",
+          "420_help": "<p>Here, both positive and negative amounts can be entered. Please note that the calculation will automatically deduct the amount. Minus minus therefore becomes plus.</p><p>The result can be seen in Ref. 479. Further details can be found in the <a href='https://www.gate.estv.admin.ch/mwst-webpublikationen/public/pages/taxInfos/tableOfContent.xhtml?publicationId=1014743&lang=de' target='_blank' title='Opens the link a new windows or tab'>VAT Info 09 Vorsteuerabzug u. -korrekturen</a>.</p>",
+          "470_description": "Tax credit according to Form 1050",
+          "471_description": "Tax credit according to Form 1055, 1056",
+          "471_description_prior2018": "Tax credit according to form no. 1055",
+          "500_description": "Amount payable",
+          "510_description": "Credit in favour of the taxable person",
+          "collapsable_info_1": "Do you have turnover to declare at the former tax rate (to 31.12.2017)?",
+          "collapsable_info_1_prior2018": "Do you have turnover to declare at the former tax rate (before 01.01.2011)?",
+          "collapsable_info_2": "Do you have to declare acquisition tax at the former tax rate (to 31.12.2017)? ",
+          "collapsable_info_2_prior2018": "Do you have to declare the acquisition tax at the former tax rate (before 01.01.2011)?  ",
+          "round": "Round up/down",
+          "title": "II. Tax calculation",
+          "total_400_420": "Total amount Ref. 400 to 420",
+          "total_470": "Total amount Ref. 470 to 471",
+          "total_turnover": "Taxable turnover",
+          "total_turnover_hint": "(As in Ref. 299)"
+        },
+        "title": "VAT-declaration",
+        "turnover_section": {
+          "200_description": "Total amount of agreed or collected consideration incl. from supplies opted for taxation, transfer of supplies acc. to the notification procedure and supplies provided abroad (worldwide turnover)",
+          "205_description": "Consideration reported in box 200 from supplies exempt from the tax without credit (art. 21) where the option for their taxation according to art. 22 has been exercised",
+          "220_description": "Supplies exempt from the tax (e.g. export, art. 23) and supplies provided to institutional and individual beneficiaries that are exempt from liability for tax (art. 107 para. 1 lit. a)",
+          "220_help_pss": "<p>With the flat-rate method, the export sales reported under no. 200 may be deducted under no. 220.</p></p><strong>In this case, you waive the right to offset the input tax calculated on form 1050 and you cannot deduct input tax under no. 470 of the statement form.</strong></p><p>Please refer to the <a href='https://www.gate.estv.admin.ch/mwst-webpublikationen/public/MI/13' target='_blank' title='Opens the link a new windows or tab'>VAT Info 13 for further information.</a></p>",
+          "220_help_sss": "<p>With the net tax rate method, the export sales reported under no. 200 may be deducted under no. 220.</p></p><strong>In this case, you waive the right to offset the input tax calculated on form 1050 and you cannot deduct input tax under no. 470 of the statement form.</strong></p><p>Please refer to the <a href='https://www.gate.estv.admin.ch/mwst-webpublikationen/public/MI/13' target='_blank' title='Opens the link a new windows or tab'>VAT Info 13</a> for further information.</p>",
+          "221_description": "Supplies provided abroad (place of supply is abroad)",
+          "225_description": "Transfer according to the notification procedure (art. 38, please submit <a href='https://www.estv.admin.ch/dam/estv/de/dokumente/mwst/formulare/verschiedene/0764_01.pdf.download.pdf/dm_0764_01.pdf' target='_blank' title='Downloads the PDF document'>Form. 764</a>)",
+          "225_help": "<p><a href='https://www.admin.ch/opc/en/classified-compilation/20081110/index.html#a38' target='_blank' title='Opens the link a new windows or tab'>Article 38 para. 3 of the VAT Act</a> provides that transfer of supplies according to the notification procedure (reorganisations in accordance with Articles 19 or 61 Federal Direct Tax or transfers of all or partial assets) must be declared as part of the regular VAT declaration.</p> <p> The turnover deducted in this Ref. must also be declared in Ref. 200. Form No. 764 (Notification procedure) must be sent to the FTA by mail. When sending this form, you must enclose the applicavle form from the declaration.</p> <p>For additional information, see <a href='https://www.gate.estv.admin.ch/mwst-webpublikationen/public/pages/taxInfos/tableOfContent.xhtml?publicationId=1002742&lang=de' target='_blank' title='Opens the link a new windows or tab'>VAT Info 11 Notification procedure.</a></p>",
+          "230_description": "Supplies provided on Swiss territory exempt from the tax without credit (art. 21) and where the option for their taxation according to art. 22 has not been exercised",
+          "235_description": "Reduction of consideration (discounts, rebates etc.)",
+          "280_description": "Miscellaneous (e.g. land value, purchase prices in case of margin taxation)",
+          "280_help": "If a deduction is made in this Ref., please indicate what this is under 'Miscellaneous' (<a href='https://www.gate.estv.admin.ch/mwst-webpublikationen/public/pages/taxInfos/tableOfContent.xhtml?publicationId=1013189&lang=de' target='_blank' title='Opens the link a new windows or tab'>MWST-Info 15, Kapitel 1.3</a>).",
+          "299_help": "This Ref. is for a plausibility check only, the calculated total taxable turnover must be identical to the total taxable turnover in Ref. 299.",
+          "299_total_turnover": "Taxable turnover",
+          "299_total_turnover_hint": "(Ref. 200 minus Ref. 289)",
+          "title": "I. Turnover",
+          "title_annual": "I. Turnover not declared in the regular declaration"
+        }
+      },
+      "error": {
+        "buttons": {
+          "to_portal_login": "To Portal-Login"
+        },
+        "meta_title_401": "Not authorized",
+        "meta_title_404": "Not found",
+        "meta_title_405": "Server error",
+        "title": "An error has occurred",
+        "wrongPhoneNumber": "It is not possible to submit a VAT declaration with a VAT token using a foreign mobile phone number. Please register with a Swiss mobile phone number."
+      },
+      "external_link": {
+        "eportal": "All services"
+      },
+      "landingPage": {
+        "easy": {
+          "banner1": {
+            "ctaLink1": "http://admin.ch",
+            "ctaLink2": "http://admin.ch",
+            "ctaLink3": "https://www.admin.ch/gov/en/start/terms-and-conditions.html",
+            "ctaName1": "VAT branch info",
+            "ctaName2": "VAT practical tips",
+            "ctaName3": "Legal basis",
+            "title": "Web-Publi 2.0",
+            "txt": "All VAT information can be found in the practice publications."
+          },
+          "banner2": {
+            "ctaLink1": "http://admin.ch",
+            "ctaName1": "VAT branch info",
+            "title": "Q & A",
+            "txt": "Do you have questions about VAT-Declaration easy? Here you will find the answers to the most frequently asked questions. "
+          },
+          "card1": {
+            "cta": "Extend deadlines",
+            "link": " https://www.moa.estv.admin.ch/moa/#/home",
+            "title": "Extend deadlines",
+            "txt": "The declaration and payment deadline can be extended easily online."
+          },
+          "card2": {
+            "cta": "Order VAT certificates",
+            "link": "popup",
+            "title": "Certificates",
+            "txt": "Do you need a VAT registration certificate or an entrepreneur's certificate?"
+          },
+          "card3": {
+            "cta": "Request payment plan",
+            "link": "https://www.estv.admin.ch/estv/de/home/die-estv/kontaktformulare/kontakt-inkasso2.html ",
+            "title": "Instalments",
+            "txt": "To pay VAT in instalments, you can apply for a payment plan online."
+          },
+          "card4": {
+            "cta": "Register for VAT",
+            "link": "http://admin.ch",
+            "title": "VAT registration",
+            "txt": "Is your company liable to VAT and do you have to register?"
+          },
+          "guestLogin": "Login as guest",
+          "info": "Access is only possible with mobile phone and Swiss number.",
+          "mobileWarning": "Access is only possible with mobile phone and Swiss number.",
+          "title": "Enter VAT token",
+          "txt": "If you have received a VAT token by mail or in the summary of the last submitted declaration, log in as a guest and submit your VAT report quickly and easily."
+        },
+        "pro": {
+          "card1": {
+            "cta": "Extend deadlines",
+            "link": "https://www.moa.estv.admin.ch/moa/#/home",
+            "title": "Web-Publi 2.0",
+            "txt": "All VAT information can be found in the practice publications."
+          },
+          "cardMwst": {
+            "cta": "Register for VAT",
+            "title": "VAT registration",
+            "txt": "Is your company liable to VAT and do you have to register?"
+          },
+          "cardRegistrationComp": {
+            "cta1": "Register a company/person",
+            "cta2": "Redeem registration code",
+            "link1": "...",
+            "link2": "...",
+            "title": "Register a company/person",
+            "txt": "Have you not yet registered a company for VAT? Register your company, so that we can send you a registration code by mail. You can then fill in and submit your declaration reports quickly and easily."
+          },
+          "cardSuissetax": {
+            "cta": "Transfer data",
+            "title": "Transfer from Suisse Tax",
+            "txt": "Did you previously submit your VAT in \"Suisse Tax\"? Simply transfer your data and authorizations."
+          },
+          "ctaLogin": "Login",
+          "ctaNewAccount": "Create a user account now",
+          "myDeclarations": "My declaration reports",
+          "title": "Fill in and submit declaration reports quickly and easily",
+          "txt": "Do you also want to use correction reports, annual rectifications, deadline extensions and other functionalities with VAT? Simply create a user account and use VAT-declaration pro free of charge.",
+          "warning": "If you have already submitted the VAT in SuisseTax before, you can simply transfer your authorizations after registration.",
+          "widgetInfo": "In order to use VAT-declaration pro, you must first activate a company.",
+          "widgetTitle": "My VAT declaration reports"
+        }
+      },
+      "login": {
+        "button": "Login",
+        "content": "You must first log in at least as a guest to use this service. For security reasons, a Swiss mobile phone number is required.",
+        "title": "Login to the Portal"
+      },
+      "moreVATServices": {
+        "addPartner": "Add company",
+        "maintainPermission": "Manage authorizations",
+        "metaTitle": "More VAT services",
+        "publication": "Practice Publications",
+        "qAndA": "Questions & Answers",
+        "registerVAT": "VAT registration",
+        "requestCertificates": "Ordering certificates",
+        "requestPayment": "Request payment in installments"
+      },
+      "reminderDeclaration": {
+        "nextVatToken": {
+          "hintCode_1": "Please take a note of the VAT token to use for the next reporting period. The VAT token is also included in the PDF of the summary, which you will receive in the end of the declaration process.",
+          "hintCode_2": "You need this code for the next reporting period.",
+          "title": "Next VAT token",
+          "title2": "Next VAT token for the"
+        },
+        "reminder": {
+          "addToCalendar": "Add to calendar",
+          "downloadReminder": "Download reminder",
+          "noReminder": "No reminder can be selected for previous reporting periods.",
+          "sendReminder": "Send reminder",
+          "title": "Automatic reminder",
+          "tooltipAddToCalendar": "The reminder for the next declaration report appears directly in your calendar. The VAT token for the next declaration form is included.",
+          "tooltipSendReminder": "You will be informed by email and/or SMS when the new declaration form is ready for submission. For security reasons, the VAT token is only included in the SMS option."
+        },
+        "title": "For the next reporting period"
+      },
+      "submission": {
+        "contactPerson": "Contact details for inquiries",
+        "dialog": {
+          "confirmHint": "After confirmation, changes can no longer be made.",
+          "confirmHintElectronic": "After confirmation, changes can no longer be made.",
+          "confirmHintMwstPro": "After confirmation, corrections are only possible with the correction report.",
+          "confirmHintPaper": "By clicking on CONFIRM, the declaration can be approved by means of the Approval of Declaration.",
+          "confirmProvisionForAuditMessage": "Please confirm that you would like to provide the {{period}} declaration report of the company {{company}} for verification.",
+          "confirmProvisionForAuditTitle": "Would you like to provide the declaration report for verification?",
+          "confirmRejectionMessage": "Please confirm that you wish to reject the declaration report under verification, {{period}}, for the company {{company}}.",
+          "confirmRejectionTitle": "Do you want to reject the declaration report under verification?",
+          "summary": "Please confirm, that you want to submit the declaration report \"{{period}}\" for the company {{company}}.",
+          "summaryAnnual": "Please confirm, that you want to submit the annual rectification {{period}} for the company {{company}}.",
+          "summaryApproval": "You have corrected the declaration report for the {{period}} for the company {{company}}. The previously created declaration approval is invalid.",
+          "summaryApprovalElec": "<p> You have corrected the declaration report for the {{period}} for the company {{company}}. The previously created declaration approval is invalid.</p>",
+          "summaryApprovalPaper": "You have corrected the declaration report for the {{period}} for the company {{company}}. The previously created declaration approval is invalid.<p>By clicking CONFIRM, the declaration report can be approved only with the newly created declaration approval.</p>",
+          "summaryRectification": "Confirm that you want to submit the {{company}} correction statement for the {{period}}.",
+          "summarySchluss": "Confirm that you wish to submit the final declaration of the {{company}}.",
+          "title": "Is your declaration correct and complete?"
+        },
+        "form": {
+          "submissionVariant": "Submission variant"
+        },
+        "preview": "Preview",
+        "previewDescription": "Please verify your data in the PDF declaration report..",
+        "submit": "Submit declaration report",
+        "submitDescription": "Submit the declaration after verification. If at least one other person is entitled to submit VAT declarations for this company, you are free to provide the declaration report to be submitted by them. All authorized users will be informed automatically.",
+        "titleVariant": "Select the submission variant",
+        "tooltipElectronic": "Select this variant, if you wish to submit the declaration directly and electronically. There is no need to sign or send the declaration report by mail.",
+        "tooltipPaper": "If you want the declaration approved and/or signed by someone else, please send the signed Approval of Declaration which you will receive in the next step, by mail. <br><b>Important: The declaration is only considered submitted when the signed Approval of Declaration is received by the FTA.</b>",
+        "variantElectronic": "Submit directly",
+        "variantMissing": "Please select the submission variant",
+        "variantPaper": "Submit with Approval of Declaration via mail"
+      },
+      "support": {
+        "cta": {
+          "release": "Release"
+        },
+        "dialog": {
+          "message": "By clicking OK, you confirm that the declaration approval has been received by the FTA and is visible in the PDOS.",
+          "title": "Submit declaration approval manually"
+        },
+        "metaTitle": "Support",
+        "statusApproval": {
+          "0": "Open",
+          "1": "Soumis",
+          "2": "Manually submitted"
+        },
+        "statusDeclaration": {
+          "1": "Cancelled",
+          "2": "Requested",
+          "3": "Submitted",
+          "4": "externally submitted"
+        },
+        "table": {
+          "approvalCreatedAt": "Date of declaration approval",
+          "declarationDate": "Reporting period",
+          "estvID": "FTA-ID",
+          "kommunikationsID": "Comm ID of the most recent declaration approval",
+          "statusApproval": "Status of declaration approval",
+          "statusDeclaration": "Declaration report status",
+          "uid": "UID",
+          "version": "Version of the declaration approval"
+        }
+      },
+      "testing": {
+        "abrechnungscodeHeader": "Reporting period",
+        "demoHint": "This page exists for demo purposes only",
+        "estvHeader": "FTA-ID",
+        "filter": "Filter",
+        "gfHeader": "GF-ID",
+        "lastUpdate": "Last update",
+        "metaTitle": "Testing",
+        "rectification": "Correction",
+        "statusHeader": "Status",
+        "tokenHeader": "VAT token",
+        "uHeader": "UID"
+      },
+      "vatToken": {
+        "cardTitleEnterToken": "Enter VAT token",
+        "company": "Company",
+        "delayNeeded": "Do you need an extension of declaration and/or payment? You can apply online: <a href='https://www.moa.estv.admin.ch/moa/frist.html' target='_blank' title='Opens the link a new windows or tab'>Extension of declaration and payment</a>",
+        "details": "Your information",
+        "enterVatTokenNote": "Please enter the VAT token and confirm.",
+        "error": {
+          "api": {
+            "101": "The VAT token is invalid.",
+            "102": "The declaration has already been submitted through another channel. The VAT token can no longer be used.",
+            "103": "The VAT token is invalid. Please check the VAT token and enter it again.",
+            "105": "The display deadline has expired."
+          }
+        },
+        "forgotten": "Forgot VAT token?",
+        "forgottenToken": "Forgot VAT token?",
+        "form": {
+          "acceptedTermsAndConditions": "I agree to the <a href='/assets/pdf/201209_nutzungsbedingungen.pdf' target='_blank' title='Opens the link a new windows or tab' class='link'>general terms and conditions </a>.",
+          "applicantDeclaredJustified": "I am authorized, to complete the declaration for the company above.",
+          "asEmail": "with an e-mail",
+          "asMessage": "by SMS",
+          "cellNumber": "Swiss mobile phone number",
+          "code": "VAT token",
+          "companyName": "Company name of the tax representative",
+          "email": "Email",
+          "firstName": "Firstname",
+          "lastName": "Surname",
+          "linkTcsPdf": "VAT_Declaration_easy_Terms and conditions.pdf",
+          "mobileNumber": "Mobile phone number",
+          "phoneNumber": "Phone number",
+          "role": "Role",
+          "roles": {
+            "1": "Taxable company or person",
+            "2": "Tax representative"
+          }
+        },
+        "generalTermsAndCondition": "I agree to the general terms and conditions.",
+        "metaTitle": "VAT-declaration easy",
+        "mwstDeclaration": "VAT declaration",
+        "permission": "I am authorized to complete and submit the declaration for the company above.",
+        "personalData": "Details of the person completing the declaration",
+        "personalDataTitle": "Details of the taxable company",
+        "phoneNumberHint": "SMS notifications will be sent to this mobile number.",
+        "reorder": {
+          "back": "Back to 'Enter VAT Token'",
+          "che": "CHE-",
+          "enterMwstNr": "Please enter your VAT number. The VAT Token for all outstanding declarations will be sent to you by mail within the next few days.",
+          "error": {
+            "api": {
+              "304": "The VAT number is invalid. Please check the entry and enter the VAT number again."
+            }
+          },
+          "form": {
+            "mwstNr": "VAT number"
+          },
+          "info": "Are you using FTA-Suisse Tax for your declarations? In this case, we kindly ask you to submit your declaration in FTA-Suisse Tax. It's not possible to order a VAT token for your declaration.",
+          "link": "Please order VAT tokens for declarations prior to Q4/2020, S2/2020 or M12/2020  <a href='https://www.estv.admin.ch/estv/de/home/mehrwertsteuer/dienstleistungen/formulare-online/nachbestellung-abrechnungsformular.html' target='_blank' title='Opens the link a new windows or tab'>here</a>.",
+          "mwst": "VAT",
+          "send": "Re-order VAT Token",
+          "success": {
+            "noOpenDeclarationFound": "There are no outstanding declarations.",
+            "openDeclarationFound": "Thank you. You will receive the VAT Token for all outstanding declarations by mail."
+          },
+          "title": "Re-order VAT Token?"
+        },
+        "reorderToken": "Re-order VAT Token",
+        "title": "Submit the declaration",
+        "validVatTokenNote": "Your code is valid for the following declaration:"
+      }
+    },
+    "tabNavigation": {
+      "moreVATServices": {
+        "message": "To add a company or manage permissions, you need to create an ePortal user account or log in with your already registered account.",
+        "title": "Create user account\t"
+      }
+    },
+    "timer": {
+      "autoLogoutDueToInactivity": "You have been logged out automatically due to inactivity.",
+      "autoLogoutIn": "You will be automatically logged out in:",
+      "login": "Login",
+      "stayLoggedIn": "Stay logged in",
+      "userInactivityAutoLogout": "User Inactivity Auto Logout"
+    }
+  }
+}
